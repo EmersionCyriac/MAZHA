@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAZHA • Meenachil Water Banking Digital Twin</title>
+  
+  <!-- Fonts: Inter & Noto Sans Malayalam -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Malayalam:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Leaflet GIS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Custom Modern Light Neumorphic CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="lang-en">
+  <!-- Outer Dashboard Frame -->
+  <div class="dash-viewport">
+    
+    <!-- 1. LEFT SLIM ICON RAIL -->
+    <aside class="nav-rail">
+      <div class="rail-brand">
+        <div class="rail-logo">💧</div>
+      </div>
+
+      <nav class="rail-menu">
+        <button class="rail-btn active" title="Digital Twin Overview" onclick="activateRailBtn(this, 'map')">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        </button>
+        <button class="rail-btn" title="Rooftop VWBA 2.0" onclick="activateRailBtn(this, 'vwba')">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m10 15 5-3-5-3v6Z"></path></svg>
+        </button>
+        <button class="rail-btn" title="Water Balance (Gap 1)" onclick="activateRailBtn(this, 'balance')">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        </button>
+      </nav>
+
+      <div class="rail-footer">
+        <button class="rail-btn icon-only" title="Google Climate Board Audit Card" onclick="openAuditModal()">
+          <span style="font-weight: 800; color: #4285f4; font-size: 13px;">G</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- 2. MAIN IMMERSIVE STAGE -->
+    <div class="dash-stage">
+      
+      <!-- TOP FLOATING BAR -->
+      <header class="top-float-bar">
+        
+        <!-- LEFT: Location Picker Capsule -->
+        <div class="float-capsule location-capsule" id="locationCapsule" onclick="toggleLocationDropdown(event)">
+          <span class="pin-dot">📍</span>
+          <span class="capsule-text" id="activeLocationText">St. Thomas College & Cathedral, Pala</span>
+          <span class="dropdown-chevron">▾</span>
+
+          <!-- Dropdown Menu -->
+          <div class="location-dropdown-panel" id="locationDropdown" style="display: none;" onclick="event.stopPropagation()">
+            <div class="dropdown-title">
+              <span class="en-text">Select Monitoring Anchor Facility:</span>
+              <span class="ml-text">നിരീക്ഷണ സ്ഥലം തിരഞ്ഞെടുക്കുക:</span>
+            </div>
+            <div id="locationDropdownList">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- CENTER: Layer Pills Bar -->
+        <div class="float-capsule layers-capsule">
+          <span class="layers-tag">
+            <span class="en-text">Layers</span>
+            <span class="ml-text">ലെയർ</span>
+          </span>
+          <button class="layer-pill active" id="btnRsiLayer" onclick="toggleRsiLayer()" title="Recharge Suitability Index">
+            <span class="p-dot green"></span>
+            <span class="en-text">RSI</span>
+            <span class="ml-text">അനുയോജ്യത</span>
+          </button>
+          <button class="layer-pill active" id="btnSlopeLayer" onclick="toggleSlopeLayer()" title="Slope > 20% Exclusion Mask">
+            <span class="p-dot red"></span>
+            <span class="en-text">Slope &gt; 20%</span>
+            <span class="ml-text">ചരിവ് &gt; 20%</span>
+          </button>
+          <button class="layer-pill active" id="btnDtwlLayer" onclick="toggleDtwlLayer()" title="DTWL < 2m Water-Level Mask">
+            <span class="p-dot cyan"></span>
+            <span class="en-text">DTWL &lt; 2m</span>
+            <span class="ml-text">ജലനിരപ്പ് &lt; 2m</span>
+          </button>
+          <button class="layer-pill active" id="btnIotLayer" onclick="toggleIotLayer()" title="IoT Sensor Network">
+            <span class="p-dot purple"></span>
+            <span class="en-text">IoT Sensors</span>
+            <span class="ml-text">സെൻസറുകൾ</span>
+          </button>
+          <button class="layer-pill" id="btnOptLayer" onclick="toggleOptLayer()" title="AI Optimized Sites">
+            <span class="p-dot amber"></span>
+            <span class="en-text">Optimized</span>
+            <span class="ml-text">തിരഞ്ഞെടുത്തവ</span>
+          </button>
+        </div>
+
+        <!-- RIGHT: Utility Controls -->
+        <div class="float-right-group">
+          
+          <!-- INDEPENDENT LANGUAGE SELECTOR -->
+          <div class="float-capsule lang-segmented-capsule" title="Language / ഭാഷ">
+            <span class="lang-globe">🌐</span>
+            <button class="lang-opt-btn active" id="langBtnEn" onclick="setLanguage('en')">English</button>
+            <span class="lang-divider">|</span>
+            <button class="lang-opt-btn" id="langBtnMl" onclick="setLanguage('ml')">മലയാളം</button>
+          </div>
+
+          <!-- Weather Capsule -->
+          <div class="float-capsule weather-capsule" id="quickWeatherPill">
+            <span class="weather-icon">⛅</span>
+            <span class="weather-val" id="dispQuickWeather">26.2°C, Live</span>
+          </div>
+
+          <!-- Audit Card Pill -->
+          <button class="float-capsule action-capsule audit-capsule" onclick="openAuditModal()" title="Google Climate Board Audit">
+            <span>📑</span>
+            <span class="en-text">Audit Card</span>
+            <span class="ml-text">ഓഡിറ്റ് കാർഡ്</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- 3. FULL BLEED MAP CANVAS -->
+      <div id="meenachilMap" class="full-map-canvas"></div>
+
+      <!-- FLOATING TELEMETRY HUD STRIP -->
+      <div class="telemetry-hud-strip">
+        <div class="hud-pill-card">
+          <div class="hud-icon-circle rain-bg">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
+          <div class="hud-content">
+            <div class="hud-number" id="dispLiveRain">0 mm</div>
+            <div class="hud-label">
+              <span class="en-text">Rainfall (NASA)</span>
+              <span class="ml-text">മഴ (NASA GPM)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hud-pill-card">
+          <div class="hud-icon-circle hum-bg">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 3a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9zm0 16a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+          </div>
+          <div class="hud-content">
+            <div class="hud-number" id="dispLiveHumidity">88 %</div>
+            <div class="hud-label">
+              <span class="en-text">Humidity</span>
+              <span class="ml-text">ആർദ്രത</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hud-pill-card">
+          <div class="hud-icon-circle temp-bg">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M15 13V5a3 3 0 0 0-6 0v8a5 5 0 1 0 6 0zm-3-10a1 1 0 0 1 1 1v5h-2V4a1 1 0 0 1 1-1z"/></svg>
+          </div>
+          <div class="hud-content">
+            <div class="hud-number" id="dispLiveTemp">26.1 °C</div>
+            <div class="hud-label">
+              <span class="en-text">Ambient Temp</span>
+              <span class="ml-text">താപനില</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hud-pill-card">
+          <div class="hud-icon-circle vadose-bg">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M2 12h3m14 0h3M12 2v3m0 14v3"/></svg>
+          </div>
+          <div class="hud-content">
+            <div class="hud-number" id="dispMeanDtwl">8.4 m</div>
+            <div class="hud-label">
+              <span class="en-text">Mean DTWL (Safe)</span>
+              <span class="ml-text">ഭൂഗർഭജലനിരപ്പ്</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAP FLOATING ZOOM/VIEW CONTROLS -->
+      <div class="map-controls-rail">
+        <button class="map-ctl-btn" title="Zoom In" onclick="map.zoomIn()">+</button>
+        <button class="map-ctl-btn" title="Zoom Out" onclick="map.zoomOut()">−</button>
+        <div class="ctl-divider"></div>
+        <button class="map-ctl-btn" title="Fit Basin" onclick="fitMeenachilBasin()">📍</button>
+        <button class="map-ctl-btn font-sm" title="2D View" onclick="fitMeenachilBasin()">2D</button>
+        <button class="map-ctl-btn" title="Toggle Fullscreen" onclick="toggleFullscreen()">⛶</button>
+      </div>
+
+      <!-- 4. EXPANDED TWO-CARD BOTTOM TRAY (SPACIOUS, NO COLLIDING OPTIONS) -->
+      <footer class="bottom-tray-expanded">
+        
+        <!-- CARD 1 (LEFT ~52%): ROOFTOP VWBA LEVERS & WHAT-IF CONTROLS -->
+        <div class="tray-card tray-card-expanded">
+          <div class="tray-card-header">
+            <div>
+              <h3 class="tray-card-title">
+                <span class="en-text">Rooftop Catchment & Water Benefit Levers</span>
+                <span class="ml-text">മേൽക്കൂര വിസ്തീർണ്ണവും ജല സംഭരണ തോതും</span>
+              </h3>
+              <p class="tray-card-sub">
+                <span class="en-text">Site Parameters & Hydraulic Controls (NASA GPM & Google Buildings)</span>
+                <span class="ml-text">കെട്ടിട ഘടകങ്ങളും ജല നിയന്ത്രണ മാനദണ്ഡങ്ങളും</span>
+              </p>
+            </div>
+            <div class="tray-header-actions">
+              <button class="tray-reset-btn" onclick="resetDefaults()" title="Reset to site defaults / പുനഃസ്ഥാപിക്കുക">
+                🔄 <span class="en-text">Reset Defaults</span><span class="ml-text">റീസെറ്റ് ചെയ്യുക</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- SLIDERS & CONTROLS -->
+          <div class="sim-sliders-grid">
+            
+            <div class="sim-slider-row">
+              <div class="slider-meta">
+                <span class="slider-name">
+                  <span class="en-text">Annual Rainfall Depth (P) [IMERG / Open-Meteo]</span>
+                  <span class="ml-text">വാർഷിക മഴയുടെ അളവ് (P) [NASA GPM]</span>
+                </span>
+                <span class="slider-stat" id="valRain">2840 mm</span>
+              </div>
+              <input type="range" id="inputRain" min="1200" max="4200" step="20" value="2840" oninput="runLiveSimulation()">
+            </div>
+
+            <div class="sim-slider-row">
+              <div class="slider-meta">
+                <span class="slider-name">
+                  <span class="en-text">Catchment Area (A) [Google Open Buildings]</span>
+                  <span class="ml-text">മേൽക്കൂര വിസ്തീർണ്ണം (A) [Google Buildings]</span>
+                </span>
+                <span class="slider-stat" id="valRoof">5800 m²</span>
+              </div>
+              <input type="range" id="inputRoof" min="500" max="15000" step="100" value="5800" oninput="runLiveSimulation()">
+            </div>
+
+            <div class="sim-meta-row">
+              <div class="meta-field">
+                <span class="sub-lbl">
+                  <span class="en-text">Runoff Coeff (Cr):</span>
+                  <span class="ml-text">റൺഓഫ് ഗുണകം:</span>
+                </span>
+                <select id="inputCr" class="compact-select" onchange="runLiveSimulation()">
+                  <option value="0.90" data-en="0.90 (Sheet Metal)" data-ml="0.90 (ഷീറ്റ് റൂഫ്)">0.90 (Sheet Metal)</option>
+                  <option value="0.85" selected data-en="0.85 (Concrete)" data-ml="0.85 (കോൺക്രീറ്റ്)">0.85 (Concrete)</option>
+                  <option value="0.75" data-en="0.75 (Clay Tiles)" data-ml="0.75 (ഓട് റൂഫ്)">0.75 (Clay Tiles)</option>
+                </select>
+              </div>
+              <div class="meta-field">
+                <span class="sub-lbl">
+                  <span class="en-text">Structure CapEx (₹):</span>
+                  <span class="ml-text">നിർമ്മാണ ചെലവ്:</span>
+                </span>
+                <input type="number" id="inputCapex" class="compact-input" value="85000" step="5000" onchange="runLiveSimulation()">
+              </div>
+              <div class="guard-pill safe" id="guardSlope">
+                <span class="en-text">✓ Terrain Slope: Safe (&le; 20°)</span>
+                <span class="ml-text">✓ ഭൂപ്രകൃതി ചരിവ്: സുരക്ഷിതം (&le; 20°)</span>
+              </div>
+              <div class="guard-pill safe">
+                <span class="en-text">✓ First-Flush Filter: Armed</span>
+                <span class="ml-text">✓ ഫിൽട്ടർ സംവിധാനം: സജീവം</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CARD 2 (RIGHT ~48%): BENEFIT ACCOUNTING & GOOGLE CLIMATE BOARD TARGET GAUGE -->
+        <div class="tray-card tray-card-expanded">
+          <div class="tray-card-header">
+            <div>
+              <h3 class="tray-card-title">
+                <span class="en-text">Volumetric Water Benefit Accounting</span>
+                <span class="ml-text">വോള്യൂമെട്രിക് ജല നേട്ട സർട്ടിഫിക്കേഷൻ</span>
+              </h3>
+              <p class="tray-card-sub">
+                <span class="en-text">WRI / Google Climate Board VWBA 2.0 Certified Metrics</span>
+                <span class="ml-text">WRI / ഗൂഗിൾ ക്ലൈമറ്റ് ബോർഡ് VWBA 2.0 സർട്ടിഫൈഡ് മാനദണ്ഡങ്ങൾ</span>
+              </p>
+            </div>
+            <button class="tray-audit-full-btn" onclick="openAuditModal()">
+              📑 <span class="en-text">Open Certification Card</span><span class="ml-text">സർട്ടിഫിക്കേഷൻ കാർഡ്</span>
+            </button>
+          </div>
+
+          <div class="benefit-gauges-container">
+            <!-- 3 Top Benefit Metrics -->
+            <div class="gauges-tri-row">
+              <div class="gauge-card-box">
+                <span class="g-lbl">
+                  <span class="en-text">Harvestable Volume (Vh)</span>
+                  <span class="ml-text">സംഭരണ ശേഷി (Vh)</span>
+                </span>
+                <strong class="g-val text-dark" id="dispVh">11,481 kL</strong>
+                <span class="g-sub" id="dispVhLitres">1.15 Cr Litres / yr</span>
+              </div>
+              <div class="gauge-card-box">
+                <span class="g-lbl">
+                  <span class="en-text">Net Benefit Credit (VWB)</span>
+                  <span class="ml-text">അറ്റ ജല നേട്ടം (VWB)</span>
+                </span>
+                <strong class="g-val text-cyan" id="dispVwb">8,266 kL / yr</strong>
+                <span class="g-sub">Vwb = V_mazha - V_base</span>
+              </div>
+              <div class="gauge-card-box">
+                <span class="g-lbl">
+                  <span class="en-text">Water Table Rise (Δh)</span>
+                  <span class="ml-text">ജലനിരപ്പ് ഉയർച്ച (Δh)</span>
+                </span>
+                <strong class="g-val text-green" id="dispDh">+88.0 cm</strong>
+                <span class="g-sub">WTF: Vr / (Sy × A)</span>
+              </div>
+            </div>
+
+            <!-- PROMINENT GOOGLE TARGET GAUGE -->
+            <div class="cost-target-banner">
+              <div class="target-top-row">
+                <div class="target-label-group">
+                  <span class="target-eyebrow">
+                    <span class="en-text">GOOGLE CLIMATE BOARD TARGET CRITERIA</span>
+                    <span class="ml-text">ഗൂഗിൾ ക്ലൈമറ്റ് ബോർഡ് ലക്ഷ്യ മാനദണ്ഡം</span>
+                  </span>
+                  <div class="target-price-row">
+                    <span class="t-currency">₹</span>
+                    <strong class="t-val" id="dispCostKl">1.41</strong>
+                    <span class="t-unit">/ kL</span>
+                    <span class="t-cap">
+                      <span class="en-text">(Target Limit: Strictly Under ₹50 / kL)</span>
+                      <span class="ml-text">(പരമാവധി പരിധി: ₹50 / kL താഴെ)</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="target-badge-pill" id="targetChip">
+                  <span class="en-text">✓ TARGET PASSED</span>
+                  <span class="ml-text">✓ മാനദണ്ഡം വിജയിച്ചു</span>
+                </div>
+              </div>
+
+              <!-- Sleek Progress Bar -->
+              <div class="target-progress-wrap">
+                <div class="target-progress-fill" id="costProgressBar" style="width: 10.8%;"></div>
+              </div>
+
+              <div class="target-footnote">
+                <span class="en-text">✓ 10-Yr Amortized CapEx + OpEx at 6% social discount rate complies with Google corporate water stewardship protocol.</span>
+                <span class="ml-text">✓ 6% ഡിസ്കൗണ്ട് നിരക്കിൽ 10 വർഷത്തെ നിർമ്മാണ-പരിപാലന ചെലവ് ഗൂഗിൾ മാനദണ്ഡങ്ങൾക്ക് അനുസൃതമാണ്.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+
+  </div>
+
+  <!-- Google Climate Board VWBA 2.0 Audit Modal -->
+  <div id="auditModal" class="modal-backdrop" style="display: none;">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-brand">
+          <span class="g-logo">Google</span>
+          <h3>
+            <span class="en-text">Volumetric Water Benefit Accounting (VWBA 2.0) Certification Card</span>
+            <span class="ml-text">ഗൂഗിൾ ക്ലൈമറ്റ് ബോർഡ് - VWBA 2.0 സർട്ടിഫിക്കേഷൻ കാർഡ്</span>
+          </h3>
+        </div>
+        <button class="modal-close" onclick="closeAuditModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="auditModalBody">
+        <!-- Rendered via JS -->
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn secondary" onclick="closeAuditModal()">
+          <span class="en-text">Close</span>
+          <span class="ml-text">അടയ്ക്കുക</span>
+        </button>
+        <button class="action-btn primary" onclick="window.print()">
+          🖨️ <span class="en-text">Print / Export Audit PDF</span>
+          <span class="ml-text">പ്രിന്റ് / സേവ് ചെയ്യുക</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- App Script -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
