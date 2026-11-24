@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+bin/
+lib/
+lib64
+lib64/
+include/
+pyvenv.cfg
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Vercel & IDE
+.vercel/
+.idea/
+.vscode/
+.DS_Store

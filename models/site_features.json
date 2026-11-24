@@ -1,0 +1,26 @@
+{
+  "features": [
+    "rainfall_intensity_mm",
+    "soil_permeability_mmh",
+    "slope_deg",
+    "weathering_depth_m",
+    "groundwater_depth_m",
+    "drainage_density",
+    "dist_to_river_km",
+    "lulc_Mixed Agricultural / Homestead",
+    "lulc_Plantation (Rubber/Cardamom)",
+    "lulc_Shrub / Forest Canopy"
+  ],
+  "feature_importances": {
+    "rainfall_intensity_mm": 0.0236,
+    "soil_permeability_mmh": 0.1994,
+    "slope_deg": 0.3031,
+    "weathering_depth_m": 0.4392,
+    "groundwater_depth_m": 0.0071,
+    "drainage_density": 0.0,
+    "dist_to_river_km": 0.0072,
+    "lulc_Mixed Agricultural / Homestead": 0.0,
+    "lulc_Plantation (Rubber/Cardamom)": 0.0133,
+    "lulc_Shrub / Forest Canopy": 0.0071
+  }
+}

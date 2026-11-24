@@ -1,0 +1,20 @@
+{
+  "features": [
+    "sin_doy",
+    "cos_doy",
+    "rain_imerg_mm",
+    "rain_4wk_sum_mm",
+    "temp_c",
+    "et_mm",
+    "extraction_qp_mm",
+    "natural_recharge_rn_mm",
+    "mazha_recharge_rm_mm",
+    "gw_depth_lag1",
+    "gw_depth_lag2"
+  ],
+  "metrics": {
+    "r2": 0.75,
+    "rmse_m": 0.176,
+    "mae_m": 0.084
+  }
+}

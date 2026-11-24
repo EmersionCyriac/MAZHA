@@ -1,0 +1,751 @@
+site_id,lat,lon,quadrant,rainfall_intensity_mm,soil_permeability_mmh,soil_type,slope_deg,is_slope_exceeded,weathering_depth_m,groundwater_depth_m,drainage_density,lulc,scs_cn,dist_to_river_km,rsi_score,suitability_class,elevation_m,dtwl_m,is_dtwl_masked,kriging_variance,high_kriging_var,sub_basin,storage_deficit_mm,is_runoff_source
+1,9.64,76.6,SW,2765.9,35.2,Alluvial Loam,0.7,False,13.13,11.56,2.28,Mixed Agricultural / Homestead,78,2.09,83.8,2,25.0,9.93,False,1.368,True,Lower Meenachil (Mutholy / Kidangoor),317.2,False
+2,9.64,76.6076,SW,2746.2,35.2,Alluvial Loam,0.7,False,13.11,9.17,1.3,Mixed Agricultural / Homestead,78,2.89,83.8,2,28.0,8.14,False,1.242,True,Lower Meenachil (Mutholy / Kidangoor),245.6,False
+3,9.64,76.6152,SW,2757.7,35.8,Alluvial Loam,0.2,False,13.29,11.0,0.96,Mixed Agricultural / Homestead,78,4.63,84.7,2,32.0,11.0,False,1.131,True,Lower Meenachil (Mutholy / Kidangoor),360.0,False
+4,9.64,76.6228,SW,2791.5,35.5,Weathered Laterite,0.4,False,13.07,12.14,0.5,Mixed Agricultural / Homestead,78,5.76,84.1,2,45.0,12.14,False,1.036,True,Lower Meenachil (Mutholy / Kidangoor),405.6,False
+5,9.64,76.6303,SW,2831.6,35.4,Weathered Laterite,0.5,False,13.02,11.87,0.5,Mixed Agricultural / Homestead,78,7.0,83.9,2,46.0,11.87,False,0.958,True,Lower Meenachil (Mutholy / Kidangoor),394.8,False
+6,9.64,76.6379,SW,2921.8,35.6,Weathered Laterite,0.3,False,13.21,10.93,0.5,Mixed Agricultural / Homestead,78,7.77,84.4,2,36.0,10.93,False,0.895,True,Lower Meenachil (Mutholy / Kidangoor),357.2,False
+7,9.64,76.6455,SW,2805.3,35.0,Weathered Laterite,0.8,False,12.96,8.0,0.5,Mixed Agricultural / Homestead,78,8.7,83.4,2,38.0,8.0,False,0.849,False,Lower Meenachil (Mutholy / Kidangoor),240.0,False
+8,9.64,76.6531,SW,2951.3,33.5,Weathered Laterite,2.1,False,12.25,6.02,0.5,Mixed Agricultural / Homestead,78,9.9,80.6,2,50.0,6.02,False,0.82,False,Lower Meenachil (Mutholy / Kidangoor),160.8,False
+9,9.64,76.6607,SW,2984.3,34.8,Weathered Laterite,1.0,False,12.75,7.78,0.5,Mixed Agricultural / Homestead,78,11.77,82.8,2,50.0,7.78,False,0.808,False,Mid Meenachil (Pala / Bharananganam),231.2,False
+10,9.64,76.6683,SW,2947.9,20.6,Weathered Laterite,12.8,False,6.81,9.43,0.5,Mixed Agricultural / Homestead,78,12.94,58.1,1,113.0,9.43,False,0.814,False,Mid Meenachil (Pala / Bharananganam),297.2,False
+11,9.64,76.6759,SW,2971.1,35.5,Weathered Laterite,0.4,False,12.53,9.95,0.5,Mixed Agricultural / Homestead,78,13.73,83.3,2,99.0,9.95,False,0.837,False,Mid Meenachil (Pala / Bharananganam),318.0,False
+12,9.64,76.6834,SW,2921.8,35.0,Weathered Laterite,0.8,False,12.26,6.04,0.5,Mixed Agricultural / Homestead,78,15.26,82.3,2,108.0,6.04,False,0.877,True,Mid Meenachil (Pala / Bharananganam),161.6,False
+13,9.64,76.691,SW,3076.9,27.2,Weathered Laterite,7.3,False,9.09,6.81,0.5,Mixed Agricultural / Homestead,78,16.43,68.9,2,132.0,6.81,False,0.888,True,Mid Meenachil (Pala / Bharananganam),192.4,False
+14,9.64,76.6986,SW,3075.0,27.6,Weathered Laterite,7.0,False,9.48,8.49,0.5,Mixed Agricultural / Homestead,78,17.46,69.9,2,107.0,8.49,False,0.833,False,Mid Meenachil (Pala / Bharananganam),259.6,False
+15,9.64,76.7062,SW,3081.1,34.9,Weathered Laterite,0.9,False,12.65,7.86,0.5,Mixed Agricultural / Homestead,78,17.8,82.8,2,65.0,7.86,False,0.794,False,Mid Meenachil (Pala / Bharananganam),234.4,False
+16,9.64,76.7138,SE,3156.4,29.2,Weathered Laterite,5.7,False,10.29,7.26,0.5,Mixed Agricultural / Homestead,78,19.46,72.9,2,85.0,7.26,False,0.774,False,Mid Meenachil (Pala / Bharananganam),210.4,False
+17,9.64,76.7214,SE,3087.0,35.3,Weathered Laterite,0.6,False,12.76,7.45,0.5,Mixed Agricultural / Homestead,78,20.38,83.4,2,67.0,7.45,False,0.77,False,Mid Meenachil (Pala / Bharananganam),218.0,False
+18,9.64,76.729,SE,3130.7,35.3,Weathered Laterite,0.6,False,12.83,10.83,0.5,Mixed Agricultural / Homestead,78,21.39,83.5,2,60.0,10.83,False,0.785,False,Mid Meenachil (Pala / Bharananganam),353.2,False
+19,9.64,76.7366,SE,3223.1,34.6,Weathered Laterite,1.2,False,12.56,11.35,0.5,Plantation (Rubber/Cardamom),74,22.76,82.3,2,60.0,11.35,False,0.817,False,Mid Meenachil (Pala / Bharananganam),374.0,False
+20,9.64,76.7441,SE,3098.3,35.4,Weathered Laterite,0.5,False,13.06,10.02,0.5,Plantation (Rubber/Cardamom),74,24.13,84.0,2,41.0,10.02,False,0.835,False,Upper Meenachil (Teekoy / Erattupetta),320.8,False
+21,9.64,76.7517,SE,3159.1,34.0,Alluvial Loam,1.7,False,12.62,11.97,0.5,Plantation (Rubber/Cardamom),74,25.07,81.7,2,32.0,11.97,False,0.749,False,Upper Meenachil (Teekoy / Erattupetta),398.8,False
+22,9.64,76.7593,SE,3140.3,34.1,Weathered Laterite,1.6,False,12.52,6.15,0.5,Plantation (Rubber/Cardamom),74,26.49,81.7,2,46.0,6.15,False,0.68,False,Upper Meenachil (Teekoy / Erattupetta),166.0,False
+23,9.64,76.7669,SE,3255.6,23.9,Weathered Laterite,10.1,False,8.25,9.99,0.5,Plantation (Rubber/Cardamom),74,27.33,63.9,1,91.0,9.99,False,0.629,False,Upper Meenachil (Teekoy / Erattupetta),319.6,False
+24,9.64,76.7745,SE,3358.8,34.4,Weathered Laterite,1.3,False,12.55,10.06,0.5,Plantation (Rubber/Cardamom),74,28.14,82.1,2,56.0,10.06,False,0.594,False,Upper Meenachil (Teekoy / Erattupetta),322.4,False
+25,9.64,76.7821,SE,3231.4,34.1,Weathered Laterite,1.6,False,12.42,11.44,0.5,Plantation (Rubber/Cardamom),74,29.99,81.5,2,56.0,11.44,False,0.568,False,Upper Meenachil (Teekoy / Erattupetta),377.6,False
+26,9.64,76.7897,SE,3271.8,34.8,Weathered Laterite,1.0,False,12.61,8.25,0.5,Plantation (Rubber/Cardamom),74,30.52,82.6,2,64.0,8.25,False,0.509,False,Upper Meenachil (Teekoy / Erattupetta),250.0,False
+27,9.64,76.7972,SE,3337.4,27.2,Weathered Laterite,7.3,False,9.4,10.56,0.5,Shrub / Forest Canopy,68,32.37,69.4,2,101.0,10.56,False,0.469,False,Upper Meenachil (Teekoy / Erattupetta),342.4,False
+28,9.64,76.8048,SE,3378.8,33.7,Weathered Laterite,1.9,False,11.75,12.25,0.5,Shrub / Forest Canopy,68,33.68,80.1,2,109.0,12.25,False,0.447,False,Upper Meenachil (Teekoy / Erattupetta),410.0,False
+29,9.64,76.8124,SE,3360.5,34.1,Weathered Laterite,1.6,False,11.87,9.4,0.5,Shrub / Forest Canopy,68,34.17,80.7,2,111.0,9.4,False,0.443,False,Upper Meenachil (Teekoy / Erattupetta),296.0,False
+30,9.64,76.82,SE,3402.9,2.0,Rocky Charnockite / Skeletal,33.0,True,2.85,11.64,0.5,Shrub / Forest Canopy,68,35.12,13.5,0,239.0,11.64,False,0.459,False,Upper Meenachil (Teekoy / Erattupetta),385.6,True
+31,9.6467,76.6,SW,2819.1,35.2,Alluvial Loam,0.7,False,13.19,11.17,2.23,Mixed Agricultural / Homestead,78,1.68,83.9,2,20.0,9.23,False,1.252,True,Lower Meenachil (Mutholy / Kidangoor),289.2,False
+32,9.6467,76.6076,SW,2821.8,30.6,Weathered Laterite,4.5,False,11.25,7.87,1.47,Mixed Agricultural / Homestead,78,2.93,75.9,2,42.0,6.87,False,1.125,True,Lower Meenachil (Mutholy / Kidangoor),194.8,False
+33,9.6467,76.6152,SW,2768.1,35.8,Weathered Laterite,0.2,False,13.18,9.64,1.16,Mixed Agricultural / Homestead,78,3.85,84.5,2,43.0,9.33,False,1.013,True,Lower Meenachil (Mutholy / Kidangoor),293.2,False
+34,9.6467,76.6228,SW,2823.7,35.5,Alluvial Loam,0.4,False,13.24,6.1,0.99,Mixed Agricultural / Homestead,78,4.55,84.4,2,28.0,6.1,False,0.916,True,Lower Meenachil (Mutholy / Kidangoor),164.0,False
+35,9.6467,76.6303,SW,2881.1,35.4,Alluvial Loam,0.5,False,13.22,7.76,0.5,Mixed Agricultural / Homestead,78,6.11,84.2,2,25.0,7.76,False,0.837,False,Lower Meenachil (Mutholy / Kidangoor),230.4,False
+36,9.6467,76.6379,SW,2945.1,31.2,Weathered Laterite,4.0,False,11.45,7.25,0.5,Mixed Agricultural / Homestead,78,7.16,76.9,2,45.0,7.25,False,0.773,False,Lower Meenachil (Mutholy / Kidangoor),210.0,False
+37,9.6467,76.6455,SW,2967.1,35.0,Alluvial Loam,0.8,False,13.04,7.23,0.5,Mixed Agricultural / Homestead,78,8.53,83.5,2,30.0,7.23,False,0.726,False,Lower Meenachil (Mutholy / Kidangoor),209.2,False
+38,9.6467,76.6531,SW,3000.5,33.5,Weathered Laterite,2.1,False,12.16,8.81,0.5,Mixed Agricultural / Homestead,78,9.03,80.5,2,59.0,8.81,False,0.696,False,Lower Meenachil (Mutholy / Kidangoor),272.4,False
+39,9.6467,76.6607,SW,2995.5,20.4,Weathered Laterite,13.0,False,6.79,9.88,0.5,Mixed Agricultural / Homestead,78,10.56,57.9,1,106.0,9.88,False,0.684,False,Mid Meenachil (Pala / Bharananganam),315.2,False
+40,9.6467,76.6683,SW,2955.2,35.6,Weathered Laterite,0.3,False,12.89,12.08,0.5,Mixed Agricultural / Homestead,78,11.48,83.9,2,67.0,12.08,False,0.69,False,Mid Meenachil (Pala / Bharananganam),403.2,False
+41,9.6467,76.6759,SW,2966.5,35.5,Weathered Laterite,0.4,False,12.74,12.23,0.5,Mixed Agricultural / Homestead,78,13.11,83.6,2,78.0,12.23,False,0.713,False,Mid Meenachil (Pala / Bharananganam),409.2,False
+42,9.6467,76.6834,SW,2967.1,35.0,Weathered Laterite,0.8,False,12.45,6.33,0.5,Mixed Agricultural / Homestead,78,13.93,82.6,2,89.0,6.33,False,0.754,False,Mid Meenachil (Pala / Bharananganam),173.2,False
+43,9.6467,76.691,SW,2977.5,30.4,Weathered Laterite,4.7,False,10.46,10.75,0.5,Mixed Agricultural / Homestead,78,15.64,74.4,2,112.0,10.75,False,0.769,False,Mid Meenachil (Pala / Bharananganam),350.0,False
+44,9.6467,76.6986,SW,3030.5,32.8,Weathered Laterite,2.7,False,11.9,10.76,0.5,Mixed Agricultural / Homestead,78,16.68,79.3,2,58.0,10.76,False,0.713,False,Mid Meenachil (Pala / Bharananganam),350.4,False
+45,9.6467,76.7062,SW,3097.9,34.9,Weathered Laterite,0.9,False,12.93,8.22,0.5,Mixed Agricultural / Homestead,78,17.96,83.2,2,37.0,8.22,False,0.674,False,Mid Meenachil (Pala / Bharananganam),248.8,False
+46,9.6467,76.7138,SE,3045.3,34.4,Weathered Laterite,1.3,False,12.42,7.55,0.5,Mixed Agricultural / Homestead,78,19.15,81.9,2,69.0,7.55,False,0.653,False,Mid Meenachil (Pala / Bharananganam),222.0,False
+47,9.6467,76.7214,SE,3108.0,23.8,Weathered Laterite,10.2,False,8.15,5.9,0.5,Mixed Agricultural / Homestead,78,20.1,63.6,1,96.0,5.9,False,0.65,False,Mid Meenachil (Pala / Bharananganam),156.0,False
+48,9.6467,76.729,SE,3151.7,35.3,Weathered Laterite,0.6,False,12.88,9.83,0.5,Mixed Agricultural / Homestead,78,21.39,83.6,2,55.0,9.83,False,0.664,False,Mid Meenachil (Pala / Bharananganam),313.2,False
+49,9.6467,76.7366,SE,3163.6,30.4,Weathered Laterite,4.7,False,10.94,6.07,0.5,Plantation (Rubber/Cardamom),74,21.73,75.2,2,65.0,6.07,False,0.697,False,Mid Meenachil (Pala / Bharananganam),162.8,False
+50,9.6467,76.7441,SE,3243.9,35.4,Alluvial Loam,0.5,False,13.26,9.41,0.5,Plantation (Rubber/Cardamom),74,23.61,84.3,2,22.0,9.41,False,0.738,False,Upper Meenachil (Teekoy / Erattupetta),296.4,False
+51,9.6467,76.7517,SE,3214.4,34.0,Weathered Laterite,1.7,False,12.45,10.72,0.5,Plantation (Rubber/Cardamom),74,24.44,81.4,2,49.0,10.72,False,0.651,False,Upper Meenachil (Teekoy / Erattupetta),348.8,False
+52,9.6467,76.7593,SE,3178.5,29.4,Weathered Laterite,5.5,False,10.44,12.24,0.5,Plantation (Rubber/Cardamom),74,26.06,73.3,2,79.0,12.24,False,0.581,False,Upper Meenachil (Teekoy / Erattupetta),409.6,False
+53,9.6467,76.7669,SE,3245.8,35.3,Weathered Laterite,0.6,False,12.68,10.37,0.5,Plantation (Rubber/Cardamom),74,26.32,83.2,2,75.0,10.37,False,0.528,False,Upper Meenachil (Teekoy / Erattupetta),334.8,False
+54,9.6467,76.7745,SE,3314.3,34.4,Weathered Laterite,1.3,False,12.46,6.82,0.5,Plantation (Rubber/Cardamom),74,27.97,82.0,2,65.0,6.82,False,0.493,False,Upper Meenachil (Teekoy / Erattupetta),192.8,False
+55,9.6467,76.7821,SE,3305.0,34.1,Weathered Laterite,1.6,False,12.55,7.67,0.5,Plantation (Rubber/Cardamom),74,28.62,81.7,2,43.0,7.67,False,0.476,False,Upper Meenachil (Teekoy / Erattupetta),226.8,False
+56,9.6467,76.7897,SE,3244.3,12.1,Weathered Laterite,19.9,False,4.0,12.03,0.5,Plantation (Rubber/Cardamom),74,29.85,44.5,1,132.0,12.03,False,0.425,False,Upper Meenachil (Teekoy / Erattupetta),401.2,False
+57,9.6467,76.7972,SE,3247.1,35.4,Weathered Laterite,0.5,False,12.87,12.29,0.5,Plantation (Rubber/Cardamom),74,31.65,83.7,2,61.0,12.29,False,0.383,False,Upper Meenachil (Teekoy / Erattupetta),411.6,False
+58,9.6467,76.8048,SE,3310.1,33.7,Weathered Laterite,1.9,False,11.96,11.55,0.5,Plantation (Rubber/Cardamom),74,32.82,80.4,2,88.0,11.55,False,0.36,False,Upper Meenachil (Teekoy / Erattupetta),382.0,False
+59,9.6467,76.8124,SE,3324.2,23.6,Weathered Laterite,10.3,False,7.64,12.18,0.5,Shrub / Forest Canopy,68,34.08,62.7,1,142.0,12.18,False,0.357,False,Upper Meenachil (Teekoy / Erattupetta),407.2,False
+60,9.6467,76.82,SE,3477.1,34.1,Weathered Laterite,1.6,False,11.65,10.2,0.5,Shrub / Forest Canopy,68,34.51,80.4,2,133.0,10.2,False,0.373,False,Upper Meenachil (Teekoy / Erattupetta),328.0,False
+61,9.6533,76.6,SW,2737.6,35.0,Alluvial Loam,0.8,False,13.22,6.44,2.56,Mixed Agricultural / Homestead,78,1.09,83.8,2,12.0,4.06,False,1.15,True,Lower Meenachil (Mutholy / Kidangoor),82.4,False
+62,9.6533,76.6076,SW,2825.3,35.0,Alluvial Loam,0.8,False,13.14,8.25,1.81,Mixed Agricultural / Homestead,78,1.6,83.7,2,20.0,6.25,False,1.021,True,Lower Meenachil (Mutholy / Kidangoor),170.0,False
+63,9.6533,76.6152,SW,2876.3,35.9,Alluvial Loam,0.1,False,13.39,11.54,1.37,Mixed Agricultural / Homestead,78,2.88,85.0,2,26.0,10.5,False,0.908,True,Lower Meenachil (Mutholy / Kidangoor),340.0,False
+64,9.6533,76.6228,SW,2713.9,29.8,Weathered Laterite,5.2,False,10.93,9.93,1.2,Mixed Agricultural / Homestead,78,3.94,74.5,2,43.0,9.68,False,0.81,False,Lower Meenachil (Mutholy / Kidangoor),307.2,False
+65,9.6533,76.6303,SW,2858.0,35.6,Alluvial Loam,0.3,False,13.34,6.77,0.63,Mixed Agricultural / Homestead,78,4.96,84.6,2,23.0,6.77,False,0.729,False,Lower Meenachil (Mutholy / Kidangoor),190.8,False
+66,9.6533,76.6379,SW,2835.6,35.2,Weathered Laterite,0.7,False,13.0,6.74,0.5,Mixed Agricultural / Homestead,78,6.46,83.6,2,39.0,6.74,False,0.663,False,Lower Meenachil (Mutholy / Kidangoor),189.6,False
+67,9.6533,76.6455,SW,2849.5,34.3,Alluvial Loam,1.4,False,12.86,11.62,0.5,Mixed Agricultural / Homestead,78,7.49,82.4,2,21.0,11.62,False,0.615,False,Lower Meenachil (Mutholy / Kidangoor),384.8,False
+68,9.6533,76.6531,SW,2893.1,24.4,Weathered Laterite,9.7,False,8.45,9.83,0.5,Mixed Agricultural / Homestead,78,9.03,64.8,1,89.0,9.83,False,0.585,False,Lower Meenachil (Mutholy / Kidangoor),313.2,False
+69,9.6533,76.6607,SW,2958.1,35.8,Weathered Laterite,0.2,False,12.79,9.08,0.5,Mixed Agricultural / Homestead,78,10.17,84.0,2,82.0,9.08,False,0.573,False,Mid Meenachil (Pala / Bharananganam),283.2,False
+70,9.6533,76.6683,SW,2913.9,35.3,Weathered Laterite,0.6,False,12.55,5.64,0.5,Mixed Agricultural / Homestead,78,11.02,83.1,2,88.0,5.64,False,0.579,False,Mid Meenachil (Pala / Bharananganam),145.6,False
+71,9.6533,76.6759,SW,3058.5,18.7,Weathered Laterite,14.4,False,6.01,11.02,0.5,Mixed Agricultural / Homestead,78,12.05,54.8,1,121.0,11.02,False,0.603,False,Mid Meenachil (Pala / Bharananganam),360.8,False
+72,9.6533,76.6834,SW,2944.7,35.2,Weathered Laterite,0.7,False,12.42,7.49,0.5,Mixed Agricultural / Homestead,78,13.41,82.7,2,97.0,7.49,False,0.644,False,Mid Meenachil (Pala / Bharananganam),219.6,False
+73,9.6533,76.691,SW,2949.0,27.7,Weathered Laterite,6.9,False,9.49,6.21,0.5,Mixed Agricultural / Homestead,78,14.59,70.0,2,110.0,6.21,False,0.664,False,Mid Meenachil (Pala / Bharananganam),168.4,False
+74,9.6533,76.6986,SW,3043.8,28.7,Weathered Laterite,6.1,False,10.17,8.37,0.5,Mixed Agricultural / Homestead,78,15.33,72.1,2,78.0,8.37,False,0.607,False,Mid Meenachil (Pala / Bharananganam),254.8,False
+75,9.6533,76.7062,SW,3088.8,35.5,Alluvial Loam,0.4,False,13.18,12.01,0.5,Mixed Agricultural / Homestead,78,17.18,84.3,2,34.0,12.01,False,0.567,False,Mid Meenachil (Pala / Bharananganam),400.4,False
+76,9.6533,76.7138,SE,3048.0,23.3,Weathered Laterite,10.6,False,8.09,9.05,0.5,Mixed Agricultural / Homestead,78,17.74,63.0,1,84.0,9.05,False,0.545,False,Mid Meenachil (Pala / Bharananganam),282.0,False
+77,9.6533,76.7214,SE,3105.3,34.3,Weathered Laterite,1.4,False,12.43,9.23,0.5,Mixed Agricultural / Homestead,78,19.22,81.8,2,64.0,9.23,False,0.542,False,Mid Meenachil (Pala / Bharananganam),289.2,False
+78,9.6533,76.729,SE,3181.3,31.0,Weathered Laterite,4.2,False,11.09,7.28,0.5,Mixed Agricultural / Homestead,78,19.9,76.1,2,72.0,7.28,False,0.557,False,Mid Meenachil (Pala / Bharananganam),211.2,False
+79,9.6533,76.7366,SE,3275.1,28.8,Weathered Laterite,6.0,False,10.36,12.01,0.5,Plantation (Rubber/Cardamom),74,21.67,72.6,2,64.0,12.01,False,0.59,False,Mid Meenachil (Pala / Bharananganam),400.4,False
+80,9.6533,76.7441,SE,3254.9,34.3,Alluvial Loam,1.4,False,12.84,11.07,0.5,Plantation (Rubber/Cardamom),74,23.0,82.4,2,23.0,11.07,False,0.64,False,Upper Meenachil (Teekoy / Erattupetta),362.8,False
+81,9.6533,76.7517,SE,3241.8,31.4,Weathered Laterite,3.8,False,11.3,8.25,0.5,Plantation (Rubber/Cardamom),74,24.02,76.9,2,69.0,8.25,False,0.566,False,Upper Meenachil (Teekoy / Erattupetta),250.0,False
+82,9.6533,76.7593,SE,3221.6,32.8,Weathered Laterite,2.7,False,11.71,7.13,0.5,Plantation (Rubber/Cardamom),74,24.73,79.0,2,77.0,7.13,False,0.494,False,Upper Meenachil (Teekoy / Erattupetta),205.2,False
+83,9.6533,76.7669,SE,3247.9,23.0,Weathered Laterite,10.8,False,7.82,12.08,0.5,Plantation (Rubber/Cardamom),74,25.89,62.3,1,102.0,12.08,False,0.44,False,Upper Meenachil (Teekoy / Erattupetta),403.2,False
+84,9.6533,76.7745,SE,3274.6,34.6,Weathered Laterite,1.2,False,12.58,6.56,0.5,Plantation (Rubber/Cardamom),74,27.44,82.3,2,58.0,6.56,False,0.404,False,Upper Meenachil (Teekoy / Erattupetta),182.4,False
+85,9.6533,76.7821,SE,3308.0,34.0,Weathered Laterite,1.7,False,12.38,11.25,0.5,Shrub / Forest Canopy,68,28.05,81.3,2,55.0,11.25,False,0.387,False,Upper Meenachil (Teekoy / Erattupetta),370.0,False
+86,9.6533,76.7897,SE,3353.8,29.0,Weathered Laterite,5.8,False,10.09,10.36,0.5,Plantation (Rubber/Cardamom),74,29.1,72.4,2,100.0,10.36,False,0.354,False,Upper Meenachil (Teekoy / Erattupetta),334.4,False
+87,9.6533,76.7972,SE,3307.1,35.0,Weathered Laterite,0.8,False,12.6,8.31,0.5,Plantation (Rubber/Cardamom),74,30.35,82.8,2,74.0,8.31,False,0.311,False,Upper Meenachil (Teekoy / Erattupetta),252.4,False
+88,9.6533,76.8048,SE,3487.4,2.7,Rocky Charnockite / Skeletal,26.4,True,3.18,11.6,0.5,Shrub / Forest Canopy,68,31.4,16.8,0,170.0,11.6,False,0.287,False,Upper Meenachil (Teekoy / Erattupetta),384.0,True
+89,9.6533,76.8124,SE,3471.7,32.3,Weathered Laterite,3.1,False,11.26,8.47,0.5,Shrub / Forest Canopy,68,33.31,77.8,2,105.0,8.47,False,0.283,False,Upper Meenachil (Teekoy / Erattupetta),258.8,False
+90,9.6533,76.82,SE,3439.1,32.3,Weathered Laterite,3.1,False,11.84,11.37,0.5,Shrub / Forest Canopy,68,34.47,78.7,2,47.0,11.37,False,0.3,False,Upper Meenachil (Teekoy / Erattupetta),374.8,False
+91,9.66,76.6,SW,2699.4,34.8,Alluvial Loam,1.0,False,13.2,4.11,2.45,Built-up,88,0.05,83.5,2,5.0,0.95,True,1.058,True,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+92,9.66,76.6076,SW,2716.1,24.1,Weathered Laterite,9.9,False,8.7,6.73,2.22,Mixed Agricultural / Homestead,78,1.39,64.9,1,55.0,4.57,False,0.928,True,Lower Meenachil (Mutholy / Kidangoor),102.8,False
+93,9.66,76.6152,SW,2744.0,35.6,Weathered Laterite,0.3,False,13.14,12.23,1.82,Mixed Agricultural / Homestead,78,2.71,84.3,2,42.0,11.06,False,0.812,False,Lower Meenachil (Mutholy / Kidangoor),362.4,False
+94,9.66,76.6228,SW,2783.4,35.4,Alluvial Loam,0.5,False,13.19,10.75,1.62,Mixed Agricultural / Homestead,78,3.03,84.1,2,29.0,9.82,False,0.713,False,Lower Meenachil (Mutholy / Kidangoor),312.8,False
+95,9.66,76.6303,SW,2968.2,34.9,Alluvial Loam,0.9,False,13.08,5.96,0.86,Mixed Agricultural / Homestead,78,4.3,83.4,2,22.0,5.96,False,0.63,False,Lower Meenachil (Mutholy / Kidangoor),158.4,False
+96,9.66,76.6379,SW,2803.2,33.8,Weathered Laterite,1.8,False,12.31,6.77,0.53,Mixed Agricultural / Homestead,78,5.77,81.1,2,58.0,6.77,False,0.564,False,Lower Meenachil (Mutholy / Kidangoor),190.8,False
+97,9.66,76.6455,SW,2908.7,34.2,Weathered Laterite,1.5,False,12.38,10.11,0.5,Mixed Agricultural / Homestead,78,7.03,81.6,2,65.0,10.11,False,0.514,False,Lower Meenachil (Mutholy / Kidangoor),324.4,False
+98,9.66,76.6531,SW,2931.9,34.8,Weathered Laterite,1.0,False,12.54,7.17,0.5,Mixed Agricultural / Homestead,78,7.56,82.5,2,71.0,7.17,False,0.483,False,Lower Meenachil (Mutholy / Kidangoor),206.8,False
+99,9.66,76.6607,SW,3011.6,28.9,Weathered Laterite,5.9,False,10.12,6.93,0.5,Mixed Agricultural / Homestead,78,9.41,72.3,2,92.0,6.93,False,0.471,False,Mid Meenachil (Pala / Bharananganam),197.2,False
+100,9.66,76.6683,SW,2868.2,34.1,Weathered Laterite,1.6,False,12.35,11.75,0.5,Mixed Agricultural / Homestead,78,9.85,81.4,2,63.0,11.75,False,0.477,False,Mid Meenachil (Pala / Bharananganam),390.0,False
+101,9.66,76.6759,SW,3012.0,33.4,Weathered Laterite,2.2,False,12.35,8.37,0.5,Mixed Agricultural / Homestead,78,11.24,80.6,2,36.0,8.37,False,0.502,False,Mid Meenachil (Pala / Bharananganam),254.8,False
+102,9.66,76.6834,SW,3045.1,22.2,Weathered Laterite,11.5,False,7.51,11.1,0.5,Mixed Agricultural / Homestead,78,12.43,60.9,1,101.0,11.1,False,0.544,False,Mid Meenachil (Pala / Bharananganam),364.0,False
+103,9.66,76.691,SW,2987.8,33.4,Weathered Laterite,2.2,False,12.05,11.34,0.5,Mixed Agricultural / Homestead,78,13.55,80.2,2,66.0,11.34,False,0.569,False,Mid Meenachil (Pala / Bharananganam),373.6,False
+104,9.66,76.6986,SW,2959.9,34.3,Alluvial Loam,1.4,False,12.74,9.38,0.5,Mixed Agricultural / Homestead,78,14.6,82.3,2,33.0,9.38,False,0.51,False,Mid Meenachil (Pala / Bharananganam),295.2,False
+105,9.66,76.7062,SW,3144.8,29.4,Weathered Laterite,5.5,False,10.71,10.16,0.5,Mixed Agricultural / Homestead,78,15.78,73.8,2,51.0,10.16,False,0.469,False,Mid Meenachil (Pala / Bharananganam),326.4,False
+106,9.66,76.7138,SE,3022.2,35.0,Alluvial Loam,0.8,False,13.0,6.66,0.5,Mixed Agricultural / Homestead,78,17.64,83.4,2,34.0,6.66,False,0.447,False,Mid Meenachil (Pala / Bharananganam),186.4,False
+107,9.66,76.7214,SE,3038.3,35.0,Weathered Laterite,0.8,False,12.89,10.53,0.5,Mixed Agricultural / Homestead,78,18.48,83.3,2,45.0,10.53,False,0.443,False,Mid Meenachil (Pala / Bharananganam),341.2,False
+108,9.66,76.729,SE,3140.3,34.6,Weathered Laterite,1.2,False,12.64,5.72,0.5,Mixed Agricultural / Homestead,78,19.5,82.4,2,52.0,5.72,False,0.459,False,Mid Meenachil (Pala / Bharananganam),148.8,False
+109,9.66,76.7366,SE,3148.6,35.5,Alluvial Loam,0.4,False,13.32,6.25,0.5,Plantation (Rubber/Cardamom),74,20.22,84.5,2,20.0,6.25,False,0.493,False,Mid Meenachil (Pala / Bharananganam),170.0,False
+110,9.66,76.7441,SE,3266.5,32.9,Weathered Laterite,2.6,False,11.84,11.1,0.5,Plantation (Rubber/Cardamom),74,21.81,79.3,2,69.0,11.1,False,0.544,False,Upper Meenachil (Teekoy / Erattupetta),364.0,False
+111,9.66,76.7517,SE,3185.9,30.7,Weathered Laterite,4.4,False,10.53,12.15,0.5,Plantation (Rubber/Cardamom),74,23.06,74.9,2,119.0,12.15,False,0.492,False,Upper Meenachil (Teekoy / Erattupetta),406.0,False
+112,9.66,76.7593,SE,3251.2,2.0,Rocky Charnockite / Skeletal,30.6,True,2.97,10.35,0.5,Plantation (Rubber/Cardamom),74,24.16,14.7,0,189.0,10.35,False,0.419,False,Upper Meenachil (Teekoy / Erattupetta),334.0,True
+113,9.66,76.7669,SE,3253.5,32.0,Weathered Laterite,3.3,False,11.61,11.91,0.5,Plantation (Rubber/Cardamom),74,25.25,78.0,2,61.0,11.91,False,0.363,False,Upper Meenachil (Teekoy / Erattupetta),396.4,False
+114,9.66,76.7745,SE,3242.2,35.3,Weathered Laterite,0.6,False,13.07,11.3,0.5,Plantation (Rubber/Cardamom),74,26.85,83.8,2,36.0,11.3,False,0.326,False,Upper Meenachil (Teekoy / Erattupetta),372.0,False
+115,9.66,76.7821,SE,3235.8,34.6,Weathered Laterite,1.2,False,12.54,10.57,0.5,Plantation (Rubber/Cardamom),74,27.29,82.2,2,62.0,10.57,False,0.308,False,Upper Meenachil (Teekoy / Erattupetta),342.8,False
+116,9.66,76.7897,SE,3320.2,35.5,Weathered Laterite,0.4,False,12.86,11.7,0.5,Shrub / Forest Canopy,68,28.52,83.8,2,66.0,11.7,False,0.295,False,Upper Meenachil (Teekoy / Erattupetta),388.0,False
+117,9.66,76.7972,SE,3368.4,24.8,Weathered Laterite,9.3,False,8.62,11.09,0.5,Shrub / Forest Canopy,68,30.23,65.5,1,90.0,11.09,False,0.251,False,Upper Meenachil (Teekoy / Erattupetta),363.6,False
+118,9.66,76.8048,SE,3425.6,32.5,Weathered Laterite,2.9,False,11.84,11.62,0.5,Plantation (Rubber/Cardamom),74,30.85,78.9,2,56.0,11.62,False,0.226,False,Upper Meenachil (Teekoy / Erattupetta),384.8,False
+119,9.66,76.8124,SE,3363.5,33.4,Weathered Laterite,2.2,False,12.1,7.57,0.5,Shrub / Forest Canopy,68,32.39,80.3,2,61.0,7.57,False,0.222,False,Upper Meenachil (Teekoy / Erattupetta),222.8,False
+120,9.66,76.82,SE,3391.7,33.4,Weathered Laterite,2.2,False,12.14,11.65,0.5,Shrub / Forest Canopy,68,33.02,80.3,2,57.0,11.65,False,0.239,False,Upper Meenachil (Teekoy / Erattupetta),386.0,False
+121,9.6667,76.6,SW,2808.4,34.4,Alluvial Loam,1.3,False,13.02,4.04,2.78,Mixed Agricultural / Homestead,78,0.85,82.8,2,9.0,1.48,True,0.978,True,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+122,9.6667,76.6076,SW,2747.6,34.4,Alluvial Loam,1.3,False,12.84,5.41,2.71,Built-up,88,0.13,82.5,2,27.0,2.31,False,0.846,False,Lower Meenachil (Mutholy / Kidangoor),12.4,False
+123,9.6667,76.6152,SW,2767.2,34.8,Weathered Laterite,1.0,False,12.9,7.07,2.2,Mixed Agricultural / Homestead,78,1.81,83.0,2,35.0,5.23,False,0.73,False,Lower Meenachil (Mutholy / Kidangoor),129.2,False
+124,9.6667,76.6228,SW,2786.6,29.2,Weathered Laterite,5.7,False,10.63,11.72,1.61,Mixed Agricultural / Homestead,78,2.78,73.4,2,50.0,10.6,False,0.628,False,Lower Meenachil (Mutholy / Kidangoor),344.0,False
+125,9.6667,76.6303,SW,2770.7,34.8,Alluvial Loam,1.0,False,12.93,10.56,1.09,Mixed Agricultural / Homestead,78,3.9,83.1,2,32.0,10.28,False,0.545,False,Lower Meenachil (Mutholy / Kidangoor),331.2,False
+126,9.6667,76.6379,SW,2861.2,29.2,Weathered Laterite,5.7,False,10.38,8.86,1.15,Mixed Agricultural / Homestead,78,4.72,73.0,2,76.0,8.86,False,0.476,False,Lower Meenachil (Mutholy / Kidangoor),274.4,False
+127,9.6667,76.6455,SW,2913.7,29.9,Weathered Laterite,5.1,False,10.6,11.08,0.5,Mixed Agricultural / Homestead,78,6.0,74.1,2,81.0,11.08,False,0.426,False,Lower Meenachil (Mutholy / Kidangoor),363.2,False
+128,9.6667,76.6531,SW,2960.2,35.6,Weathered Laterite,0.3,False,12.84,9.83,0.5,Mixed Agricultural / Homestead,78,7.67,83.9,2,73.0,9.83,False,0.394,False,Lower Meenachil (Mutholy / Kidangoor),313.2,False
+129,9.6667,76.6607,SW,2921.0,34.9,Weathered Laterite,0.9,False,12.53,7.85,0.5,Mixed Agricultural / Homestead,78,8.83,82.6,2,77.0,7.85,False,0.381,False,Mid Meenachil (Pala / Bharananganam),234.0,False
+130,9.6667,76.6683,SW,2961.3,34.7,Weathered Laterite,1.1,False,12.68,9.92,0.5,Mixed Agricultural / Homestead,78,9.91,82.6,2,53.0,9.92,False,0.387,False,Mid Meenachil (Pala / Bharananganam),316.8,False
+131,9.6667,76.6759,SW,2986.6,35.2,Weathered Laterite,0.7,False,12.86,12.24,0.5,Mixed Agricultural / Homestead,78,10.78,83.4,2,53.0,12.24,False,0.413,False,Mid Meenachil (Pala / Bharananganam),409.6,False
+132,9.6667,76.6834,SW,2974.2,35.3,Weathered Laterite,0.6,False,12.85,7.61,0.5,Mixed Agricultural / Homestead,78,12.32,83.5,2,58.0,7.61,False,0.456,False,Mid Meenachil (Pala / Bharananganam),224.4,False
+133,9.6667,76.691,SW,2991.0,34.6,Weathered Laterite,1.2,False,12.67,10.81,0.5,Mixed Agricultural / Homestead,78,13.12,82.4,2,49.0,10.81,False,0.486,False,Mid Meenachil (Pala / Bharananganam),352.4,False
+134,9.6667,76.6986,SW,2969.0,27.1,Weathered Laterite,7.4,False,9.75,6.65,0.5,Mixed Agricultural / Homestead,78,14.46,69.8,2,62.0,6.65,False,0.425,False,Mid Meenachil (Pala / Bharananganam),186.0,False
+135,9.6667,76.7062,SW,2999.8,35.6,Alluvial Loam,0.3,False,13.22,12.16,0.5,Mixed Agricultural / Homestead,78,15.06,84.4,2,34.0,12.16,False,0.383,False,Mid Meenachil (Pala / Bharananganam),406.4,False
+136,9.6667,76.7138,SE,3117.9,35.2,Weathered Laterite,0.7,False,12.88,7.42,0.5,Mixed Agricultural / Homestead,78,16.42,83.4,2,50.0,7.42,False,0.36,False,Mid Meenachil (Pala / Bharananganam),216.8,False
+137,9.6667,76.7214,SE,3075.2,35.8,Weathered Laterite,0.2,False,13.09,8.08,0.5,Mixed Agricultural / Homestead,78,18.03,84.4,2,52.0,8.08,False,0.357,False,Mid Meenachil (Pala / Bharananganam),243.2,False
+138,9.6667,76.729,SE,3159.5,35.0,Weathered Laterite,0.8,False,12.87,10.83,0.5,Mixed Agricultural / Homestead,78,18.47,83.3,2,47.0,10.83,False,0.373,False,Mid Meenachil (Pala / Bharananganam),353.2,False
+139,9.6667,76.7366,SE,3149.0,34.6,Alluvial Loam,1.2,False,12.91,6.32,0.5,Plantation (Rubber/Cardamom),74,19.46,82.8,2,25.0,6.32,False,0.408,False,Mid Meenachil (Pala / Bharananganam),172.8,False
+140,9.6667,76.7441,SE,3182.3,26.8,Weathered Laterite,7.7,False,9.35,7.38,0.5,Plantation (Rubber/Cardamom),74,21.01,68.8,2,89.0,7.38,False,0.461,False,Upper Meenachil (Teekoy / Erattupetta),215.2,False
+141,9.6667,76.7517,SE,3175.7,33.0,Weathered Laterite,2.5,False,11.64,9.7,0.5,Plantation (Rubber/Cardamom),74,22.18,79.1,2,93.0,9.7,False,0.432,False,Upper Meenachil (Teekoy / Erattupetta),308.0,False
+142,9.6667,76.7593,SE,3244.6,31.7,Weathered Laterite,3.6,False,11.34,6.23,0.5,Plantation (Rubber/Cardamom),74,23.57,77.2,2,74.0,6.23,False,0.357,False,Upper Meenachil (Teekoy / Erattupetta),169.2,False
+143,9.6667,76.7669,SE,3253.5,33.6,Weathered Laterite,2.0,False,12.39,6.12,0.5,Plantation (Rubber/Cardamom),74,24.72,80.9,2,41.0,6.12,False,0.299,False,Upper Meenachil (Teekoy / Erattupetta),164.8,False
+144,9.6667,76.7745,SE,3228.9,34.6,Weathered Laterite,1.2,False,12.73,10.33,0.5,Plantation (Rubber/Cardamom),74,25.2,82.5,2,43.0,10.33,False,0.26,False,Upper Meenachil (Teekoy / Erattupetta),333.2,False
+145,9.6667,76.7821,SE,3290.9,25.9,Weathered Laterite,8.4,False,9.05,10.46,0.5,Plantation (Rubber/Cardamom),74,26.42,67.4,1,87.0,10.46,False,0.242,False,Upper Meenachil (Teekoy / Erattupetta),338.4,False
+146,9.6667,76.7897,SE,3376.2,28.4,Weathered Laterite,6.3,False,10.05,8.67,0.5,Plantation (Rubber/Cardamom),74,28.27,71.7,2,81.0,8.67,False,0.244,False,Upper Meenachil (Teekoy / Erattupetta),266.8,False
+147,9.6667,76.7972,SE,3300.2,34.8,Weathered Laterite,1.0,False,12.79,11.6,0.5,Shrub / Forest Canopy,68,29.35,82.9,2,46.0,11.6,False,0.204,False,Upper Meenachil (Teekoy / Erattupetta),384.0,False
+148,9.6667,76.8048,SE,3328.7,35.2,Weathered Laterite,0.7,False,12.8,8.99,0.5,Plantation (Rubber/Cardamom),74,30.74,83.3,2,58.0,8.99,False,0.178,False,Upper Meenachil (Teekoy / Erattupetta),279.6,False
+149,9.6667,76.8124,SE,3405.8,35.6,Weathered Laterite,0.3,False,13.01,5.71,0.5,Plantation (Rubber/Cardamom),74,31.14,84.1,2,56.0,5.71,False,0.173,False,Upper Meenachil (Teekoy / Erattupetta),148.4,False
+150,9.6667,76.82,SE,3338.7,35.6,Weathered Laterite,0.3,False,13.02,12.41,0.5,Plantation (Rubber/Cardamom),74,32.79,84.1,2,55.0,12.41,False,0.192,False,Upper Meenachil (Teekoy / Erattupetta),416.4,False
+151,9.6733,76.6,SW,2850.1,35.2,Alluvial Loam,0.7,False,13.32,11.61,2.03,Mixed Agricultural / Homestead,78,1.85,84.1,2,7.0,9.8,False,0.911,True,Lower Meenachil (Mutholy / Kidangoor),312.0,False
+152,9.6733,76.6076,SW,2781.4,35.2,Alluvial Loam,0.7,False,13.24,4.39,2.63,Built-up,88,0.11,84.0,2,15.0,1.27,True,0.778,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+153,9.6733,76.6152,SW,2761.2,34.8,Alluvial Loam,1.0,False,13.11,11.48,1.98,Mixed Agricultural / Homestead,78,1.23,83.4,2,14.0,9.2,False,0.66,False,Lower Meenachil (Mutholy / Kidangoor),288.0,False
+154,9.6733,76.6228,SW,2674.8,34.9,Alluvial Loam,0.9,False,12.98,6.64,1.94,Mixed Agricultural / Homestead,78,2.34,83.3,2,32.0,5.19,False,0.558,False,Lower Meenachil (Mutholy / Kidangoor),127.6,False
+155,9.6733,76.6303,SW,2897.7,34.6,Alluvial Loam,1.2,False,13.02,12.29,1.34,Mixed Agricultural / Homestead,78,2.87,83.0,2,14.0,11.24,False,0.472,False,Lower Meenachil (Mutholy / Kidangoor),369.6,False
+156,9.6733,76.6379,SW,2797.9,30.2,Weathered Laterite,4.8,False,10.93,8.52,1.4,Mixed Agricultural / Homestead,78,3.83,75.0,2,61.0,8.19,False,0.402,False,Lower Meenachil (Mutholy / Kidangoor),247.6,False
+157,9.6733,76.6455,SW,2867.0,34.6,Weathered Laterite,1.2,False,12.7,10.15,0.8,Mixed Agricultural / Homestead,78,5.62,82.5,2,46.0,10.15,False,0.35,False,Lower Meenachil (Mutholy / Kidangoor),326.0,False
+158,9.6733,76.6531,SW,2918.8,25.2,Weathered Laterite,9.0,False,8.78,7.39,0.5,Mixed Agricultural / Homestead,78,6.86,66.2,1,87.0,7.39,False,0.317,False,Lower Meenachil (Mutholy / Kidangoor),215.6,False
+159,9.6733,76.6607,SW,2925.3,34.2,Weathered Laterite,1.5,False,12.4,5.79,0.5,Mixed Agricultural / Homestead,78,8.14,81.6,2,62.0,5.79,False,0.304,False,Mid Meenachil (Pala / Bharananganam),151.6,False
+160,9.6733,76.6683,SW,2806.9,35.3,Weathered Laterite,0.6,False,12.94,6.48,0.5,Mixed Agricultural / Homestead,78,9.22,83.6,2,49.0,6.48,False,0.31,False,Mid Meenachil (Pala / Bharananganam),179.2,False
+161,9.6733,76.6759,SW,3069.8,34.7,Weathered Laterite,1.1,False,12.68,10.35,0.5,Mixed Agricultural / Homestead,78,10.18,82.6,2,53.0,10.35,False,0.337,False,Mid Meenachil (Pala / Bharananganam),334.0,False
+162,9.6733,76.6834,SW,3049.1,27.8,Weathered Laterite,6.8,False,9.83,10.33,0.5,Mixed Agricultural / Homestead,78,11.27,70.7,2,81.0,10.33,False,0.382,False,Mid Meenachil (Pala / Bharananganam),333.2,False
+163,9.6733,76.691,SW,3069.2,34.6,Alluvial Loam,1.2,False,12.85,10.98,0.5,Mixed Agricultural / Homestead,78,12.19,82.7,2,31.0,10.98,False,0.416,False,Mid Meenachil (Pala / Bharananganam),359.2,False
+164,9.6733,76.6986,SW,3093.7,35.3,Weathered Laterite,0.6,False,13.05,10.84,0.5,Mixed Agricultural / Homestead,78,13.83,83.8,2,38.0,10.84,False,0.355,False,Mid Meenachil (Pala / Bharananganam),353.6,False
+165,9.6733,76.7062,SW,2999.9,35.2,Weathered Laterite,0.7,False,12.93,10.37,0.5,Mixed Agricultural / Homestead,78,14.91,83.5,2,46.0,10.37,False,0.311,False,Mid Meenachil (Pala / Bharananganam),334.8,False
+166,9.6733,76.7138,SE,3020.1,27.1,Weathered Laterite,7.4,False,9.65,9.72,0.5,Mixed Agricultural / Homestead,78,15.69,69.6,2,72.0,9.72,False,0.287,False,Mid Meenachil (Pala / Bharananganam),308.8,False
+167,9.6733,76.7214,SE,3092.4,34.8,Weathered Laterite,1.0,False,12.87,5.68,0.5,Mixed Agricultural / Homestead,78,16.86,83.0,2,38.0,5.68,False,0.283,False,Mid Meenachil (Pala / Bharananganam),147.2,False
+168,9.6733,76.729,SE,3253.0,35.6,Weathered Laterite,0.3,False,13.19,11.19,0.5,Mixed Agricultural / Homestead,78,17.94,84.4,2,38.0,11.19,False,0.3,False,Mid Meenachil (Pala / Bharananganam),367.6,False
+169,9.6733,76.7366,SE,3139.4,34.9,Alluvial Loam,0.9,False,12.99,7.49,0.5,Plantation (Rubber/Cardamom),74,19.62,83.3,2,31.0,7.49,False,0.336,False,Mid Meenachil (Pala / Bharananganam),219.6,False
+170,9.6733,76.7441,SE,3097.3,28.2,Weathered Laterite,6.5,False,10.05,8.39,0.5,Plantation (Rubber/Cardamom),74,20.38,71.4,2,72.0,8.39,False,0.391,False,Upper Meenachil (Teekoy / Erattupetta),255.6,False
+171,9.6733,76.7517,SE,3206.3,34.4,Weathered Laterite,1.3,False,12.58,7.3,0.5,Plantation (Rubber/Cardamom),74,21.17,82.1,2,53.0,7.3,False,0.385,False,Upper Meenachil (Teekoy / Erattupetta),212.0,False
+172,9.6733,76.7593,SE,3244.3,29.3,Weathered Laterite,5.6,False,10.5,9.71,0.5,Plantation (Rubber/Cardamom),74,22.94,73.3,2,68.0,9.71,False,0.309,False,Upper Meenachil (Teekoy / Erattupetta),308.4,False
+173,9.6733,76.7669,SE,3210.0,34.9,Weathered Laterite,0.9,False,12.93,11.38,0.5,Plantation (Rubber/Cardamom),74,24.17,83.2,2,37.0,11.38,False,0.25,False,Upper Meenachil (Teekoy / Erattupetta),375.2,False
+174,9.6733,76.7745,SE,3356.5,20.4,Weathered Laterite,13.0,False,6.95,6.17,0.5,Plantation (Rubber/Cardamom),74,25.21,58.1,1,90.0,6.17,False,0.209,False,Upper Meenachil (Teekoy / Erattupetta),166.8,False
+175,9.6733,76.7821,SE,3303.4,34.9,Weathered Laterite,0.9,False,12.74,7.02,0.5,Plantation (Rubber/Cardamom),74,26.03,82.9,2,56.0,7.02,False,0.19,False,Upper Meenachil (Teekoy / Erattupetta),200.8,False
+176,9.6733,76.7897,SE,3241.9,35.6,Weathered Laterite,0.3,False,13.11,12.41,0.5,Plantation (Rubber/Cardamom),74,27.27,84.3,2,46.0,12.41,False,0.192,False,Upper Meenachil (Teekoy / Erattupetta),416.4,False
+177,9.6733,76.7972,SE,3347.9,34.7,Weathered Laterite,1.1,False,12.6,9.55,0.5,Plantation (Rubber/Cardamom),74,28.3,82.5,2,61.0,9.55,False,0.173,False,Upper Meenachil (Teekoy / Erattupetta),302.0,False
+178,9.6733,76.8048,SE,3300.1,34.2,Weathered Laterite,1.5,False,12.59,7.98,0.5,Shrub / Forest Canopy,68,29.11,81.9,2,43.0,7.98,False,0.145,False,Upper Meenachil (Teekoy / Erattupetta),239.2,False
+179,9.6733,76.8124,SE,3299.8,34.7,Weathered Laterite,1.1,False,12.74,9.23,0.5,Shrub / Forest Canopy,68,30.69,82.7,2,47.0,9.23,False,0.14,False,Upper Meenachil (Teekoy / Erattupetta),289.2,False
+180,9.6733,76.82,SE,3387.0,34.7,Weathered Laterite,1.1,False,12.5,5.92,0.5,Shrub / Forest Canopy,68,32.31,82.3,2,71.0,5.92,False,0.16,False,Upper Meenachil (Teekoy / Erattupetta),156.8,False
+181,9.68,76.6,SW,2704.3,35.4,Alluvial Loam,0.5,False,13.42,8.65,2.06,Mixed Agricultural / Homestead,78,1.9,84.5,2,6.0,6.88,False,0.857,True,Lower Meenachil (Mutholy / Kidangoor),195.2,False
+182,9.68,76.6076,SW,2745.7,35.4,Alluvial Loam,0.5,False,13.38,6.57,2.02,Mixed Agricultural / Homestead,78,1.24,84.4,2,9.0,4.3,False,0.722,False,Lower Meenachil (Mutholy / Kidangoor),92.0,False
+183,9.68,76.6152,SW,2768.5,31.1,Alluvial Loam,4.1,False,11.63,4.98,2.83,Built-up,88,0.1,77.0,2,22.0,1.86,True,0.603,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+184,9.68,76.6228,SW,2725.4,35.3,Alluvial Loam,0.6,False,13.39,8.28,2.47,Mixed Agricultural / Homestead,78,1.08,84.3,2,4.0,5.89,False,0.499,False,Lower Meenachil (Mutholy / Kidangoor),155.6,False
+185,9.68,76.6303,SW,2843.7,28.0,Weathered Laterite,6.7,False,10.23,8.16,1.82,Mixed Agricultural / Homestead,78,2.39,71.4,2,45.0,6.75,False,0.412,False,Lower Meenachil (Mutholy / Kidangoor),190.0,False
+186,9.68,76.6379,SW,2888.9,34.7,Weathered Laterite,1.1,False,12.73,7.92,1.29,Mixed Agricultural / Homestead,78,3.33,82.7,2,48.0,7.22,False,0.34,False,Lower Meenachil (Mutholy / Kidangoor),208.8,False
+187,9.68,76.6455,SW,2883.2,34.1,Weathered Laterite,1.6,False,12.52,9.74,0.97,Mixed Agricultural / Homestead,78,4.99,81.7,2,46.0,9.74,False,0.287,False,Lower Meenachil (Mutholy / Kidangoor),309.6,False
+188,9.68,76.6531,SW,2876.4,34.9,Weathered Laterite,0.9,False,12.77,5.68,0.5,Mixed Agricultural / Homestead,78,5.82,83.0,2,53.0,5.68,False,0.252,False,Lower Meenachil (Mutholy / Kidangoor),147.2,False
+189,9.68,76.6607,SW,2882.3,35.0,Alluvial Loam,0.8,False,13.01,9.99,0.5,Mixed Agricultural / Homestead,78,6.9,83.5,2,33.0,9.99,False,0.238,False,Mid Meenachil (Pala / Bharananganam),319.6,False
+190,9.68,76.6683,SW,2941.1,35.6,Weathered Laterite,0.3,False,13.12,5.91,0.5,Mixed Agricultural / Homestead,78,8.26,84.3,2,44.0,5.91,False,0.245,False,Mid Meenachil (Pala / Bharananganam),156.4,False
+191,9.68,76.6759,SW,2954.7,34.4,Weathered Laterite,1.3,False,12.57,9.07,0.5,Mixed Agricultural / Homestead,78,8.88,82.1,2,54.0,9.07,False,0.273,False,Mid Meenachil (Pala / Bharananganam),282.8,False
+192,9.68,76.6834,SW,2928.2,17.3,Weathered Laterite,15.6,False,5.72,8.07,0.5,Mixed Agricultural / Homestead,78,10.53,52.8,1,96.0,8.07,False,0.319,False,Mid Meenachil (Pala / Bharananganam),242.8,False
+193,9.68,76.691,SW,2990.1,34.8,Alluvial Loam,1.0,False,12.95,5.63,0.5,Mixed Agricultural / Homestead,78,11.79,83.1,2,30.0,5.63,False,0.337,False,Mid Meenachil (Pala / Bharananganam),145.2,False
+194,9.68,76.6986,SW,3040.6,34.7,Weathered Laterite,1.1,False,12.82,6.27,0.5,Mixed Agricultural / Homestead,78,12.34,82.8,2,39.0,6.27,False,0.296,False,Mid Meenachil (Pala / Bharananganam),170.8,False
+195,9.68,76.7062,SW,3041.6,35.2,Weathered Laterite,0.7,False,12.86,10.66,0.5,Mixed Agricultural / Homestead,78,14.2,83.4,2,53.0,10.66,False,0.251,False,Mid Meenachil (Pala / Bharananganam),346.4,False
+196,9.68,76.7138,SE,2972.4,35.0,Weathered Laterite,0.8,False,12.74,12.19,0.5,Mixed Agricultural / Homestead,78,14.88,83.1,2,60.0,12.19,False,0.226,False,Mid Meenachil (Pala / Bharananganam),407.6,False
+197,9.68,76.7214,SE,3088.3,35.0,Alluvial Loam,0.8,False,13.1,11.81,0.5,Mixed Agricultural / Homestead,78,16.34,83.6,2,24.0,11.81,False,0.222,False,Mid Meenachil (Pala / Bharananganam),392.4,False
+198,9.68,76.729,SE,3171.0,35.5,Weathered Laterite,0.4,False,13.17,9.13,0.5,Mixed Agricultural / Homestead,78,17.46,84.2,2,35.0,9.13,False,0.239,False,Mid Meenachil (Pala / Bharananganam),285.2,False
+199,9.68,76.7366,SE,3158.0,28.7,Weathered Laterite,6.1,False,10.42,6.0,0.5,Plantation (Rubber/Cardamom),74,18.46,72.5,2,53.0,6.0,False,0.277,False,Mid Meenachil (Pala / Bharananganam),160.0,False
+200,9.68,76.7441,SE,3235.1,35.0,Alluvial Loam,0.8,False,13.01,7.36,0.5,Plantation (Rubber/Cardamom),74,19.87,83.5,2,33.0,7.36,False,0.333,False,Upper Meenachil (Teekoy / Erattupetta),214.4,False
+201,9.68,76.7517,SE,3264.7,26.6,Weathered Laterite,7.8,False,9.48,10.01,0.5,Plantation (Rubber/Cardamom),74,20.63,68.8,2,71.0,10.01,False,0.353,False,Upper Meenachil (Teekoy / Erattupetta),320.4,False
+202,9.68,76.7593,SE,3310.7,35.4,Weathered Laterite,0.5,False,13.1,10.1,0.5,Plantation (Rubber/Cardamom),74,21.44,84.0,2,38.0,10.1,False,0.275,False,Upper Meenachil (Teekoy / Erattupetta),324.0,False
+203,9.68,76.7669,SE,3179.0,16.8,Weathered Laterite,16.0,False,5.57,9.79,0.5,Plantation (Rubber/Cardamom),74,23.47,52.0,1,93.0,9.79,False,0.214,False,Upper Meenachil (Teekoy / Erattupetta),311.6,False
+204,9.68,76.7745,SE,3257.2,34.1,Weathered Laterite,1.6,False,12.4,10.79,0.5,Plantation (Rubber/Cardamom),74,24.34,81.5,2,58.0,10.79,False,0.172,False,Upper Meenachil (Teekoy / Erattupetta),351.6,False
+205,9.68,76.7821,SE,3297.0,34.8,Weathered Laterite,1.0,False,12.87,12.39,0.5,Plantation (Rubber/Cardamom),74,25.57,83.0,2,38.0,12.39,False,0.151,False,Upper Meenachil (Teekoy / Erattupetta),415.6,False
+206,9.68,76.7897,SE,3372.3,28.9,Weathered Laterite,5.9,False,10.32,10.63,0.5,Plantation (Rubber/Cardamom),74,26.71,72.6,2,72.0,10.63,False,0.154,False,Upper Meenachil (Teekoy / Erattupetta),345.2,False
+207,9.68,76.7972,SE,3336.7,34.6,Weathered Laterite,1.2,False,12.34,11.61,0.5,Plantation (Rubber/Cardamom),74,27.73,81.9,2,82.0,11.61,False,0.159,False,Upper Meenachil (Teekoy / Erattupetta),384.4,False
+208,9.68,76.8048,SE,3354.2,23.9,Weathered Laterite,10.1,False,8.07,12.44,0.5,Shrub / Forest Canopy,68,28.44,63.7,1,108.0,12.44,False,0.128,False,Upper Meenachil (Teekoy / Erattupetta),417.6,False
+209,9.68,76.8124,SE,3317.8,31.0,Weathered Laterite,4.2,False,11.09,7.99,0.5,Shrub / Forest Canopy,68,29.64,76.1,2,72.0,7.99,False,0.123,False,Upper Meenachil (Teekoy / Erattupetta),239.6,False
+210,9.68,76.82,SE,3360.8,31.0,Weathered Laterite,4.2,False,10.96,12.21,0.5,Shrub / Forest Canopy,68,30.59,75.9,2,85.0,12.21,False,0.145,False,Upper Meenachil (Teekoy / Erattupetta),408.4,False
+211,9.6867,76.6,SW,2709.0,34.4,Alluvial Loam,1.3,False,13.08,8.08,2.03,Mixed Agricultural / Homestead,78,2.79,82.9,2,3.0,6.97,False,0.815,False,Lower Meenachil (Mutholy / Kidangoor),198.8,False
+212,9.6867,76.6076,SW,2845.3,29.3,Weathered Laterite,5.6,False,10.83,5.52,1.62,Mixed Agricultural / Homestead,78,2.2,73.8,2,35.0,3.97,False,0.68,False,Lower Meenachil (Mutholy / Kidangoor),78.8,False
+213,9.6867,76.6152,SW,2753.0,34.6,Alluvial Loam,1.2,False,13.06,2.69,2.73,Mixed Agricultural / Homestead,78,0.96,83.0,2,10.0,0.9,True,0.559,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+214,9.6867,76.6228,SW,2865.1,34.7,Alluvial Loam,1.1,False,12.97,4.98,2.42,Mixed Agricultural / Homestead,78,0.55,83.0,2,24.0,2.19,False,0.454,False,Lower Meenachil (Mutholy / Kidangoor),7.6,False
+215,9.6867,76.6303,SW,2887.4,35.9,Alluvial Loam,0.1,False,13.36,8.58,2.13,Mixed Agricultural / Homestead,78,1.47,84.9,2,30.0,6.48,False,0.366,False,Lower Meenachil (Mutholy / Kidangoor),179.2,False
+216,9.6867,76.6379,SW,2856.0,34.7,Alluvial Loam,1.1,False,13.09,12.49,1.75,Mixed Agricultural / Homestead,78,2.72,83.2,2,12.0,11.33,False,0.292,False,Lower Meenachil (Mutholy / Kidangoor),373.2,False
+217,9.6867,76.6455,SW,2913.6,34.1,Alluvial Loam,1.6,False,12.87,11.38,1.5,Mixed Agricultural / Homestead,78,3.85,82.2,2,11.0,11.07,False,0.237,False,Lower Meenachil (Mutholy / Kidangoor),362.8,False
+218,9.6867,76.6531,SW,2850.9,26.8,Weathered Laterite,7.7,False,9.62,5.67,0.63,Mixed Agricultural / Homestead,78,5.17,69.2,2,62.0,5.67,False,0.201,False,Lower Meenachil (Mutholy / Kidangoor),146.8,False
+219,9.6867,76.6607,SW,2921.9,24.0,Weathered Laterite,10.0,False,8.51,11.61,0.5,Mixed Agricultural / Homestead,78,6.24,64.4,1,69.0,11.61,False,0.186,False,Mid Meenachil (Pala / Bharananganam),384.4,False
+220,9.6867,76.6683,SW,2808.1,35.2,Alluvial Loam,0.7,False,13.08,10.6,0.5,Mixed Agricultural / Homestead,78,7.68,83.7,2,31.0,10.6,False,0.193,False,Mid Meenachil (Pala / Bharananganam),344.0,False
+221,9.6867,76.6759,SW,2997.6,26.4,Weathered Laterite,8.0,False,9.52,10.76,0.5,Mixed Agricultural / Homestead,78,8.75,68.6,2,58.0,10.76,False,0.222,False,Mid Meenachil (Pala / Bharananganam),350.4,False
+222,9.6867,76.6834,SW,2986.4,34.0,Alluvial Loam,1.7,False,12.75,11.84,0.5,Mixed Agricultural / Homestead,78,9.24,81.9,2,18.0,11.84,False,0.259,False,Mid Meenachil (Pala / Bharananganam),393.6,False
+223,9.6867,76.691,SW,3005.4,35.2,Alluvial Loam,0.7,False,13.12,5.74,0.5,Mixed Agricultural / Homestead,78,11.08,83.8,2,26.0,5.74,False,0.268,False,Mid Meenachil (Pala / Bharananganam),149.6,False
+224,9.6867,76.6986,SW,3053.7,25.6,Weathered Laterite,8.7,False,9.09,9.42,0.5,Mixed Agricultural / Homestead,78,11.81,67.1,1,70.0,9.42,False,0.251,False,Mid Meenachil (Pala / Bharananganam),296.8,False
+225,9.6867,76.7062,SW,3008.3,35.4,Weathered Laterite,0.5,False,12.86,9.46,0.5,Mixed Agricultural / Homestead,78,13.35,83.6,2,62.0,9.46,False,0.204,False,Mid Meenachil (Pala / Bharananganam),298.4,False
+226,9.6867,76.7138,SE,3064.9,34.9,Weathered Laterite,0.9,False,12.77,7.26,0.5,Mixed Agricultural / Homestead,78,14.37,83.0,2,53.0,7.26,False,0.178,False,Mid Meenachil (Pala / Bharananganam),210.4,False
+227,9.6867,76.7214,SE,3093.8,35.2,Weathered Laterite,0.7,False,12.99,10.45,0.5,Mixed Agricultural / Homestead,78,15.44,83.6,2,40.0,10.45,False,0.173,False,Mid Meenachil (Pala / Bharananganam),338.0,False
+228,9.6867,76.729,SE,2985.0,35.3,Weathered Laterite,0.6,False,13.02,11.45,0.5,Mixed Agricultural / Homestead,78,16.14,83.8,2,41.0,11.45,False,0.192,False,Mid Meenachil (Pala / Bharananganam),378.0,False
+229,9.6867,76.7366,SE,3256.3,35.0,Weathered Laterite,0.8,False,12.98,11.14,0.5,Plantation (Rubber/Cardamom),74,17.62,83.4,2,36.0,11.14,False,0.232,False,Mid Meenachil (Pala / Bharananganam),365.6,False
+230,9.6867,76.7441,SE,3234.0,34.8,Weathered Laterite,1.0,False,12.81,9.14,0.5,Plantation (Rubber/Cardamom),74,18.56,82.9,2,44.0,9.14,False,0.29,False,Upper Meenachil (Teekoy / Erattupetta),285.6,False
+231,9.6867,76.7517,SE,3120.1,35.5,Weathered Laterite,0.4,False,12.9,5.69,0.5,Plantation (Rubber/Cardamom),74,20.38,83.8,2,62.0,5.69,False,0.335,False,Upper Meenachil (Teekoy / Erattupetta),147.6,False
+232,9.6867,76.7593,SE,3380.3,34.8,Weathered Laterite,1.0,False,12.83,11.25,0.5,Plantation (Rubber/Cardamom),74,21.56,82.9,2,42.0,11.25,False,0.256,False,Upper Meenachil (Teekoy / Erattupetta),370.0,False
+233,9.6867,76.7669,SE,3261.2,34.2,Alluvial Loam,1.5,False,12.69,9.94,0.5,Plantation (Rubber/Cardamom),74,22.01,82.1,2,33.0,9.94,False,0.194,False,Upper Meenachil (Teekoy / Erattupetta),317.6,False
+234,9.6867,76.7745,SE,3308.2,34.6,Alluvial Loam,1.2,False,12.83,11.05,0.5,Plantation (Rubber/Cardamom),74,23.35,82.7,2,33.0,11.05,False,0.151,False,Upper Meenachil (Teekoy / Erattupetta),362.0,False
+235,9.6867,76.7821,SE,3260.6,35.0,Weathered Laterite,0.8,False,12.99,11.76,0.5,Plantation (Rubber/Cardamom),74,24.38,83.4,2,35.0,11.76,False,0.127,False,Upper Meenachil (Teekoy / Erattupetta),390.4,False
+236,9.6867,76.7897,SE,3257.0,34.3,Weathered Laterite,1.4,False,12.6,11.13,0.5,Shrub / Forest Canopy,68,25.4,82.1,2,47.0,11.13,False,0.131,False,Upper Meenachil (Teekoy / Erattupetta),365.2,False
+237,9.6867,76.7972,SE,3273.3,33.8,Weathered Laterite,1.8,False,12.38,5.59,0.5,Shrub / Forest Canopy,68,27.38,81.2,2,51.0,5.59,False,0.159,False,Upper Meenachil (Teekoy / Erattupetta),143.6,False
+238,9.6867,76.8048,SE,3314.9,33.0,Weathered Laterite,2.5,False,11.51,11.51,0.5,Shrub / Forest Canopy,68,28.26,78.9,2,107.0,11.51,False,0.133,False,Upper Meenachil (Teekoy / Erattupetta),380.4,False
+239,9.6867,76.8124,SE,3434.6,3.9,Rocky Charnockite / Skeletal,20.6,True,3.47,8.71,0.5,Shrub / Forest Canopy,68,29.23,19.7,0,183.0,8.71,False,0.128,False,Upper Meenachil (Teekoy / Erattupetta),268.4,True
+240,9.6867,76.82,SE,3374.8,23.8,Weathered Laterite,10.2,False,7.49,6.2,0.5,Shrub / Forest Canopy,68,30.67,62.6,1,162.0,6.2,False,0.149,False,Upper Meenachil (Teekoy / Erattupetta),168.0,False
+241,9.6933,76.6,SW,2733.9,35.4,Weathered Laterite,0.5,False,13.12,7.97,1.36,Mixed Agricultural / Homestead,78,3.55,84.0,2,36.0,7.43,False,0.787,False,Lower Meenachil (Mutholy / Kidangoor),217.2,False
+242,9.6933,76.6076,SW,2788.6,35.4,Weathered Laterite,0.5,False,13.01,10.3,1.51,Mixed Agricultural / Homestead,78,3.03,83.9,2,47.0,9.37,False,0.651,False,Lower Meenachil (Mutholy / Kidangoor),294.8,False
+243,9.6933,76.6152,SW,2727.5,35.5,Weathered Laterite,0.4,False,13.09,7.64,2.31,Mixed Agricultural / Homestead,78,1.74,84.1,2,43.0,5.74,False,0.53,False,Lower Meenachil (Mutholy / Kidangoor),149.6,False
+244,9.6933,76.6228,SW,2841.7,29.2,Weathered Laterite,5.7,False,10.65,3.28,2.58,Mixed Agricultural / Homestead,78,0.69,73.4,2,49.0,0.9,True,0.424,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+245,9.6933,76.6303,SW,2790.9,35.4,Weathered Laterite,0.5,False,13.09,4.14,2.47,Mixed Agricultural / Homestead,78,0.95,84.0,2,39.0,1.65,True,0.334,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+246,9.6933,76.6379,SW,2857.5,34.7,Alluvial Loam,1.1,False,12.94,7.46,2.05,Mixed Agricultural / Homestead,78,1.65,83.0,2,27.0,5.5,False,0.259,False,Lower Meenachil (Mutholy / Kidangoor),140.0,False
+247,9.6933,76.6455,SW,2915.3,35.3,Alluvial Loam,0.6,False,13.38,10.59,1.54,Mixed Agricultural / Homestead,78,3.6,84.3,2,5.0,10.09,False,0.202,False,Lower Meenachil (Mutholy / Kidangoor),323.6,False
+248,9.6933,76.6531,SW,2861.4,34.8,Alluvial Loam,1.0,False,13.07,7.19,0.93,Mixed Agricultural / Homestead,78,4.71,83.3,2,18.0,7.19,False,0.164,False,Lower Meenachil (Mutholy / Kidangoor),207.6,False
+249,9.6933,76.6607,SW,2981.8,34.6,Alluvial Loam,1.2,False,12.93,5.84,0.51,Mixed Agricultural / Homestead,78,5.29,82.8,2,23.0,5.84,False,0.148,False,Mid Meenachil (Pala / Bharananganam),153.6,False
+250,9.6933,76.6683,SW,2988.4,35.0,Alluvial Loam,0.8,False,13.09,5.74,0.5,Mixed Agricultural / Homestead,78,7.03,83.6,2,25.0,5.74,False,0.156,False,Mid Meenachil (Pala / Bharananganam),149.6,False
+251,9.6933,76.6759,SW,2987.4,35.4,Alluvial Loam,0.5,False,13.2,11.31,0.5,Mixed Agricultural / Homestead,78,7.35,84.2,2,28.0,11.31,False,0.187,False,Mid Meenachil (Pala / Bharananganam),372.4,False
+252,9.6933,76.6834,SW,3070.3,35.6,Alluvial Loam,0.3,False,13.3,9.71,0.5,Mixed Agricultural / Homestead,78,8.95,84.6,2,26.0,9.71,False,0.203,False,Mid Meenachil (Pala / Bharananganam),308.4,False
+253,9.6933,76.691,SW,2968.2,34.8,Weathered Laterite,1.0,False,12.86,9.09,0.5,Mixed Agricultural / Homestead,78,10.19,83.0,2,39.0,9.09,False,0.212,False,Mid Meenachil (Pala / Bharananganam),283.6,False
+254,9.6933,76.6986,SW,3115.3,35.6,Weathered Laterite,0.3,False,13.13,9.04,0.5,Mixed Agricultural / Homestead,78,11.22,84.3,2,43.0,9.04,False,0.222,False,Mid Meenachil (Pala / Bharananganam),281.6,False
+255,9.6933,76.7062,SW,3052.8,35.5,Alluvial Loam,0.4,False,13.2,6.87,0.5,Mixed Agricultural / Homestead,78,12.13,84.3,2,32.0,6.87,False,0.173,False,Mid Meenachil (Pala / Bharananganam),194.8,False
+256,9.6933,76.7138,SE,3140.4,35.0,Weathered Laterite,0.8,False,12.86,9.5,0.5,Mixed Agricultural / Homestead,78,13.23,83.2,2,48.0,9.5,False,0.145,False,Mid Meenachil (Pala / Bharananganam),300.0,False
+257,9.6933,76.7214,SE,3064.3,35.0,Alluvial Loam,0.8,False,13.17,7.92,0.5,Mixed Agricultural / Homestead,78,15.1,83.7,2,17.0,7.92,False,0.14,False,Mid Meenachil (Pala / Bharananganam),236.8,False
+258,9.6933,76.729,SE,3111.1,34.9,Alluvial Loam,0.9,False,13.07,8.26,0.5,Mixed Agricultural / Homestead,78,15.81,83.4,2,23.0,8.26,False,0.16,False,Mid Meenachil (Pala / Bharananganam),250.4,False
+259,9.6933,76.7366,SE,3199.5,27.1,Weathered Laterite,7.4,False,9.72,12.19,0.5,Plantation (Rubber/Cardamom),74,17.38,69.7,2,65.0,12.19,False,0.202,False,Mid Meenachil (Pala / Bharananganam),407.6,False
+260,9.6933,76.7441,SE,3140.4,22.7,Weathered Laterite,11.1,False,7.92,8.19,0.5,Plantation (Rubber/Cardamom),74,17.87,62.1,1,78.0,8.19,False,0.261,False,Upper Meenachil (Teekoy / Erattupetta),247.6,False
+261,9.6933,76.7517,SE,3148.9,34.8,Weathered Laterite,1.0,False,12.72,6.06,0.5,Plantation (Rubber/Cardamom),74,19.13,82.8,2,53.0,6.06,False,0.333,False,Upper Meenachil (Teekoy / Erattupetta),162.4,False
+262,9.6933,76.7593,SE,3231.0,35.3,Alluvial Loam,0.6,False,13.09,11.62,0.5,Plantation (Rubber/Cardamom),74,20.59,83.9,2,34.0,11.62,False,0.254,False,Upper Meenachil (Teekoy / Erattupetta),384.8,False
+263,9.6933,76.7669,SE,3158.2,35.5,Alluvial Loam,0.4,False,13.21,8.9,0.5,Plantation (Rubber/Cardamom),74,21.96,84.3,2,31.0,8.9,False,0.192,False,Upper Meenachil (Teekoy / Erattupetta),276.0,False
+264,9.6933,76.7745,SE,3214.1,35.0,Alluvial Loam,0.8,False,13.04,10.07,0.5,Plantation (Rubber/Cardamom),74,22.25,83.5,2,30.0,10.07,False,0.148,False,Upper Meenachil (Teekoy / Erattupetta),322.8,False
+265,9.6933,76.7821,SE,3333.9,35.0,Weathered Laterite,0.8,False,12.97,8.62,0.5,Plantation (Rubber/Cardamom),74,23.79,83.4,2,37.0,8.62,False,0.124,False,Upper Meenachil (Teekoy / Erattupetta),264.8,False
+266,9.6933,76.7897,SE,3350.9,34.3,Alluvial Loam,1.4,False,12.81,8.1,0.5,Plantation (Rubber/Cardamom),74,25.36,82.4,2,26.0,8.1,False,0.128,False,Upper Meenachil (Teekoy / Erattupetta),244.0,False
+267,9.6933,76.7972,SE,3312.2,22.2,Weathered Laterite,11.5,False,7.61,11.73,0.5,Plantation (Rubber/Cardamom),74,26.34,61.1,1,91.0,11.73,False,0.156,False,Upper Meenachil (Teekoy / Erattupetta),389.2,False
+268,9.6933,76.8048,SE,3347.6,33.5,Weathered Laterite,2.1,False,12.21,7.68,0.5,Shrub / Forest Canopy,68,27.45,80.5,2,55.0,7.68,False,0.156,False,Upper Meenachil (Teekoy / Erattupetta),227.2,False
+269,9.6933,76.8124,SE,3348.0,27.7,Weathered Laterite,6.9,False,9.38,10.32,0.5,Shrub / Forest Canopy,68,28.56,69.9,2,121.0,10.32,False,0.152,False,Upper Meenachil (Teekoy / Erattupetta),332.8,False
+270,9.6933,76.82,SE,3345.1,30.6,Weathered Laterite,4.5,False,10.46,5.66,0.5,Shrub / Forest Canopy,68,29.61,74.7,2,121.0,5.66,False,0.171,False,Upper Meenachil (Teekoy / Erattupetta),146.4,False
+271,9.7,76.6,SW,2735.2,35.4,Alluvial Loam,0.5,False,13.19,7.7,1.09,Mixed Agricultural / Homestead,78,4.4,84.1,2,29.0,7.7,False,0.772,False,Lower Meenachil (Mutholy / Kidangoor),228.0,False
+272,9.7,76.6076,SW,2794.8,35.4,Alluvial Loam,0.5,False,13.21,9.29,1.39,Mixed Agricultural / Homestead,78,3.62,84.2,2,27.0,8.8,False,0.636,False,Lower Meenachil (Mutholy / Kidangoor),272.0,False
+273,9.7,76.6152,SW,2819.9,35.6,Weathered Laterite,0.3,False,13.19,7.32,1.67,Mixed Agricultural / Homestead,78,2.19,84.4,2,38.0,5.76,False,0.514,False,Lower Meenachil (Mutholy / Kidangoor),150.4,False
+274,9.7,76.6228,SW,2854.6,35.5,Alluvial Loam,0.4,False,13.34,8.61,2.17,Mixed Agricultural / Homestead,78,1.46,84.5,2,18.0,6.5,False,0.407,False,Lower Meenachil (Mutholy / Kidangoor),180.0,False
+275,9.7,76.6303,SW,2937.6,35.6,Weathered Laterite,0.3,False,13.14,3.69,2.77,Built-up,88,0.05,84.3,2,42.0,0.9,True,0.317,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+276,9.7,76.6379,SW,2950.5,35.3,Weathered Laterite,0.6,False,13.07,11.03,2.44,Mixed Agricultural / Homestead,78,1.03,83.8,2,36.0,8.6,False,0.242,False,Lower Meenachil (Mutholy / Kidangoor),264.0,False
+277,9.7,76.6455,SW,2825.9,35.3,Weathered Laterite,0.6,False,13.08,11.54,1.56,Mixed Agricultural / Homestead,78,2.23,83.9,2,35.0,10.01,False,0.183,False,Lower Meenachil (Mutholy / Kidangoor),320.4,False
+278,9.7,76.6531,SW,2870.6,35.2,Weathered Laterite,0.7,False,13.0,8.95,1.66,Mixed Agricultural / Homestead,78,3.38,83.6,2,39.0,8.28,False,0.143,False,Lower Meenachil (Mutholy / Kidangoor),251.2,False
+279,9.7,76.6607,SW,2912.5,35.4,Alluvial Loam,0.5,False,13.24,12.19,0.67,Mixed Agricultural / Homestead,78,5.23,84.2,2,24.0,12.19,False,0.125,False,Mid Meenachil (Pala / Bharananganam),407.6,False
+280,9.7,76.6683,SW,2941.5,35.9,Alluvial Loam,0.1,False,13.4,11.68,0.5,Mixed Agricultural / Homestead,78,6.25,85.0,2,25.0,11.68,False,0.134,False,Mid Meenachil (Pala / Bharananganam),387.2,False
+281,9.7,76.6759,SW,2962.1,35.8,Alluvial Loam,0.2,False,13.32,6.44,0.5,Mixed Agricultural / Homestead,78,7.17,84.8,2,29.0,6.44,False,0.167,False,Mid Meenachil (Pala / Bharananganam),177.6,False
+282,9.7,76.6834,SW,2962.4,35.2,Alluvial Loam,0.7,False,13.1,12.48,0.5,Mixed Agricultural / Homestead,78,8.5,83.8,2,29.0,12.48,False,0.159,False,Mid Meenachil (Pala / Bharananganam),419.2,False
+283,9.7,76.691,SW,3054.7,27.8,Weathered Laterite,6.8,False,10.09,10.88,0.5,Mixed Agricultural / Homestead,78,9.13,71.1,2,55.0,10.88,False,0.169,False,Mid Meenachil (Pala / Bharananganam),355.2,False
+284,9.7,76.6986,SW,3052.0,35.3,Weathered Laterite,0.6,False,13.0,8.35,0.5,Mixed Agricultural / Homestead,78,10.83,83.7,2,43.0,8.35,False,0.201,False,Mid Meenachil (Pala / Bharananganam),254.0,False
+285,9.7,76.7062,SW,3057.1,26.6,Weathered Laterite,7.8,False,9.57,12.19,0.5,Mixed Agricultural / Homestead,78,11.48,69.0,2,62.0,12.19,False,0.159,False,Mid Meenachil (Pala / Bharananganam),407.6,False
+286,9.7,76.7138,SE,3086.4,35.0,Weathered Laterite,0.8,False,12.91,6.01,0.5,Mixed Agricultural / Homestead,78,12.36,83.3,2,43.0,6.01,False,0.128,False,Mid Meenachil (Pala / Bharananganam),160.4,False
+287,9.7,76.7214,SE,3150.1,35.4,Alluvial Loam,0.5,False,13.22,7.75,0.5,Mixed Agricultural / Homestead,78,13.71,84.2,2,25.0,7.75,False,0.123,False,Mid Meenachil (Pala / Bharananganam),230.0,False
+288,9.7,76.729,SE,3199.1,34.8,Alluvial Loam,1.0,False,12.94,6.36,0.5,Mixed Agricultural / Homestead,78,15.22,83.1,2,31.0,6.36,False,0.145,False,Mid Meenachil (Pala / Bharananganam),174.4,False
+289,9.7,76.7366,SE,3163.9,35.9,Alluvial Loam,0.1,False,13.37,7.19,0.5,Plantation (Rubber/Cardamom),74,16.18,85.0,2,29.0,7.19,False,0.188,False,Mid Meenachil (Pala / Bharananganam),207.6,False
+290,9.7,76.7441,SE,3195.5,35.5,Alluvial Loam,0.4,False,13.43,7.4,0.5,Plantation (Rubber/Cardamom),74,17.68,84.6,2,9.0,7.4,False,0.248,False,Upper Meenachil (Teekoy / Erattupetta),216.0,False
+291,9.7,76.7517,SE,3150.9,35.8,Weathered Laterite,0.2,False,13.24,7.72,0.5,Plantation (Rubber/Cardamom),74,18.31,84.6,2,37.0,7.72,False,0.326,False,Upper Meenachil (Teekoy / Erattupetta),228.8,False
+292,9.7,76.7593,SE,3261.9,35.2,Weathered Laterite,0.7,False,13.03,7.71,0.5,Plantation (Rubber/Cardamom),74,19.45,83.7,2,36.0,7.71,False,0.268,False,Upper Meenachil (Teekoy / Erattupetta),228.4,False
+293,9.7,76.7669,SE,3218.7,35.0,Weathered Laterite,0.8,False,12.84,11.74,0.5,Plantation (Rubber/Cardamom),74,20.68,83.2,2,50.0,11.74,False,0.206,False,Upper Meenachil (Teekoy / Erattupetta),389.6,False
+294,9.7,76.7745,SE,3364.6,34.1,Weathered Laterite,1.6,False,12.5,10.43,0.5,Plantation (Rubber/Cardamom),74,21.85,81.6,2,48.0,10.43,False,0.164,False,Upper Meenachil (Teekoy / Erattupetta),337.2,False
+295,9.7,76.7821,SE,3340.9,33.4,Weathered Laterite,2.2,False,12.03,10.01,0.5,Plantation (Rubber/Cardamom),74,23.58,80.1,2,68.0,10.01,False,0.142,False,Upper Meenachil (Teekoy / Erattupetta),320.4,False
+296,9.7,76.7897,SE,3282.8,34.4,Weathered Laterite,1.3,False,12.66,8.09,0.5,Plantation (Rubber/Cardamom),74,24.27,82.3,2,45.0,8.09,False,0.145,False,Upper Meenachil (Teekoy / Erattupetta),243.6,False
+297,9.7,76.7972,SE,3316.8,26.9,Weathered Laterite,7.6,False,9.42,10.1,0.5,Shrub / Forest Canopy,68,25.68,69.0,2,86.0,10.1,False,0.171,False,Upper Meenachil (Teekoy / Erattupetta),324.0,False
+298,9.7,76.8048,SE,3374.0,35.9,Weathered Laterite,0.1,False,12.94,10.67,0.5,Shrub / Forest Canopy,68,26.74,84.3,2,72.0,10.67,False,0.195,False,Upper Meenachil (Teekoy / Erattupetta),346.8,False
+299,9.7,76.8124,SE,3339.5,35.3,Weathered Laterite,0.6,False,13.05,7.51,0.5,Shrub / Forest Canopy,68,27.86,83.8,2,38.0,7.51,False,0.191,False,Upper Meenachil (Teekoy / Erattupetta),220.4,False
+300,9.7,76.82,SE,3388.6,35.3,Weathered Laterite,0.6,False,12.97,8.95,0.5,Shrub / Forest Canopy,68,28.88,83.7,2,46.0,8.95,False,0.209,False,Upper Meenachil (Teekoy / Erattupetta),278.0,False
+301,9.7067,76.6,SW,2750.8,34.6,Alluvial Loam,1.2,False,12.87,9.13,0.5,Mixed Agricultural / Homestead,78,5.21,82.7,2,29.0,9.13,False,0.771,False,Lower Meenachil (Mutholy / Kidangoor),285.2,False
+302,9.7067,76.6076,SW,2849.8,34.6,Alluvial Loam,1.2,False,12.85,5.62,1.21,Mixed Agricultural / Homestead,78,4.31,82.7,2,31.0,5.62,False,0.635,False,Lower Meenachil (Mutholy / Kidangoor),144.8,False
+303,9.7067,76.6152,SW,2757.7,34.4,Weathered Laterite,1.3,False,12.65,8.1,1.83,Mixed Agricultural / Homestead,78,2.5,82.3,2,46.0,6.78,False,0.513,False,Lower Meenachil (Mutholy / Kidangoor),191.2,False
+304,9.7067,76.6228,SW,2851.1,34.3,Alluvial Loam,1.4,False,12.75,7.62,1.95,Mixed Agricultural / Homestead,78,2.08,82.3,2,32.0,5.98,False,0.406,False,Lower Meenachil (Mutholy / Kidangoor),159.2,False
+305,9.7067,76.6303,SW,2837.6,34.8,Alluvial Loam,1.0,False,12.92,4.86,2.47,Mixed Agricultural / Homestead,78,0.83,83.1,2,33.0,2.28,False,0.315,False,Lower Meenachil (Mutholy / Kidangoor),11.2,False
+306,9.7067,76.6379,SW,2829.6,35.0,Alluvial Loam,0.8,False,13.01,6.49,2.65,Mixed Agricultural / Homestead,78,1.02,83.5,2,33.0,4.06,False,0.24,False,Lower Meenachil (Mutholy / Kidangoor),82.4,False
+307,9.7067,76.6455,SW,2866.0,35.8,Alluvial Loam,0.2,False,13.45,10.22,1.92,Mixed Agricultural / Homestead,78,1.79,85.0,2,16.0,8.36,False,0.181,False,Lower Meenachil (Mutholy / Kidangoor),254.4,False
+308,9.7067,76.6531,SW,2815.1,27.0,Weathered Laterite,7.5,False,9.84,5.94,1.32,Mixed Agricultural / Homestead,78,3.28,69.8,2,49.0,5.2,False,0.141,False,Lower Meenachil (Mutholy / Kidangoor),128.0,False
+309,9.7067,76.6607,SW,2958.5,35.4,Alluvial Loam,0.5,False,13.26,10.26,1.31,Mixed Agricultural / Homestead,78,3.64,84.3,2,22.0,9.79,False,0.123,False,Mid Meenachil (Pala / Bharananganam),311.6,False
+310,9.7067,76.6683,SW,2857.0,35.5,Alluvial Loam,0.4,False,13.24,6.66,0.5,Mixed Agricultural / Homestead,78,5.46,84.4,2,28.0,6.66,False,0.132,False,Mid Meenachil (Pala / Bharananganam),186.4,False
+311,9.7067,76.6759,SW,2992.7,35.5,Alluvial Loam,0.4,False,13.31,6.88,0.5,Mixed Agricultural / Homestead,78,5.85,84.5,2,21.0,6.88,False,0.145,False,Mid Meenachil (Pala / Bharananganam),195.2,False
+312,9.7067,76.6834,SW,3004.4,35.6,Alluvial Loam,0.3,False,13.39,6.83,0.5,Mixed Agricultural / Homestead,78,7.39,84.7,2,17.0,6.83,False,0.131,False,Mid Meenachil (Pala / Bharananganam),193.2,False
+313,9.7067,76.691,SW,2956.8,34.9,Alluvial Loam,0.9,False,13.07,9.98,0.5,Mixed Agricultural / Homestead,78,8.86,83.4,2,23.0,9.98,False,0.142,False,Mid Meenachil (Pala / Bharananganam),319.2,False
+314,9.7067,76.6986,SW,3119.5,35.2,Alluvial Loam,0.7,False,13.16,8.0,0.5,Mixed Agricultural / Homestead,78,9.81,83.9,2,23.0,8.0,False,0.176,False,Mid Meenachil (Pala / Bharananganam),240.0,False
+315,9.7067,76.7062,SW,3042.0,35.5,Alluvial Loam,0.4,False,13.21,8.87,0.5,Mixed Agricultural / Homestead,78,11.24,84.3,2,31.0,8.87,False,0.163,False,Mid Meenachil (Pala / Bharananganam),274.8,False
+316,9.7067,76.7138,SE,3053.7,35.5,Alluvial Loam,0.4,False,13.2,8.25,0.5,Mixed Agricultural / Homestead,78,11.83,84.3,2,32.0,8.25,False,0.133,False,Mid Meenachil (Pala / Bharananganam),250.0,False
+317,9.7067,76.7214,SE,3074.4,34.7,Alluvial Loam,1.1,False,12.91,9.45,0.5,Mixed Agricultural / Homestead,78,13.64,82.9,2,30.0,9.45,False,0.128,False,Mid Meenachil (Pala / Bharananganam),298.0,False
+318,9.7067,76.729,SE,3131.7,33.6,Weathered Laterite,2.0,False,12.22,7.05,0.5,Mixed Agricultural / Homestead,78,14.08,80.7,2,58.0,7.05,False,0.149,False,Mid Meenachil (Pala / Bharananganam),202.0,False
+319,9.7067,76.7366,SE,3252.3,33.0,Weathered Laterite,2.5,False,12.02,9.12,0.5,Plantation (Rubber/Cardamom),74,15.27,79.7,2,56.0,9.12,False,0.192,False,Mid Meenachil (Pala / Bharananganam),284.8,False
+320,9.7067,76.7441,SE,3166.4,33.4,Weathered Laterite,2.2,False,12.16,10.96,0.5,Plantation (Rubber/Cardamom),74,16.49,80.3,2,55.0,10.96,False,0.252,False,Upper Meenachil (Teekoy / Erattupetta),358.4,False
+321,9.7067,76.7517,SE,3242.6,28.2,Weathered Laterite,6.5,False,10.11,6.95,0.5,Plantation (Rubber/Cardamom),74,17.49,71.5,2,66.0,6.95,False,0.329,False,Upper Meenachil (Teekoy / Erattupetta),198.0,False
+322,9.7067,76.7593,SE,3282.5,35.2,Weathered Laterite,0.7,False,12.88,10.9,0.5,Plantation (Rubber/Cardamom),74,18.84,83.4,2,50.0,10.9,False,0.297,False,Upper Meenachil (Teekoy / Erattupetta),356.0,False
+323,9.7067,76.7669,SE,3217.9,31.2,Weathered Laterite,4.0,False,11.3,6.4,0.5,Plantation (Rubber/Cardamom),74,20.46,76.6,2,60.0,6.4,False,0.237,False,Upper Meenachil (Teekoy / Erattupetta),176.0,False
+324,9.7067,76.7745,SE,3137.6,33.7,Weathered Laterite,1.9,False,12.42,7.08,0.5,Plantation (Rubber/Cardamom),74,20.73,81.1,2,42.0,7.08,False,0.196,False,Upper Meenachil (Teekoy / Erattupetta),203.2,False
+325,9.7067,76.7821,SE,3321.9,4.0,Rocky Charnockite / Skeletal,20.1,True,3.5,10.69,0.5,Plantation (Rubber/Cardamom),74,21.88,19.9,0,122.0,10.69,False,0.177,False,Upper Meenachil (Teekoy / Erattupetta),347.6,True
+326,9.7067,76.7897,SE,3287.1,35.0,Weathered Laterite,0.8,False,12.6,8.1,0.5,Shrub / Forest Canopy,68,23.33,82.8,2,74.0,8.1,False,0.179,False,Upper Meenachil (Teekoy / Erattupetta),244.0,False
+327,9.7067,76.7972,SE,3246.8,31.9,Weathered Laterite,3.4,False,11.77,9.31,0.5,Shrub / Forest Canopy,68,24.98,78.1,2,40.0,9.31,False,0.204,False,Upper Meenachil (Teekoy / Erattupetta),292.4,False
+328,9.7067,76.8048,SE,3387.7,30.5,Weathered Laterite,4.6,False,10.65,7.58,0.5,Shrub / Forest Canopy,68,25.91,74.9,2,98.0,7.58,False,0.249,False,Upper Meenachil (Teekoy / Erattupetta),223.2,False
+329,9.7067,76.8124,SE,3329.8,30.0,Weathered Laterite,5.0,False,10.49,12.03,0.5,Shrub / Forest Canopy,68,27.23,74.1,2,96.0,12.03,False,0.245,False,Upper Meenachil (Teekoy / Erattupetta),401.2,False
+330,9.7067,76.82,SE,3433.3,27.5,Weathered Laterite,7.1,False,9.04,7.42,0.5,Shrub / Forest Canopy,68,28.08,69.1,2,146.0,7.42,False,0.262,False,Upper Meenachil (Teekoy / Erattupetta),216.8,False
+331,9.7133,76.6,SW,2688.9,33.6,Weathered Laterite,2.0,False,12.28,10.41,0.65,Mixed Agricultural / Homestead,78,5.62,80.8,2,52.0,10.41,False,0.783,False,Lower Meenachil (Mutholy / Kidangoor),336.4,False
+332,9.7133,76.6076,SW,2768.7,33.6,Weathered Laterite,2.0,False,12.34,10.64,0.65,Mixed Agricultural / Homestead,78,5.22,80.9,2,46.0,10.64,False,0.647,False,Lower Meenachil (Mutholy / Kidangoor),345.6,False
+333,9.7133,76.6152,SW,2817.6,30.2,Weathered Laterite,4.8,False,10.73,11.22,1.32,Mixed Agricultural / Homestead,78,3.96,74.7,2,81.0,10.99,False,0.525,False,Lower Meenachil (Mutholy / Kidangoor),359.6,False
+334,9.7133,76.6228,SW,2819.2,33.7,Weathered Laterite,1.9,False,12.33,11.1,1.56,Mixed Agricultural / Homestead,78,2.03,81.0,2,51.0,9.42,False,0.419,False,Lower Meenachil (Mutholy / Kidangoor),296.8,False
+335,9.7133,76.6303,SW,2789.1,28.4,Weathered Laterite,6.3,False,10.13,4.89,2.55,Mixed Agricultural / Homestead,78,0.96,71.8,2,73.0,2.41,False,0.329,False,Lower Meenachil (Mutholy / Kidangoor),16.4,False
+336,9.7133,76.6379,SW,2830.1,34.3,Weathered Laterite,1.4,False,12.62,3.56,2.4,Built-up,88,0.25,82.1,2,45.0,0.9,True,0.254,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+337,9.7133,76.6455,SW,2799.1,35.8,Alluvial Loam,0.2,False,13.29,2.67,2.56,Mixed Agricultural / Homestead,78,0.87,84.7,2,32.0,0.9,True,0.197,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+338,9.7133,76.6531,SW,2979.3,35.8,Alluvial Loam,0.2,False,13.37,10.76,1.84,Mixed Agricultural / Homestead,78,2.26,84.8,2,24.0,9.25,False,0.158,False,Lower Meenachil (Mutholy / Kidangoor),290.0,False
+339,9.7133,76.6607,SW,2926.9,35.5,Alluvial Loam,0.4,False,13.38,6.76,1.89,Mixed Agricultural / Homestead,78,3.04,84.6,2,14.0,5.84,False,0.142,False,Mid Meenachil (Pala / Bharananganam),153.6,False
+340,9.7133,76.6683,SW,2910.3,34.9,Alluvial Loam,0.9,False,12.96,8.88,0.93,Mixed Agricultural / Homestead,78,4.34,83.3,2,34.0,8.88,False,0.15,False,Mid Meenachil (Pala / Bharananganam),275.2,False
+341,9.7133,76.6759,SW,2970.0,28.9,Weathered Laterite,5.9,False,10.58,6.14,0.55,Mixed Agricultural / Homestead,78,5.72,73.0,2,46.0,6.14,False,0.137,False,Mid Meenachil (Pala / Bharananganam),165.6,False
+342,9.7133,76.6834,SW,3056.0,35.4,Alluvial Loam,0.5,False,13.29,9.77,0.5,Mixed Agricultural / Homestead,78,6.86,84.3,2,18.0,9.77,False,0.12,False,Mid Meenachil (Pala / Bharananganam),310.8,False
+343,9.7133,76.691,SW,3008.2,34.6,Alluvial Loam,1.2,False,12.91,9.61,0.5,Mixed Agricultural / Homestead,78,7.96,82.8,2,25.0,9.61,False,0.133,False,Mid Meenachil (Pala / Bharananganam),304.4,False
+344,9.7133,76.6986,SW,3025.0,34.0,Alluvial Loam,1.7,False,12.62,12.2,0.5,Mixed Agricultural / Homestead,78,8.92,81.7,2,32.0,12.2,False,0.168,False,Mid Meenachil (Pala / Bharananganam),408.0,False
+345,9.7133,76.7062,SW,3012.8,29.9,Weathered Laterite,5.1,False,10.88,5.56,0.5,Mixed Agricultural / Homestead,78,10.5,74.5,2,53.0,5.56,False,0.184,False,Mid Meenachil (Pala / Bharananganam),142.4,False
+346,9.7133,76.7138,SE,3127.5,34.4,Weathered Laterite,1.3,False,12.73,10.56,0.5,Mixed Agricultural / Homestead,78,11.55,82.4,2,38.0,10.56,False,0.156,False,Mid Meenachil (Pala / Bharananganam),342.4,False
+347,9.7133,76.7214,SE,3143.1,33.8,Weathered Laterite,1.8,False,12.37,6.89,0.5,Mixed Agricultural / Homestead,78,12.57,81.2,2,52.0,6.89,False,0.152,False,Mid Meenachil (Pala / Bharananganam),195.6,False
+348,9.7133,76.729,SE,3096.5,33.2,Weathered Laterite,2.3,False,11.93,5.94,0.5,Mixed Agricultural / Homestead,78,13.11,79.8,2,74.0,5.94,False,0.171,False,Mid Meenachil (Pala / Bharananganam),157.6,False
+349,9.7133,76.7366,SE,3165.4,33.1,Weathered Laterite,2.4,False,11.63,11.14,0.5,Plantation (Rubber/Cardamom),74,14.86,79.3,2,99.0,11.14,False,0.212,False,Mid Meenachil (Pala / Bharananganam),365.6,False
+350,9.7133,76.7441,SE,3220.2,33.1,Weathered Laterite,2.4,False,11.76,8.1,0.5,Plantation (Rubber/Cardamom),74,16.01,79.5,2,86.0,8.1,False,0.271,False,Upper Meenachil (Teekoy / Erattupetta),244.0,False
+351,9.7133,76.7517,SE,3253.6,34.9,Weathered Laterite,0.9,False,12.9,8.68,0.5,Plantation (Rubber/Cardamom),74,16.81,83.2,2,40.0,8.68,False,0.347,False,Upper Meenachil (Teekoy / Erattupetta),267.2,False
+352,9.7133,76.7593,SE,3247.6,28.9,Weathered Laterite,5.9,False,10.34,5.95,0.5,Plantation (Rubber/Cardamom),74,18.4,72.7,2,70.0,5.95,False,0.341,False,Upper Meenachil (Teekoy / Erattupetta),158.0,False
+353,9.7133,76.7669,SE,3240.8,33.4,Weathered Laterite,2.2,False,12.23,5.89,0.5,Plantation (Rubber/Cardamom),74,19.13,80.5,2,48.0,5.89,False,0.283,False,Upper Meenachil (Teekoy / Erattupetta),155.6,False
+354,9.7133,76.7745,SE,3230.6,3.1,Rocky Charnockite / Skeletal,24.6,True,3.27,6.62,0.5,Plantation (Rubber/Cardamom),74,20.75,17.7,0,139.0,6.62,False,0.243,False,Upper Meenachil (Teekoy / Erattupetta),184.8,True
+355,9.7133,76.7821,SE,3237.5,34.9,Weathered Laterite,0.9,False,12.9,7.25,0.5,Plantation (Rubber/Cardamom),74,21.95,83.2,2,40.0,7.25,False,0.225,False,Upper Meenachil (Teekoy / Erattupetta),210.0,False
+356,9.7133,76.7897,SE,3244.2,31.8,Weathered Laterite,3.5,False,11.45,7.65,0.5,Plantation (Rubber/Cardamom),74,22.82,77.5,2,68.0,7.65,False,0.227,False,Upper Meenachil (Teekoy / Erattupetta),226.0,False
+357,9.7133,76.7972,SE,3290.2,28.2,Weathered Laterite,6.5,False,9.71,6.86,0.5,Shrub / Forest Canopy,68,23.94,70.9,2,106.0,6.86,False,0.251,False,Upper Meenachil (Teekoy / Erattupetta),194.4,False
+358,9.7133,76.8048,SE,3300.0,2.0,Rocky Charnockite / Skeletal,36.6,True,2.67,10.22,0.5,Shrub / Forest Canopy,68,25.44,11.7,0,261.0,10.22,False,0.294,False,Upper Meenachil (Teekoy / Erattupetta),328.8,True
+359,9.7133,76.8124,SE,3362.8,26.4,Weathered Laterite,8.0,False,8.99,10.53,0.5,Shrub / Forest Canopy,68,26.43,67.8,1,111.0,10.53,False,0.311,False,Upper Meenachil (Teekoy / Erattupetta),341.2,False
+360,9.7133,76.82,SE,3385.9,26.4,Weathered Laterite,8.0,False,7.81,7.98,0.5,Shrub / Forest Canopy,68,26.96,66.0,1,229.0,7.98,False,0.327,False,Upper Meenachil (Teekoy / Erattupetta),239.2,False
+361,9.72,76.6,NW,2771.6,34.0,Weathered Laterite,1.7,False,12.25,8.24,0.5,Mixed Agricultural / Homestead,78,6.38,81.1,2,68.0,8.24,False,0.808,False,Lower Meenachil (Mutholy / Kidangoor),249.6,False
+362,9.72,76.6076,NW,2876.8,34.0,Weathered Laterite,1.7,False,12.34,9.29,0.63,Mixed Agricultural / Homestead,78,5.97,81.3,2,59.0,9.29,False,0.673,False,Lower Meenachil (Mutholy / Kidangoor),291.6,False
+363,9.72,76.6152,NW,2795.0,18.5,Weathered Laterite,14.6,False,5.92,9.23,1.24,Mixed Agricultural / Homestead,78,4.04,54.4,1,121.0,9.06,False,0.553,False,Lower Meenachil (Mutholy / Kidangoor),282.4,False
+364,9.72,76.6228,NW,2796.8,34.6,Weathered Laterite,1.2,False,12.55,8.24,1.64,Mixed Agricultural / Homestead,78,2.83,82.3,2,61.0,7.16,False,0.447,False,Lower Meenachil (Mutholy / Kidangoor),206.4,False
+365,9.72,76.6303,NW,2837.1,22.8,Weathered Laterite,11.0,False,7.92,8.82,2.38,Mixed Agricultural / Homestead,78,2.07,62.2,1,83.0,7.17,False,0.358,False,Lower Meenachil (Mutholy / Kidangoor),206.8,False
+366,9.72,76.6379,NW,2950.0,34.4,Alluvial Loam,1.3,False,12.88,11.4,1.94,Mixed Agricultural / Homestead,78,1.11,82.6,2,23.0,9.03,False,0.285,False,Lower Meenachil (Mutholy / Kidangoor),281.2,False
+367,9.72,76.6455,NW,2874.3,35.4,Alluvial Loam,0.5,False,13.22,3.9,2.55,Built-up,88,0.52,84.2,2,25.0,1.09,True,0.229,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+368,9.72,76.6531,NW,2953.9,35.2,Alluvial Loam,0.7,False,13.09,5.97,1.97,Mixed Agricultural / Homestead,78,1.78,83.7,2,30.0,4.1,False,0.192,False,Lower Meenachil (Mutholy / Kidangoor),84.0,False
+369,9.72,76.6607,NW,2996.6,34.7,Weathered Laterite,1.1,False,12.79,7.75,1.71,Mixed Agricultural / Homestead,78,2.4,82.8,2,41.0,6.35,False,0.177,False,Mid Meenachil (Pala / Bharananganam),174.0,False
+370,9.72,76.6683,NW,2920.8,35.5,Weathered Laterite,0.4,False,13.06,10.1,1.51,Mixed Agricultural / Homestead,78,3.55,84.1,2,46.0,9.56,False,0.185,False,Mid Meenachil (Pala / Bharananganam),302.4,False
+371,9.72,76.6759,NW,3049.8,34.9,Weathered Laterite,0.9,False,12.93,9.59,1.02,Mixed Agricultural / Homestead,78,4.81,83.2,2,37.0,9.59,False,0.148,False,Mid Meenachil (Pala / Bharananganam),303.6,False
+372,9.72,76.6834,NW,3066.7,35.8,Alluvial Loam,0.2,False,13.37,6.69,0.54,Mixed Agricultural / Homestead,78,5.99,84.8,2,24.0,6.69,False,0.133,False,Mid Meenachil (Pala / Bharananganam),187.6,False
+373,9.72,76.691,NW,3029.9,33.7,Alluvial Loam,1.9,False,12.53,10.08,0.5,Mixed Agricultural / Homestead,78,7.51,81.3,2,32.0,10.08,False,0.144,False,Mid Meenachil (Pala / Bharananganam),323.2,False
+374,9.72,76.6986,NW,2980.5,18.5,Weathered Laterite,14.6,False,6.24,6.92,0.5,Mixed Agricultural / Homestead,78,8.4,54.9,1,89.0,6.92,False,0.178,False,Mid Meenachil (Pala / Bharananganam),196.8,False
+375,9.72,76.7062,NW,3056.0,35.2,Weathered Laterite,0.7,False,12.92,6.04,0.5,Mixed Agricultural / Homestead,78,9.13,83.5,2,47.0,6.04,False,0.221,False,Mid Meenachil (Pala / Bharananganam),161.6,False
+376,9.72,76.7138,NE,3116.0,33.8,Weathered Laterite,1.8,False,12.32,7.35,0.5,Mixed Agricultural / Homestead,78,10.89,81.1,2,57.0,7.35,False,0.195,False,Mid Meenachil (Pala / Bharananganam),214.0,False
+377,9.72,76.7214,NE,3078.1,28.8,Weathered Laterite,6.0,False,10.11,9.67,0.5,Mixed Agricultural / Homestead,78,11.54,72.2,2,89.0,9.67,False,0.191,False,Mid Meenachil (Pala / Bharananganam),306.8,False
+378,9.72,76.729,NE,3169.0,34.6,Weathered Laterite,1.2,False,12.41,10.39,0.5,Mixed Agricultural / Homestead,78,13.18,82.1,2,75.0,10.39,False,0.209,False,Mid Meenachil (Pala / Bharananganam),335.6,False
+379,9.72,76.7366,NE,3170.9,16.1,Weathered Laterite,16.6,False,4.79,5.77,0.5,Plantation (Rubber/Cardamom),74,13.77,50.1,1,144.0,5.77,False,0.248,False,Mid Meenachil (Pala / Bharananganam),150.8,False
+380,9.72,76.7441,NE,3161.2,30.8,Weathered Laterite,4.3,False,10.71,11.41,0.5,Plantation (Rubber/Cardamom),74,14.98,75.3,2,106.0,11.41,False,0.305,False,Upper Meenachil (Teekoy / Erattupetta),376.4,False
+381,9.72,76.7517,NE,3157.7,34.3,Weathered Laterite,1.4,False,12.43,12.48,0.5,Plantation (Rubber/Cardamom),74,15.87,81.8,2,64.0,12.48,False,0.381,False,Upper Meenachil (Teekoy / Erattupetta),419.2,False
+382,9.72,76.7593,NE,3190.8,32.9,Weathered Laterite,2.6,False,11.86,10.08,0.5,Plantation (Rubber/Cardamom),74,16.98,79.4,2,67.0,10.08,False,0.399,False,Upper Meenachil (Teekoy / Erattupetta),323.2,False
+383,9.72,76.7669,NE,3343.7,28.2,Weathered Laterite,6.5,False,9.63,11.55,0.5,Shrub / Forest Canopy,68,18.14,70.8,2,114.0,11.55,False,0.342,False,Upper Meenachil (Teekoy / Erattupetta),382.0,False
+384,9.72,76.7745,NE,3224.6,35.4,Weathered Laterite,0.5,False,12.51,7.1,0.5,Shrub / Forest Canopy,68,20.24,83.1,2,97.0,7.1,False,0.305,False,Upper Meenachil (Teekoy / Erattupetta),204.0,False
+385,9.72,76.7821,NE,3316.0,31.8,Weathered Laterite,3.5,False,11.17,12.47,0.5,Plantation (Rubber/Cardamom),74,21.33,77.1,2,96.0,12.47,False,0.287,False,Upper Meenachil (Teekoy / Erattupetta),418.8,False
+386,9.72,76.7897,NE,3257.4,26.2,Weathered Laterite,8.2,False,8.42,12.09,0.5,Shrub / Forest Canopy,68,21.6,66.7,1,159.0,12.09,False,0.289,False,Upper Meenachil (Teekoy / Erattupetta),403.6,False
+387,9.72,76.7972,NE,3386.6,26.5,Weathered Laterite,7.9,False,7.95,6.59,0.5,Shrub / Forest Canopy,68,23.2,66.4,1,220.0,6.59,False,0.312,False,Upper Meenachil (Teekoy / Erattupetta),183.6,False
+388,9.72,76.8048,NE,3338.4,29.3,Weathered Laterite,5.6,False,9.23,5.63,0.5,Shrub / Forest Canopy,68,24.55,71.4,2,195.0,5.63,False,0.353,False,Upper Meenachil (Teekoy / Erattupetta),145.2,False
+389,9.72,76.8124,NE,3402.6,2.3,Rocky Charnockite / Skeletal,28.4,True,3.08,9.25,0.5,Shrub / Forest Canopy,68,25.6,15.8,0,342.0,9.25,False,0.39,False,Upper Meenachil (Teekoy / Erattupetta),290.0,True
+390,9.72,76.82,NE,3487.8,17.2,Weathered Laterite,15.7,False,4.0,7.98,0.5,Shrub / Forest Canopy,68,26.71,50.1,1,376.0,7.98,False,0.406,False,Upper Meenachil (Teekoy / Erattupetta),239.2,False
+391,9.7267,76.6,NW,2742.5,19.3,Weathered Laterite,13.9,False,6.13,11.68,0.5,Mixed Agricultural / Homestead,78,6.93,55.7,1,131.0,11.68,False,0.847,False,Lower Meenachil (Mutholy / Kidangoor),387.2,False
+392,9.7267,76.6076,NW,2783.0,35.4,Weathered Laterite,0.5,False,12.71,11.12,0.5,Mixed Agricultural / Homestead,78,6.61,83.4,2,77.0,11.12,False,0.713,False,Lower Meenachil (Mutholy / Kidangoor),364.8,False
+393,9.7267,76.6152,NW,2788.8,31.2,Weathered Laterite,4.0,False,10.95,5.97,0.53,Mixed Agricultural / Homestead,78,5.58,76.1,2,95.0,5.97,False,0.594,False,Lower Meenachil (Mutholy / Kidangoor),158.8,False
+394,9.7267,76.6228,NW,2792.7,33.2,Weathered Laterite,2.3,False,12.11,6.67,1.28,Mixed Agricultural / Homestead,78,3.67,80.1,2,56.0,6.22,False,0.489,False,Lower Meenachil (Mutholy / Kidangoor),168.8,False
+395,9.7267,76.6303,NW,2815.3,35.2,Weathered Laterite,0.7,False,13.04,7.3,1.49,Mixed Agricultural / Homestead,78,3.11,83.7,2,35.0,6.43,False,0.402,False,Lower Meenachil (Mutholy / Kidangoor),177.2,False
+396,9.7267,76.6379,NW,2841.4,34.7,Weathered Laterite,1.1,False,12.68,11.55,2.13,Mixed Agricultural / Homestead,78,1.22,82.6,2,53.0,9.26,False,0.33,False,Lower Meenachil (Mutholy / Kidangoor),290.4,False
+397,9.7267,76.6455,NW,2893.7,34.1,Weathered Laterite,1.6,False,12.55,2.93,3.11,Built-up,88,0.57,81.7,2,43.0,0.9,True,0.276,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+398,9.7267,76.6531,NW,2847.6,35.4,Weathered Laterite,0.5,False,13.09,4.68,2.25,Built-up,88,0.22,84.0,2,39.0,1.64,True,0.241,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+399,9.7267,76.6607,NW,2915.4,35.3,Weathered Laterite,0.6,False,12.96,6.87,2.11,Mixed Agricultural / Homestead,78,2.15,83.7,2,47.0,5.28,False,0.227,False,Mid Meenachil (Pala / Bharananganam),131.2,False
+400,9.7267,76.6683,NW,2999.3,31.0,Weathered Laterite,4.2,False,11.28,8.35,1.56,Mixed Agricultural / Homestead,78,2.93,76.4,2,53.0,7.35,False,0.211,False,Mid Meenachil (Pala / Bharananganam),214.0,False
+401,9.7267,76.6759,NW,3069.3,34.7,Alluvial Loam,1.1,False,13.06,8.93,1.39,Mixed Agricultural / Homestead,78,4.35,83.2,2,15.0,8.93,False,0.176,False,Mid Meenachil (Pala / Bharananganam),277.2,False
+402,9.7267,76.6834,NW,3007.4,34.7,Alluvial Loam,1.1,False,13.0,6.8,0.5,Mixed Agricultural / Homestead,78,5.28,83.1,2,21.0,6.8,False,0.163,False,Mid Meenachil (Pala / Bharananganam),192.0,False
+403,9.7267,76.691,NW,2963.7,28.9,Weathered Laterite,5.9,False,10.4,8.12,0.5,Mixed Agricultural / Homestead,78,6.06,72.7,2,64.0,8.12,False,0.173,False,Mid Meenachil (Pala / Bharananganam),244.8,False
+404,9.7267,76.6986,NW,3014.8,35.4,Weathered Laterite,0.5,False,12.89,10.21,0.5,Mixed Agricultural / Homestead,78,7.11,83.7,2,58.0,10.21,False,0.205,False,Mid Meenachil (Pala / Bharananganam),328.4,False
+405,9.7267,76.7062,NW,3090.5,35.6,Weathered Laterite,0.3,False,13.08,10.75,0.5,Mixed Agricultural / Homestead,78,9.05,84.2,2,49.0,10.75,False,0.257,False,Mid Meenachil (Pala / Bharananganam),350.0,False
+406,9.7267,76.7138,NE,3039.4,26.6,Weathered Laterite,7.8,False,9.27,7.17,0.5,Mixed Agricultural / Homestead,78,9.68,68.5,2,92.0,7.17,False,0.249,False,Mid Meenachil (Pala / Bharananganam),206.8,False
+407,9.7267,76.7214,NE,3098.3,28.8,Weathered Laterite,6.0,False,10.04,8.51,0.5,Mixed Agricultural / Homestead,78,10.94,72.1,2,96.0,8.51,False,0.245,False,Mid Meenachil (Pala / Bharananganam),260.4,False
+408,9.7267,76.729,NE,3138.1,34.6,Weathered Laterite,1.2,False,12.55,9.81,0.5,Mixed Agricultural / Homestead,78,11.79,82.3,2,61.0,9.81,False,0.262,False,Mid Meenachil (Pala / Bharananganam),312.4,False
+409,9.7267,76.7366,NE,3153.5,34.2,Weathered Laterite,1.5,False,12.21,8.57,0.5,Plantation (Rubber/Cardamom),74,13.28,81.3,2,82.0,8.57,False,0.299,False,Mid Meenachil (Pala / Bharananganam),262.8,False
+410,9.7267,76.7441,NE,3147.4,34.9,Weathered Laterite,0.9,False,12.54,9.76,0.5,Plantation (Rubber/Cardamom),74,14.37,82.6,2,76.0,9.76,False,0.355,False,Upper Meenachil (Teekoy / Erattupetta),310.4,False
+411,9.7267,76.7517,NE,3173.9,26.3,Weathered Laterite,8.1,False,9.05,6.38,0.5,Plantation (Rubber/Cardamom),74,15.24,67.8,1,100.0,6.38,False,0.428,False,Upper Meenachil (Teekoy / Erattupetta),175.2,False
+412,9.7267,76.7593,NE,3226.4,33.0,Weathered Laterite,2.5,False,11.65,5.63,0.5,Plantation (Rubber/Cardamom),74,16.89,79.2,2,92.0,5.63,False,0.47,False,Upper Meenachil (Teekoy / Erattupetta),145.2,False
+413,9.7267,76.7669,NE,3247.7,2.9,Rocky Charnockite / Skeletal,25.4,True,3.23,12.03,0.5,Shrub / Forest Canopy,68,17.6,17.3,0,162.0,12.03,False,0.416,False,Upper Meenachil (Teekoy / Erattupetta),401.2,True
+414,9.7267,76.7745,NE,3322.9,34.7,Alluvial Loam,1.1,False,12.89,11.69,0.5,Plantation (Rubber/Cardamom),74,19.12,82.9,2,32.0,11.69,False,0.379,False,Upper Meenachil (Teekoy / Erattupetta),387.6,False
+415,9.7267,76.7821,NE,3339.8,26.9,Weathered Laterite,7.6,False,8.72,7.68,0.5,Shrub / Forest Canopy,68,19.94,68.0,2,156.0,7.68,False,0.362,False,Upper Meenachil (Teekoy / Erattupetta),227.2,False
+416,9.7267,76.7897,NE,3247.8,28.2,Weathered Laterite,6.5,False,8.5,6.8,0.5,Plantation (Rubber/Cardamom),74,21.25,69.1,2,227.0,6.8,False,0.364,False,Upper Meenachil (Teekoy / Erattupetta),192.0,False
+417,9.7267,76.7972,NE,3347.7,2.0,Rocky Charnockite / Skeletal,31.7,True,2.92,9.01,0.5,Plantation (Rubber/Cardamom),74,22.02,14.2,0,380.0,9.01,False,0.386,False,Upper Meenachil (Teekoy / Erattupetta),280.4,True
+418,9.7267,76.8048,NE,3307.7,28.2,Weathered Laterite,6.5,False,7.69,8.32,0.5,Plantation (Rubber/Cardamom),74,23.85,67.8,1,308.0,8.32,False,0.426,False,Upper Meenachil (Teekoy / Erattupetta),252.8,False
+419,9.7267,76.8124,NE,3351.1,28.3,Weathered Laterite,6.4,False,7.85,8.51,0.5,Shrub / Forest Canopy,68,24.94,68.2,2,297.0,8.51,False,0.481,False,Upper Meenachil (Teekoy / Erattupetta),260.4,False
+420,9.7267,76.82,NE,3485.6,28.3,Weathered Laterite,6.4,False,6.77,7.6,0.5,Shrub / Forest Canopy,68,25.52,66.6,1,405.0,7.6,False,0.497,False,Upper Meenachil (Teekoy / Erattupetta),224.0,False
+421,9.7333,76.6,NW,2813.2,31.2,Weathered Laterite,4.0,False,10.76,10.11,0.5,Mixed Agricultural / Homestead,78,7.76,75.8,2,114.0,10.11,False,0.899,True,Lower Meenachil (Mutholy / Kidangoor),324.4,False
+422,9.7333,76.6076,NW,2766.3,33.4,Weathered Laterite,2.2,False,12.15,9.54,0.5,Mixed Agricultural / Homestead,78,7.39,80.3,2,56.0,9.54,False,0.766,False,Lower Meenachil (Mutholy / Kidangoor),301.6,False
+423,9.7333,76.6152,NW,2870.6,26.8,Weathered Laterite,7.7,False,9.47,5.73,0.5,Mixed Agricultural / Homestead,78,6.32,69.0,2,76.0,5.73,False,0.647,False,Lower Meenachil (Mutholy / Kidangoor),149.2,False
+424,9.7333,76.6228,NW,2834.0,35.4,Alluvial Loam,0.5,False,13.22,11.23,1.05,Mixed Agricultural / Homestead,78,4.3,84.2,2,25.0,11.23,False,0.544,False,Lower Meenachil (Mutholy / Kidangoor),369.2,False
+425,9.7333,76.6303,NW,2819.0,34.0,Weathered Laterite,1.7,False,12.55,7.09,1.82,Mixed Agricultural / Homestead,78,3.39,81.6,2,38.0,6.43,False,0.459,False,Lower Meenachil (Mutholy / Kidangoor),177.2,False
+426,9.7333,76.6379,NW,2913.5,25.8,Weathered Laterite,8.5,False,9.09,8.84,1.68,Mixed Agricultural / Homestead,78,2.15,67.3,1,79.0,7.25,False,0.388,False,Lower Meenachil (Mutholy / Kidangoor),210.0,False
+427,9.7333,76.6455,NW,2852.6,28.0,Weathered Laterite,6.7,False,9.93,8.87,2.09,Mixed Agricultural / Homestead,78,1.56,71.0,2,75.0,6.84,False,0.336,False,Lower Meenachil (Mutholy / Kidangoor),193.6,False
+428,9.7333,76.6531,NW,2930.0,35.2,Alluvial Loam,0.7,False,13.11,3.41,2.82,Built-up,88,0.05,83.8,2,28.0,0.9,True,0.302,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+429,9.7333,76.6607,NW,2896.4,35.3,Weathered Laterite,0.6,False,12.96,5.41,2.91,Mixed Agricultural / Homestead,78,0.58,83.7,2,47.0,2.64,False,0.289,False,Mid Meenachil (Pala / Bharananganam),25.6,False
+430,9.7333,76.6683,NW,2906.4,35.8,Weathered Laterite,0.2,False,13.1,6.04,2.1,Mixed Agricultural / Homestead,78,2.11,84.4,2,51.0,4.42,False,0.253,False,Mid Meenachil (Pala / Bharananganam),96.8,False
+431,9.7333,76.6759,NW,2995.5,25.7,Weathered Laterite,8.6,False,9.22,7.29,1.44,Mixed Agricultural / Homestead,78,3.25,67.4,1,61.0,6.53,False,0.219,False,Mid Meenachil (Pala / Bharananganam),181.2,False
+432,9.7333,76.6834,NW,3060.9,35.3,Alluvial Loam,0.6,False,13.19,6.77,1.1,Mixed Agricultural / Homestead,78,4.4,84.0,2,24.0,6.77,False,0.207,False,Mid Meenachil (Pala / Bharananganam),190.8,False
+433,9.7333,76.691,NW,2943.2,29.5,Weathered Laterite,5.4,False,10.56,9.02,0.64,Mixed Agricultural / Homestead,78,5.56,73.7,2,71.0,9.02,False,0.216,False,Mid Meenachil (Pala / Bharananganam),280.8,False
+434,9.7333,76.6986,NW,2977.9,26.4,Weathered Laterite,8.0,False,9.21,10.77,0.5,Mixed Agricultural / Homestead,78,7.22,68.2,2,89.0,10.77,False,0.247,False,Mid Meenachil (Pala / Bharananganam),350.8,False
+435,9.7333,76.7062,NW,3075.5,35.6,Weathered Laterite,0.3,False,13.0,9.28,0.5,Mixed Agricultural / Homestead,78,7.86,84.1,2,57.0,9.28,False,0.297,False,Mid Meenachil (Pala / Bharananganam),291.2,False
+436,9.7333,76.7138,NE,3083.4,35.0,Weathered Laterite,0.8,False,12.67,9.1,0.5,Mixed Agricultural / Homestead,78,8.96,82.9,2,67.0,9.1,False,0.315,False,Mid Meenachil (Pala / Bharananganam),284.0,False
+437,9.7333,76.7214,NE,3104.3,35.5,Weathered Laterite,0.4,False,12.86,12.35,0.5,Mixed Agricultural / Homestead,78,10.31,83.8,2,66.0,12.35,False,0.311,False,Mid Meenachil (Pala / Bharananganam),414.0,False
+438,9.7333,76.729,NE,3072.1,35.9,Weathered Laterite,0.1,False,13.1,8.3,0.5,Mixed Agricultural / Homestead,78,11.61,84.6,2,56.0,8.3,False,0.327,False,Mid Meenachil (Pala / Bharananganam),252.0,False
+439,9.7333,76.7366,NE,3136.6,27.8,Weathered Laterite,6.8,False,9.7,6.34,0.5,Plantation (Rubber/Cardamom),74,13.02,70.5,2,94.0,6.34,False,0.363,False,Mid Meenachil (Pala / Bharananganam),173.6,False
+440,9.7333,76.7441,NE,3238.9,34.8,Weathered Laterite,1.0,False,12.26,8.43,0.5,Plantation (Rubber/Cardamom),74,13.48,82.1,2,99.0,8.43,False,0.417,False,Upper Meenachil (Teekoy / Erattupetta),257.2,False
+441,9.7333,76.7517,NE,3187.0,34.0,Weathered Laterite,1.7,False,12.29,9.72,0.5,Plantation (Rubber/Cardamom),74,14.41,81.2,2,65.0,9.72,False,0.489,False,Upper Meenachil (Teekoy / Erattupetta),308.8,False
+442,9.7333,76.7593,NE,3245.3,2.0,Rocky Charnockite / Skeletal,31.9,True,2.91,11.99,0.5,Plantation (Rubber/Cardamom),74,16.31,14.1,0,190.0,11.99,False,0.553,False,Upper Meenachil (Teekoy / Erattupetta),399.6,True
+443,9.7333,76.7669,NE,3217.1,31.3,Weathered Laterite,3.9,False,11.27,9.58,0.5,Plantation (Rubber/Cardamom),74,16.67,76.7,2,68.0,9.58,False,0.5,False,Upper Meenachil (Teekoy / Erattupetta),303.2,False
+444,9.7333,76.7745,NE,3313.1,33.2,Weathered Laterite,2.3,False,12.29,7.4,0.5,Plantation (Rubber/Cardamom),74,18.17,80.4,2,37.0,7.4,False,0.464,False,Upper Meenachil (Teekoy / Erattupetta),216.0,False
+445,9.7333,76.7821,NE,3291.4,12.5,Weathered Laterite,19.6,False,4.0,11.14,0.5,Plantation (Rubber/Cardamom),74,19.29,44.9,1,173.0,11.14,False,0.448,False,Upper Meenachil (Teekoy / Erattupetta),365.6,False
+446,9.7333,76.7897,NE,3279.8,27.0,Weathered Laterite,7.5,False,8.52,6.98,0.5,Plantation (Rubber/Cardamom),74,20.88,67.8,1,181.0,6.98,False,0.45,False,Upper Meenachil (Teekoy / Erattupetta),199.2,False
+447,9.7333,76.7972,NE,3399.2,16.4,Weathered Laterite,16.3,False,4.0,10.82,0.5,Shrub / Forest Canopy,68,21.61,49.2,1,320.0,10.82,False,0.471,False,Upper Meenachil (Teekoy / Erattupetta),352.8,False
+448,9.7333,76.8048,NE,3287.9,28.3,Weathered Laterite,6.4,False,8.04,5.9,0.5,Shrub / Forest Canopy,68,22.51,68.5,2,278.0,5.9,False,0.51,False,Upper Meenachil (Teekoy / Erattupetta),156.0,False
+449,9.7333,76.8124,NE,3320.7,21.0,Weathered Laterite,12.5,False,4.29,11.77,0.5,Shrub / Forest Canopy,68,24.21,54.7,1,378.0,11.77,False,0.567,False,Upper Meenachil (Teekoy / Erattupetta),390.8,False
+450,9.7333,76.82,NE,3448.9,2.9,Rocky Charnockite / Skeletal,25.6,True,3.22,8.28,0.5,Shrub / Forest Canopy,68,24.9,17.2,0,549.0,8.28,False,0.598,False,Upper Meenachil (Teekoy / Erattupetta),251.2,True
+451,9.74,76.6,NW,2692.9,22.4,Weathered Laterite,11.3,False,7.44,12.45,0.5,Mixed Agricultural / Homestead,78,9.12,61.1,1,117.0,12.45,False,0.964,True,Lower Meenachil (Mutholy / Kidangoor),418.0,False
+452,9.74,76.6076,NW,2681.1,33.7,Weathered Laterite,1.9,False,12.42,8.49,0.5,Mixed Agricultural / Homestead,78,8.1,81.1,2,42.0,8.49,False,0.832,False,Lower Meenachil (Mutholy / Kidangoor),259.6,False
+453,9.74,76.6152,NW,2822.0,35.5,Alluvial Loam,0.4,False,13.21,5.61,0.5,Mixed Agricultural / Homestead,78,6.93,84.3,2,31.0,5.61,False,0.715,False,Lower Meenachil (Mutholy / Kidangoor),144.4,False
+454,9.74,76.6228,NW,2797.4,34.1,Weathered Laterite,1.6,False,12.36,12.35,0.7,Mixed Agricultural / Homestead,78,5.7,81.4,2,62.0,12.35,False,0.614,False,Lower Meenachil (Mutholy / Kidangoor),414.0,False
+455,9.74,76.6303,NW,2924.1,14.3,Weathered Laterite,18.1,False,4.39,9.53,0.82,Mixed Agricultural / Homestead,78,4.11,47.5,1,116.0,9.41,False,0.529,False,Lower Meenachil (Mutholy / Kidangoor),296.4,False
+456,9.74,76.6379,NW,2810.2,34.8,Weathered Laterite,1.0,False,12.82,10.73,1.49,Mixed Agricultural / Homestead,78,3.41,82.9,2,43.0,10.09,False,0.461,False,Lower Meenachil (Mutholy / Kidangoor),323.6,False
+457,9.74,76.6455,NW,2778.7,29.8,Weathered Laterite,5.2,False,10.7,8.76,1.65,Mixed Agricultural / Homestead,78,2.34,74.2,2,66.0,7.32,False,0.41,False,Lower Meenachil (Mutholy / Kidangoor),212.8,False
+458,9.74,76.6531,NW,2863.4,35.0,Weathered Laterite,0.8,False,12.92,2.65,2.48,Mixed Agricultural / Homestead,78,0.89,83.3,2,42.0,0.9,True,0.378,False,Lower Meenachil (Mutholy / Kidangoor),0.0,False
+459,9.74,76.6607,NW,2929.3,34.2,Weathered Laterite,1.5,False,12.5,3.52,2.62,Mixed Agricultural / Homestead,78,0.37,81.8,2,52.0,0.9,True,0.36,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+460,9.74,76.6683,NW,2858.8,34.8,Weathered Laterite,1.0,False,12.79,11.05,2.37,Mixed Agricultural / Homestead,78,1.67,82.9,2,46.0,9.1,False,0.309,False,Mid Meenachil (Pala / Bharananganam),284.0,False
+461,9.74,76.6759,NW,2938.5,34.9,Weathered Laterite,0.9,False,12.85,9.65,1.81,Mixed Agricultural / Homestead,78,3.05,83.1,2,45.0,8.74,False,0.277,False,Mid Meenachil (Pala / Bharananganam),269.6,False
+462,9.74,76.6834,NW,2977.7,35.3,Alluvial Loam,0.6,False,13.09,11.93,1.12,Mixed Agricultural / Homestead,78,3.81,83.9,2,34.0,11.59,False,0.266,False,Mid Meenachil (Pala / Bharananganam),383.6,False
+463,9.74,76.691,NW,2954.1,34.3,Weathered Laterite,1.4,False,12.68,5.59,0.6,Mixed Agricultural / Homestead,78,5.13,82.2,2,39.0,5.59,False,0.274,False,Mid Meenachil (Pala / Bharananganam),143.6,False
+464,9.74,76.6986,NW,3046.3,35.6,Weathered Laterite,0.3,False,12.88,8.16,0.5,Mixed Agricultural / Homestead,78,6.51,83.9,2,69.0,8.16,False,0.303,False,Mid Meenachil (Pala / Bharananganam),246.4,False
+465,9.74,76.7062,NW,3062.2,35.6,Weathered Laterite,0.3,False,12.88,9.22,0.5,Mixed Agricultural / Homestead,78,6.94,83.9,2,68.0,9.22,False,0.352,False,Mid Meenachil (Pala / Bharananganam),288.8,False
+466,9.74,76.7138,NE,3103.1,35.4,Weathered Laterite,0.5,False,12.76,8.32,0.5,Mixed Agricultural / Homestead,78,8.84,83.5,2,72.0,8.32,False,0.394,False,Mid Meenachil (Pala / Bharananganam),252.8,False
+467,9.74,76.7214,NE,3195.2,28.4,Weathered Laterite,6.3,False,9.94,10.4,0.5,Mixed Agricultural / Homestead,78,9.13,71.5,2,92.0,10.4,False,0.39,False,Mid Meenachil (Pala / Bharananganam),336.0,False
+468,9.74,76.729,NE,3131.0,30.8,Weathered Laterite,4.3,False,10.96,5.68,0.5,Mixed Agricultural / Homestead,78,11.01,75.7,2,81.0,5.68,False,0.406,False,Mid Meenachil (Pala / Bharananganam),147.2,False
+469,9.74,76.7366,NE,3281.2,32.2,Weathered Laterite,3.2,False,11.73,9.29,0.5,Plantation (Rubber/Cardamom),74,12.14,78.4,2,53.0,9.29,False,0.441,False,Mid Meenachil (Pala / Bharananganam),291.6,False
+470,9.74,76.7441,NE,3274.4,30.0,Weathered Laterite,5.0,False,10.21,7.27,0.5,Plantation (Rubber/Cardamom),74,12.98,73.7,2,124.0,7.27,False,0.493,False,Upper Meenachil (Teekoy / Erattupetta),210.8,False
+471,9.74,76.7517,NE,3158.2,30.8,Weathered Laterite,4.3,False,10.46,9.99,0.5,Plantation (Rubber/Cardamom),74,14.48,75.0,2,130.0,9.99,False,0.563,False,Upper Meenachil (Teekoy / Erattupetta),319.6,False
+472,9.74,76.7593,NE,3202.0,33.0,Weathered Laterite,2.5,False,11.71,10.87,0.5,Plantation (Rubber/Cardamom),74,15.44,79.3,2,87.0,10.87,False,0.649,False,Upper Meenachil (Teekoy / Erattupetta),354.8,False
+473,9.74,76.7669,NE,3324.5,32.6,Weathered Laterite,2.8,False,11.88,8.39,0.5,Plantation (Rubber/Cardamom),74,16.21,79.1,2,56.0,8.39,False,0.597,False,Upper Meenachil (Teekoy / Erattupetta),255.6,False
+474,9.74,76.7745,NE,3203.0,35.4,Weathered Laterite,0.5,False,12.91,10.11,0.5,Plantation (Rubber/Cardamom),74,17.41,83.7,2,57.0,10.11,False,0.563,False,Upper Meenachil (Teekoy / Erattupetta),324.4,False
+475,9.74,76.7821,NE,3203.6,31.7,Weathered Laterite,3.6,False,11.46,8.4,0.5,Plantation (Rubber/Cardamom),74,18.63,77.4,2,62.0,8.4,False,0.547,False,Upper Meenachil (Teekoy / Erattupetta),256.0,False
+476,9.74,76.7897,NE,3319.0,28.6,Weathered Laterite,6.2,False,9.8,12.18,0.5,Plantation (Rubber/Cardamom),74,19.98,71.5,2,111.0,12.18,False,0.549,False,Upper Meenachil (Teekoy / Erattupetta),407.2,False
+477,9.74,76.7972,NE,3423.1,3.2,Rocky Charnockite / Skeletal,23.8,True,3.31,6.39,0.5,Shrub / Forest Canopy,68,20.95,18.1,0,231.0,6.39,False,0.569,False,Upper Meenachil (Teekoy / Erattupetta),175.6,True
+478,9.74,76.8048,NE,3405.0,30.5,Weathered Laterite,4.6,False,10.77,9.54,0.5,Shrub / Forest Canopy,68,21.83,75.0,2,86.0,9.54,False,0.607,False,Upper Meenachil (Teekoy / Erattupetta),301.6,False
+479,9.74,76.8124,NE,3381.5,15.6,Weathered Laterite,17.0,False,4.0,8.27,0.5,Shrub / Forest Canopy,68,23.57,48.3,1,228.0,8.27,False,0.663,False,Upper Meenachil (Teekoy / Erattupetta),250.8,False
+480,9.74,76.82,NE,3460.1,15.6,Weathered Laterite,17.0,False,4.0,6.06,0.5,Shrub / Forest Canopy,68,24.35,48.3,1,605.0,6.06,False,0.712,False,Upper Meenachil (Teekoy / Erattupetta),162.4,False
+481,9.7467,76.6,NW,2778.5,34.7,Weathered Laterite,1.1,False,12.34,6.37,0.5,Mixed Agricultural / Homestead,78,9.75,82.1,2,87.0,6.37,False,1.041,True,Lower Meenachil (Mutholy / Kidangoor),174.8,False
+482,9.7467,76.6076,NW,2645.8,34.7,Weathered Laterite,1.1,False,12.86,10.21,0.5,Mixed Agricultural / Homestead,78,8.01,82.9,2,35.0,10.21,False,0.911,True,Lower Meenachil (Mutholy / Kidangoor),328.4,False
+483,9.7467,76.6152,NW,2774.7,19.4,Weathered Laterite,13.8,False,6.63,8.17,0.5,Mixed Agricultural / Homestead,78,7.77,56.5,1,86.0,8.17,False,0.795,False,Lower Meenachil (Mutholy / Kidangoor),246.8,False
+484,9.7467,76.6228,NW,2790.6,35.0,Weathered Laterite,0.8,False,12.8,11.24,0.5,Mixed Agricultural / Homestead,78,6.58,83.1,2,54.0,11.24,False,0.696,False,Lower Meenachil (Mutholy / Kidangoor),369.6,False
+485,9.7467,76.6303,NW,2908.9,28.9,Weathered Laterite,5.9,False,10.19,10.99,0.54,Mixed Agricultural / Homestead,78,4.88,72.4,2,85.0,10.99,False,0.613,False,Lower Meenachil (Mutholy / Kidangoor),359.6,False
+486,9.7467,76.6379,NW,2906.5,34.8,Weathered Laterite,1.0,False,12.68,9.5,1.35,Mixed Agricultural / Homestead,78,4.34,82.7,2,57.0,9.5,False,0.546,False,Lower Meenachil (Mutholy / Kidangoor),300.0,False
+487,9.7467,76.6455,NW,2827.4,35.0,Weathered Laterite,0.8,False,12.95,6.64,1.6,Mixed Agricultural / Homestead,78,2.75,83.4,2,39.0,5.5,False,0.496,False,Lower Meenachil (Mutholy / Kidangoor),140.0,False
+488,9.7467,76.6531,NW,2788.1,31.1,Weathered Laterite,4.1,False,11.13,11.37,2.28,Mixed Agricultural / Homestead,78,1.13,76.3,2,72.0,9.02,False,0.465,False,Lower Meenachil (Mutholy / Kidangoor),280.8,False
+489,9.7467,76.6607,NW,2980.0,34.7,Weathered Laterite,1.1,False,12.48,4.17,2.82,Built-up,88,0.05,82.3,2,73.0,1.01,True,0.428,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+490,9.7467,76.6683,NW,2929.0,21.8,Weathered Laterite,11.8,False,7.42,3.01,2.65,Mixed Agricultural / Homestead,78,0.26,60.4,1,97.0,0.9,True,0.379,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+491,9.7467,76.6759,NW,2990.1,34.3,Weathered Laterite,1.4,False,12.66,6.5,2.18,Mixed Agricultural / Homestead,78,1.61,82.1,2,41.0,4.51,False,0.348,False,Mid Meenachil (Pala / Bharananganam),100.4,False
+492,9.7467,76.6834,NW,2940.9,34.7,Weathered Laterite,1.1,False,12.62,8.93,2.12,Mixed Agricultural / Homestead,78,2.59,82.5,2,59.0,7.67,False,0.337,False,Mid Meenachil (Pala / Bharananganam),226.8,False
+493,9.7467,76.691,NW,2993.2,30.7,Weathered Laterite,4.4,False,10.97,9.7,1.14,Mixed Agricultural / Homestead,78,3.68,75.6,2,75.0,9.26,False,0.345,False,Mid Meenachil (Pala / Bharananganam),290.4,False
+494,9.7467,76.6986,NW,3072.4,35.2,Weathered Laterite,0.7,False,12.61,9.33,0.99,Mixed Agricultural / Homestead,78,5.04,83.0,2,78.0,9.33,False,0.373,False,Mid Meenachil (Pala / Bharananganam),293.2,False
+495,9.7467,76.7062,NW,3046.0,35.5,Weathered Laterite,0.4,False,12.81,12.45,0.5,Mixed Agricultural / Homestead,78,6.88,83.7,2,71.0,12.45,False,0.42,False,Mid Meenachil (Pala / Bharananganam),418.0,False
+496,9.7467,76.7138,NE,3017.6,35.3,Weathered Laterite,0.6,False,12.76,6.77,0.5,Mixed Agricultural / Homestead,78,7.93,83.4,2,67.0,6.77,False,0.485,False,Mid Meenachil (Pala / Bharananganam),190.8,False
+497,9.7467,76.7214,NE,3021.2,34.6,Weathered Laterite,1.2,False,12.46,11.56,0.5,Mixed Agricultural / Homestead,78,8.98,82.1,2,70.0,11.56,False,0.481,False,Mid Meenachil (Pala / Bharananganam),382.4,False
+498,9.7467,76.729,NE,3020.2,34.2,Weathered Laterite,1.5,False,12.33,12.48,0.5,Mixed Agricultural / Homestead,78,9.54,81.5,2,69.0,12.48,False,0.497,False,Mid Meenachil (Pala / Bharananganam),419.2,False
+499,9.7467,76.7366,NE,3221.9,29.8,Weathered Laterite,5.2,False,10.06,8.89,0.5,Plantation (Rubber/Cardamom),74,10.68,73.2,2,130.0,8.89,False,0.53,False,Mid Meenachil (Pala / Bharananganam),275.6,False
+500,9.7467,76.7441,NE,3268.7,22.1,Weathered Laterite,11.6,False,6.25,9.37,0.5,Plantation (Rubber/Cardamom),74,12.06,58.9,1,223.0,9.37,False,0.581,False,Upper Meenachil (Teekoy / Erattupetta),294.8,False
+501,9.7467,76.7517,NE,3117.2,3.1,Rocky Charnockite / Skeletal,24.4,True,3.28,10.36,0.5,Plantation (Rubber/Cardamom),74,12.87,17.8,0,250.0,10.36,False,0.65,False,Upper Meenachil (Teekoy / Erattupetta),334.4,True
+502,9.7467,76.7593,NE,3200.8,32.3,Weathered Laterite,3.1,False,11.02,8.43,0.5,Plantation (Rubber/Cardamom),74,14.73,77.4,2,129.0,8.43,False,0.736,False,Upper Meenachil (Teekoy / Erattupetta),257.2,False
+503,9.7467,76.7669,NE,3241.5,3.6,Rocky Charnockite / Skeletal,22.2,True,3.39,9.59,0.5,Plantation (Rubber/Cardamom),74,15.66,18.9,0,160.0,9.59,False,0.706,False,Upper Meenachil (Teekoy / Erattupetta),303.6,True
+504,9.7467,76.7745,NE,3263.6,33.5,Weathered Laterite,2.1,False,12.03,5.66,0.5,Plantation (Rubber/Cardamom),74,16.84,80.3,2,73.0,5.66,False,0.673,False,Upper Meenachil (Teekoy / Erattupetta),146.4,False
+505,9.7467,76.7821,NE,3333.1,33.8,Weathered Laterite,1.8,False,12.32,10.75,0.5,Shrub / Forest Canopy,68,18.02,81.1,2,57.0,10.75,False,0.657,False,Upper Meenachil (Teekoy / Erattupetta),350.0,False
+506,9.7467,76.7897,NE,3336.5,21.2,Weathered Laterite,12.3,False,6.83,9.62,0.5,Shrub / Forest Canopy,68,18.86,58.8,1,133.0,9.62,False,0.659,False,Upper Meenachil (Teekoy / Erattupetta),304.8,False
+507,9.7467,76.7972,NE,3268.1,32.9,Weathered Laterite,2.6,False,11.64,8.3,0.5,Shrub / Forest Canopy,68,20.35,79.0,2,89.0,8.3,False,0.679,False,Upper Meenachil (Teekoy / Erattupetta),252.0,False
+508,9.7467,76.8048,NE,3349.8,23.6,Weathered Laterite,10.3,False,7.02,9.45,0.5,Shrub / Forest Canopy,68,21.82,61.8,1,204.0,9.45,False,0.716,False,Upper Meenachil (Teekoy / Erattupetta),298.0,False
+509,9.7467,76.8124,NE,3427.9,3.4,Rocky Charnockite / Skeletal,22.9,True,3.35,7.12,0.5,Shrub / Forest Canopy,68,22.71,18.6,0,440.0,7.12,False,0.771,False,Upper Meenachil (Teekoy / Erattupetta),204.8,True
+510,9.7467,76.82,NE,3343.4,2.0,Rocky Charnockite / Skeletal,51.7,True,1.91,10.81,0.5,Shrub / Forest Canopy,68,23.32,5.0,0,886.0,10.81,False,0.836,False,Upper Meenachil (Teekoy / Erattupetta),352.4,True
+511,9.7533,76.6,NW,2729.2,34.9,Weathered Laterite,0.9,False,12.51,12.04,0.5,Mixed Agricultural / Homestead,78,10.17,82.6,2,79.0,12.04,False,1.13,True,Lower Meenachil (Mutholy / Kidangoor),401.6,False
+512,9.7533,76.6076,NW,2758.2,28.8,Weathered Laterite,6.0,False,10.32,9.53,0.5,Mixed Agricultural / Homestead,78,9.48,72.5,2,68.0,9.53,False,1.001,True,Lower Meenachil (Mutholy / Kidangoor),301.2,False
+513,9.7533,76.6152,NW,2747.4,35.4,Weathered Laterite,0.5,False,13.01,8.34,0.5,Mixed Agricultural / Homestead,78,7.88,83.9,2,47.0,8.34,False,0.887,True,Lower Meenachil (Mutholy / Kidangoor),253.6,False
+514,9.7533,76.6228,NW,2854.5,27.0,Weathered Laterite,7.5,False,9.62,11.42,0.5,Mixed Agricultural / Homestead,78,7.2,69.4,2,70.0,11.42,False,0.788,False,Lower Meenachil (Mutholy / Kidangoor),376.8,False
+515,9.7533,76.6303,NW,2837.9,35.0,Weathered Laterite,0.8,False,12.96,11.16,0.59,Mixed Agricultural / Homestead,78,5.33,83.4,2,38.0,11.16,False,0.707,False,Lower Meenachil (Mutholy / Kidangoor),366.4,False
+516,9.7533,76.6379,NW,2889.6,28.3,Weathered Laterite,6.4,False,9.99,12.12,0.58,Mixed Agricultural / Homestead,78,4.98,71.5,2,83.0,12.12,False,0.641,False,Lower Meenachil (Mutholy / Kidangoor),404.8,False
+517,9.7533,76.6455,NW,2995.1,31.2,Weathered Laterite,4.0,False,11.23,11.12,1.39,Mixed Agricultural / Homestead,78,3.47,76.5,2,67.0,10.52,False,0.593,False,Lower Meenachil (Mutholy / Kidangoor),340.8,False
+518,9.7533,76.6531,NW,2936.4,33.0,Weathered Laterite,2.5,False,11.76,11.51,1.89,Mixed Agricultural / Homestead,78,2.48,79.3,2,82.0,10.17,False,0.563,False,Lower Meenachil (Mutholy / Kidangoor),326.8,False
+519,9.7533,76.6607,NW,2970.3,35.5,Weathered Laterite,0.4,False,12.83,5.88,2.19,Mixed Agricultural / Homestead,78,1.42,83.7,2,69.0,3.74,False,0.508,False,Mid Meenachil (Pala / Bharananganam),69.6,False
+520,9.7533,76.6683,NW,2932.0,35.2,Weathered Laterite,0.7,False,12.61,3.07,2.67,Built-up,88,0.37,83.0,2,78.0,0.9,True,0.46,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+521,9.7533,76.6759,NW,2993.0,34.0,Weathered Laterite,1.7,False,12.25,11.37,2.61,Mixed Agricultural / Homestead,78,1.08,81.1,2,68.0,8.98,False,0.43,False,Mid Meenachil (Pala / Bharananganam),279.2,False
+522,9.7533,76.6834,NW,3027.0,35.4,Weathered Laterite,0.5,False,12.88,11.7,2.16,Mixed Agricultural / Homestead,78,2.13,83.7,2,59.0,10.1,False,0.419,False,Mid Meenachil (Pala / Bharananganam),324.0,False
+523,9.7533,76.691,NW,2992.7,35.2,Weathered Laterite,0.7,False,12.71,6.47,1.8,Mixed Agricultural / Homestead,78,3.17,83.2,2,68.0,5.65,False,0.427,False,Mid Meenachil (Pala / Bharananganam),146.0,False
+524,9.7533,76.6986,NW,3052.5,34.7,Weathered Laterite,1.1,False,12.52,9.14,1.16,Mixed Agricultural / Homestead,78,4.61,82.3,2,69.0,9.14,False,0.454,False,Mid Meenachil (Pala / Bharananganam),285.6,False
+525,9.7533,76.7062,NW,3065.0,22.8,Weathered Laterite,11.0,False,7.81,6.01,0.71,Mixed Agricultural / Homestead,78,5.72,62.1,1,94.0,6.01,False,0.5,False,Mid Meenachil (Pala / Bharananganam),160.4,False
+526,9.7533,76.7138,NE,3067.1,35.0,Weathered Laterite,0.8,False,12.85,10.04,0.5,Mixed Agricultural / Homestead,78,6.78,83.2,2,49.0,10.04,False,0.563,False,Mid Meenachil (Pala / Bharananganam),321.6,False
+527,9.7533,76.7214,NE,3148.3,34.9,Weathered Laterite,0.9,False,12.81,7.92,0.5,Mixed Agricultural / Homestead,78,8.26,83.0,2,49.0,7.92,False,0.583,False,Mid Meenachil (Pala / Bharananganam),236.8,False
+528,9.7533,76.729,NE,3095.3,31.9,Weathered Laterite,3.4,False,11.4,6.34,0.5,Mixed Agricultural / Homestead,78,8.66,77.6,2,77.0,6.34,False,0.598,False,Mid Meenachil (Pala / Bharananganam),173.6,False
+529,9.7533,76.7366,NE,3044.6,29.8,Weathered Laterite,5.2,False,10.01,8.12,0.5,Plantation (Rubber/Cardamom),74,10.74,73.1,2,135.0,8.12,False,0.631,False,Mid Meenachil (Pala / Bharananganam),244.8,False
+530,9.7533,76.7441,NE,3153.2,15.1,Weathered Laterite,17.4,False,4.0,8.61,0.5,Plantation (Rubber/Cardamom),74,11.68,47.8,1,240.0,8.61,False,0.68,False,Upper Meenachil (Teekoy / Erattupetta),264.4,False
+531,9.7533,76.7517,NE,3212.1,23.0,Weathered Laterite,10.8,False,6.93,8.88,0.5,Shrub / Forest Canopy,68,12.97,61.0,1,191.0,8.88,False,0.748,False,Upper Meenachil (Teekoy / Erattupetta),275.2,False
+532,9.7533,76.7593,NE,3139.4,30.7,Weathered Laterite,4.4,False,11.12,6.18,0.5,Plantation (Rubber/Cardamom),74,14.01,75.8,2,60.0,6.18,False,0.832,False,Upper Meenachil (Teekoy / Erattupetta),167.2,False
+533,9.7533,76.7669,NE,3217.2,33.7,Weathered Laterite,1.9,False,11.96,11.29,0.5,Plantation (Rubber/Cardamom),74,14.41,80.4,2,88.0,11.29,False,0.825,False,Upper Meenachil (Teekoy / Erattupetta),371.6,False
+534,9.7533,76.7745,NE,3174.0,33.0,Weathered Laterite,2.5,False,11.74,11.63,0.5,Plantation (Rubber/Cardamom),74,15.74,79.3,2,83.0,11.63,False,0.792,False,Upper Meenachil (Teekoy / Erattupetta),385.2,False
+535,9.7533,76.7821,NE,3272.3,29.3,Weathered Laterite,5.6,False,10.54,7.58,0.5,Plantation (Rubber/Cardamom),74,17.19,73.4,2,64.0,7.58,False,0.777,False,Upper Meenachil (Teekoy / Erattupetta),223.2,False
+536,9.7533,76.7897,NE,3319.4,28.9,Weathered Laterite,5.9,False,9.86,6.04,0.5,Plantation (Rubber/Cardamom),74,18.63,71.9,2,118.0,6.04,False,0.779,False,Upper Meenachil (Teekoy / Erattupetta),161.6,False
+537,9.7533,76.7972,NE,3343.8,25.2,Weathered Laterite,9.0,False,7.59,9.08,0.5,Shrub / Forest Canopy,68,19.24,64.4,1,206.0,9.08,False,0.798,False,Upper Meenachil (Teekoy / Erattupetta),283.2,False
+538,9.7533,76.8048,NE,3294.3,17.6,Weathered Laterite,15.3,False,4.2,10.34,0.5,Shrub / Forest Canopy,68,20.43,50.9,1,261.0,10.34,False,0.835,False,Upper Meenachil (Teekoy / Erattupetta),333.6,False
+539,9.7533,76.8124,NE,3378.4,3.9,Rocky Charnockite / Skeletal,20.5,True,3.48,6.59,0.5,Shrub / Forest Canopy,68,21.6,19.8,0,505.0,6.59,False,0.888,True,Upper Meenachil (Teekoy / Erattupetta),183.6,True
+540,9.7533,76.82,NE,3380.9,2.0,Rocky Charnockite / Skeletal,50.8,True,1.96,6.75,0.5,Shrub / Forest Canopy,68,22.85,5.0,0,930.0,6.75,False,0.959,True,Upper Meenachil (Teekoy / Erattupetta),190.0,True
+541,9.76,76.6,NW,2722.5,13.7,Weathered Laterite,18.6,False,4.12,8.17,0.5,Mixed Agricultural / Homestead,78,11.55,46.4,1,121.0,8.17,False,1.231,True,Lower Meenachil (Mutholy / Kidangoor),246.8,False
+542,9.76,76.6076,NW,2755.9,35.2,Weathered Laterite,0.7,False,13.04,11.71,0.5,Mixed Agricultural / Homestead,78,10.08,83.7,2,35.0,11.71,False,1.104,True,Lower Meenachil (Mutholy / Kidangoor),388.4,False
+543,9.76,76.6152,NW,2739.4,14.4,Weathered Laterite,18.0,False,4.51,6.54,0.5,Mixed Agricultural / Homestead,78,8.37,47.8,1,109.0,6.54,False,0.991,True,Lower Meenachil (Mutholy / Kidangoor),181.6,False
+544,9.76,76.6228,NW,2800.4,34.7,Weathered Laterite,1.1,False,12.75,10.0,0.5,Mixed Agricultural / Homestead,78,7.54,82.7,2,46.0,10.0,False,0.894,True,Lower Meenachil (Mutholy / Kidangoor),320.0,False
+545,9.76,76.6303,NW,2866.3,33.1,Weathered Laterite,2.4,False,12.11,6.76,0.51,Mixed Agricultural / Homestead,78,6.37,80.0,2,51.0,6.76,False,0.815,False,Lower Meenachil (Mutholy / Kidangoor),190.4,False
+546,9.76,76.6379,NW,2919.4,31.0,Weathered Laterite,4.2,False,10.92,7.19,0.7,Mixed Agricultural / Homestead,78,4.88,75.8,2,89.0,7.19,False,0.75,False,Lower Meenachil (Mutholy / Kidangoor),207.6,False
+547,9.76,76.6455,NW,2871.3,2.0,Rocky Charnockite / Skeletal,35.4,True,2.73,8.89,1.18,Mixed Agricultural / Homestead,78,3.86,12.3,0,217.0,8.59,False,0.703,False,Lower Meenachil (Mutholy / Kidangoor),263.6,True
+548,9.76,76.6531,NW,2866.5,33.6,Weathered Laterite,2.0,False,11.88,9.38,1.13,Mixed Agricultural / Homestead,78,3.49,80.2,2,92.0,8.8,False,0.665,False,Lower Meenachil (Mutholy / Kidangoor),272.0,False
+549,9.76,76.6607,NW,2959.1,32.9,Weathered Laterite,2.6,False,11.56,7.87,2.36,Mixed Agricultural / Homestead,78,1.58,78.9,2,97.0,5.86,False,0.601,False,Mid Meenachil (Pala / Bharananganam),154.4,False
+550,9.76,76.6683,NW,2868.2,32.5,Weathered Laterite,2.9,False,11.67,5.26,2.31,Built-up,88,0.32,78.7,2,73.0,2.3,False,0.554,False,Mid Meenachil (Pala / Bharananganam),12.0,False
+551,9.76,76.6759,NW,2966.0,3.8,Rocky Charnockite / Skeletal,20.9,True,3.46,4.79,2.56,Built-up,88,0.33,19.6,0,134.0,1.84,True,0.525,False,Mid Meenachil (Pala / Bharananganam),0.0,True
+552,9.76,76.6834,NW,2968.8,34.2,Weathered Laterite,1.5,False,12.64,10.69,2.13,Mixed Agricultural / Homestead,78,1.88,82.0,2,38.0,8.9,False,0.515,False,Mid Meenachil (Pala / Bharananganam),276.0,False
+553,9.76,76.691,NW,2990.5,25.8,Weathered Laterite,8.5,False,9.14,10.74,2.04,Mixed Agricultural / Homestead,78,2.57,67.4,1,74.0,9.47,False,0.522,False,Mid Meenachil (Pala / Bharananganam),298.8,False
+554,9.76,76.6986,NW,3122.4,34.7,Weathered Laterite,1.1,False,12.86,10.74,1.09,Mixed Agricultural / Homestead,78,3.51,82.9,2,35.0,10.17,False,0.549,False,Mid Meenachil (Pala / Bharananganam),326.8,False
+555,9.76,76.7062,NW,2934.4,34.1,Weathered Laterite,1.6,False,12.51,10.45,0.55,Mixed Agricultural / Homestead,78,5.44,81.7,2,47.0,10.45,False,0.593,False,Mid Meenachil (Pala / Bharananganam),338.0,False
+556,9.76,76.7138,NE,3026.8,20.6,Weathered Laterite,12.8,False,6.88,6.57,0.64,Mixed Agricultural / Homestead,78,5.75,58.2,1,106.0,6.57,False,0.655,False,Mid Meenachil (Pala / Bharananganam),182.8,False
+557,9.76,76.7214,NE,3151.8,35.4,Weathered Laterite,0.5,False,12.64,11.78,0.5,Mixed Agricultural / Homestead,78,7.5,83.3,2,83.0,11.78,False,0.697,False,Mid Meenachil (Pala / Bharananganam),391.2,False
+558,9.76,76.729,NE,3206.3,31.3,Weathered Laterite,3.9,False,11.07,7.88,0.5,Mixed Agricultural / Homestead,78,8.74,76.4,2,88.0,7.88,False,0.712,False,Mid Meenachil (Pala / Bharananganam),235.2,False
+559,9.76,76.7366,NE,3140.9,3.5,Rocky Charnockite / Skeletal,22.6,True,3.37,9.95,0.5,Plantation (Rubber/Cardamom),74,9.25,18.7,0,215.0,9.95,False,0.744,False,Mid Meenachil (Pala / Bharananganam),318.0,True
+560,9.76,76.7441,NE,3139.3,23.8,Weathered Laterite,10.2,False,7.26,12.17,0.5,Plantation (Rubber/Cardamom),74,10.54,62.3,1,185.0,12.17,False,0.792,False,Upper Meenachil (Teekoy / Erattupetta),406.8,False
+561,9.76,76.7517,NE,3167.9,30.7,Weathered Laterite,4.4,False,10.95,7.62,0.5,Plantation (Rubber/Cardamom),74,11.89,75.6,2,77.0,7.62,False,0.859,True,Upper Meenachil (Teekoy / Erattupetta),224.8,False
+562,9.76,76.7593,NE,3238.0,34.9,Weathered Laterite,0.9,False,12.62,12.29,0.5,Plantation (Rubber/Cardamom),74,13.08,82.7,2,67.0,12.29,False,0.941,True,Upper Meenachil (Teekoy / Erattupetta),411.6,False
+563,9.76,76.7669,NE,3262.1,30.0,Weathered Laterite,5.0,False,10.65,9.72,0.5,Plantation (Rubber/Cardamom),74,14.42,74.3,2,80.0,9.72,False,0.956,True,Upper Meenachil (Teekoy / Erattupetta),308.8,False
+564,9.76,76.7745,NE,3270.0,21.5,Weathered Laterite,12.1,False,7.27,6.09,0.5,Plantation (Rubber/Cardamom),74,15.14,59.8,1,98.0,6.09,False,0.924,True,Upper Meenachil (Teekoy / Erattupetta),163.6,False
+565,9.76,76.7821,NE,3184.7,2.0,Rocky Charnockite / Skeletal,35.8,True,2.71,10.66,0.5,Plantation (Rubber/Cardamom),74,16.24,12.1,0,328.0,10.66,False,0.909,True,Upper Meenachil (Teekoy / Erattupetta),346.4,True
+566,9.76,76.7897,NE,3298.7,24.2,Weathered Laterite,9.8,False,7.98,10.68,0.5,Shrub / Forest Canopy,68,17.58,63.9,1,131.0,10.68,False,0.911,True,Upper Meenachil (Teekoy / Erattupetta),347.2,False
+567,9.76,76.7972,NE,3197.5,20.2,Weathered Laterite,13.2,False,4.27,6.02,0.5,Shrub / Forest Canopy,68,18.77,53.8,1,349.0,6.02,False,0.93,True,Upper Meenachil (Teekoy / Erattupetta),160.8,False
+568,9.76,76.8048,NE,3324.7,17.0,Weathered Laterite,15.8,False,4.0,5.93,0.5,Shrub / Forest Canopy,68,20.24,49.9,1,425.0,5.93,False,0.966,True,Upper Meenachil (Teekoy / Erattupetta),157.2,False
+569,9.76,76.8124,NE,3373.6,2.0,Rocky Charnockite / Skeletal,46.5,True,2.17,11.41,0.5,Shrub / Forest Canopy,68,20.6,6.8,0,785.0,11.41,False,1.018,True,Upper Meenachil (Teekoy / Erattupetta),376.4,True
+570,9.76,76.82,NE,3372.4,20.2,Weathered Laterite,13.2,False,4.0,7.83,0.5,Shrub / Forest Canopy,68,22.12,53.4,1,737.0,7.83,False,1.088,True,Upper Meenachil (Teekoy / Erattupetta),233.2,False
+571,9.7667,76.6,NW,2829.9,35.8,Weathered Laterite,0.2,False,12.94,7.5,0.5,Mixed Agricultural / Homestead,78,11.44,84.2,2,67.0,7.5,False,1.345,True,Lower Meenachil (Mutholy / Kidangoor),220.0,False
+572,9.7667,76.6076,NW,2798.3,24.0,Weathered Laterite,10.0,False,8.28,5.89,0.5,Mixed Agricultural / Homestead,78,10.67,64.1,1,92.0,5.89,False,1.218,True,Lower Meenachil (Mutholy / Kidangoor),155.6,False
+573,9.7667,76.6152,NW,2841.4,34.7,Weathered Laterite,1.1,False,12.46,9.41,0.5,Mixed Agricultural / Homestead,78,9.65,82.3,2,74.0,9.41,False,1.107,True,Lower Meenachil (Mutholy / Kidangoor),296.4,False
+574,9.7667,76.6228,NW,2780.3,35.2,Alluvial Loam,0.7,False,13.08,10.28,0.5,Mixed Agricultural / Homestead,78,7.91,83.7,2,31.0,10.28,False,1.012,True,Lower Meenachil (Mutholy / Kidangoor),331.2,False
+575,9.7667,76.6303,NW,2887.8,31.7,Weathered Laterite,3.6,False,11.36,10.04,0.5,Mixed Agricultural / Homestead,78,6.87,77.3,2,72.0,10.04,False,0.934,True,Lower Meenachil (Mutholy / Kidangoor),321.6,False
+576,9.7667,76.6379,NW,2871.5,3.4,Rocky Charnockite / Skeletal,23.1,True,3.34,10.23,0.57,Mixed Agricultural / Homestead,78,5.73,18.4,0,172.0,10.23,False,0.87,True,Lower Meenachil (Mutholy / Kidangoor),329.2,True
+577,9.7667,76.6455,NW,2862.2,32.4,Weathered Laterite,3.0,False,11.26,7.78,0.74,Mixed Agricultural / Homestead,78,5.21,77.9,2,109.0,7.78,False,0.824,False,Lower Meenachil (Mutholy / Kidangoor),231.2,False
+578,9.7667,76.6531,NW,2938.6,34.3,Weathered Laterite,1.4,False,12.3,8.48,0.95,Mixed Agricultural / Homestead,78,4.29,81.6,2,77.0,8.48,False,0.769,False,Lower Meenachil (Mutholy / Kidangoor),259.2,False
+579,9.7667,76.6607,NW,2972.3,20.3,Weathered Laterite,13.1,False,6.31,8.22,1.94,Mixed Agricultural / Homestead,78,2.19,57.0,1,150.0,6.66,False,0.706,False,Mid Meenachil (Pala / Bharananganam),186.4,False
+580,9.7667,76.6683,NW,2896.8,2.5,Rocky Charnockite / Skeletal,27.4,True,3.13,12.07,2.31,Mixed Agricultural / Homestead,78,1.94,16.3,0,182.0,10.32,False,0.66,False,Mid Meenachil (Pala / Bharananganam),332.8,True
+581,9.7667,76.6759,NW,3003.9,31.8,Weathered Laterite,3.5,False,11.31,4.72,2.46,Mixed Agricultural / Homestead,78,0.56,77.3,2,82.0,1.94,True,0.632,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+582,9.7667,76.6834,NW,3057.2,34.3,Alluvial Loam,1.4,False,12.79,3.8,2.46,Built-up,88,0.6,82.3,2,28.0,1.05,True,0.622,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+583,9.7667,76.691,NW,3100.4,35.2,Weathered Laterite,0.7,False,12.92,7.1,1.85,Mixed Agricultural / Homestead,78,2.2,83.5,2,47.0,5.55,False,0.629,False,Mid Meenachil (Pala / Bharananganam),142.0,False
+584,9.7667,76.6986,NW,3011.0,34.7,Weathered Laterite,1.1,False,12.79,9.58,1.55,Mixed Agricultural / Homestead,78,3.06,82.8,2,41.0,8.68,False,0.655,False,Mid Meenachil (Pala / Bharananganam),267.2,False
+585,9.7667,76.7062,NW,3113.8,34.9,Weathered Laterite,0.9,False,12.74,8.38,1.2,Mixed Agricultural / Homestead,78,3.89,82.9,2,56.0,8.1,False,0.698,False,Mid Meenachil (Pala / Bharananganam),244.0,False
+586,9.7667,76.7138,NE,3091.1,30.7,Weathered Laterite,4.4,False,10.91,8.45,0.75,Mixed Agricultural / Homestead,78,5.58,75.5,2,81.0,8.45,False,0.759,False,Mid Meenachil (Pala / Bharananganam),258.0,False
+587,9.7667,76.7214,NE,3127.1,35.2,Weathered Laterite,0.7,False,12.85,8.83,0.5,Mixed Agricultural / Homestead,78,6.75,83.4,2,54.0,8.83,False,0.822,False,Mid Meenachil (Pala / Bharananganam),273.2,False
+588,9.7667,76.729,NE,3135.3,31.9,Weathered Laterite,3.4,False,11.27,8.42,0.5,Mixed Agricultural / Homestead,78,7.26,77.4,2,90.0,8.42,False,0.836,False,Mid Meenachil (Pala / Bharananganam),256.8,False
+589,9.7667,76.7366,NE,3216.6,27.6,Weathered Laterite,7.0,False,9.03,9.09,0.5,Plantation (Rubber/Cardamom),74,8.53,69.2,2,152.0,9.09,False,0.868,True,Mid Meenachil (Pala / Bharananganam),283.6,False
+590,9.7667,76.7441,NE,3225.2,32.3,Weathered Laterite,3.1,False,11.52,8.8,0.5,Plantation (Rubber/Cardamom),74,9.78,78.2,2,79.0,8.8,False,0.916,True,Upper Meenachil (Teekoy / Erattupetta),272.0,False
+591,9.7667,76.7517,NE,3189.5,3.7,Rocky Charnockite / Skeletal,21.5,True,3.42,8.9,0.5,Plantation (Rubber/Cardamom),74,10.79,19.2,0,145.0,8.9,False,0.981,True,Upper Meenachil (Teekoy / Erattupetta),276.0,True
+592,9.7667,76.7593,NE,3269.8,34.3,Weathered Laterite,1.4,False,12.39,5.65,0.5,Plantation (Rubber/Cardamom),74,12.76,81.7,2,68.0,5.65,False,1.062,True,Upper Meenachil (Teekoy / Erattupetta),146.0,False
+593,9.7667,76.7669,NE,3262.9,24.2,Weathered Laterite,9.8,False,7.84,8.53,0.5,Shrub / Forest Canopy,68,13.53,63.7,1,145.0,8.53,False,1.098,True,Upper Meenachil (Teekoy / Erattupetta),261.2,False
+594,9.7667,76.7745,NE,3252.7,14.0,Weathered Laterite,18.3,False,4.0,9.81,0.5,Shrub / Forest Canopy,68,14.55,46.6,1,355.0,9.81,False,1.067,True,Upper Meenachil (Teekoy / Erattupetta),312.4,False
+595,9.7667,76.7821,NE,3238.7,2.0,Rocky Charnockite / Skeletal,33.1,True,2.84,8.33,0.5,Shrub / Forest Canopy,68,16.18,13.4,0,499.0,8.33,False,1.052,True,Upper Meenachil (Teekoy / Erattupetta),253.2,True
+596,9.7667,76.7897,NE,3317.8,26.4,Weathered Laterite,8.0,False,7.46,9.07,0.5,Shrub / Forest Canopy,68,16.42,65.5,1,264.0,9.07,False,1.054,True,Upper Meenachil (Teekoy / Erattupetta),282.8,False
+597,9.7667,76.7972,NE,3372.7,2.8,Rocky Charnockite / Skeletal,26.0,True,3.2,11.87,0.5,Shrub / Forest Canopy,68,17.82,17.0,0,485.0,11.87,False,1.072,True,Upper Meenachil (Teekoy / Erattupetta),394.8,True
+598,9.7667,76.8048,NE,3371.4,22.6,Weathered Laterite,11.2,False,4.0,9.23,0.5,Shrub / Forest Canopy,68,18.92,56.0,1,580.0,9.23,False,1.108,True,Upper Meenachil (Teekoy / Erattupetta),289.2,False
+599,9.7667,76.8124,NE,3375.6,28.0,Weathered Laterite,6.7,False,4.0,10.36,0.5,Shrub / Forest Canopy,68,19.98,62.0,1,713.0,10.36,False,1.16,True,Upper Meenachil (Teekoy / Erattupetta),334.4,False
+600,9.7667,76.82,NE,3321.8,28.0,Weathered Laterite,6.7,False,4.0,8.52,0.5,Shrub / Forest Canopy,68,21.33,62.0,1,729.0,8.52,False,1.228,True,Upper Meenachil (Teekoy / Erattupetta),260.8,False
+601,9.7733,76.6,NW,2818.3,25.2,Weathered Laterite,9.0,False,8.67,7.17,0.5,Mixed Agricultural / Homestead,78,12.56,66.0,1,98.0,7.17,False,1.467,True,Lower Meenachil (Mutholy / Kidangoor),206.8,False
+602,9.7733,76.6076,NW,2802.0,35.4,Weathered Laterite,0.5,False,12.83,11.54,0.5,Mixed Agricultural / Homestead,78,11.19,83.6,2,65.0,11.54,False,1.343,True,Lower Meenachil (Mutholy / Kidangoor),381.6,False
+603,9.7733,76.6152,NW,2825.9,27.7,Weathered Laterite,6.9,False,9.65,8.71,0.5,Mixed Agricultural / Homestead,78,10.65,70.3,2,94.0,8.71,False,1.233,True,Lower Meenachil (Mutholy / Kidangoor),268.4,False
+604,9.7733,76.6228,NW,2754.9,32.5,Weathered Laterite,2.9,False,11.87,8.6,0.5,Mixed Agricultural / Homestead,78,8.88,79.0,2,53.0,8.6,False,1.139,True,Lower Meenachil (Mutholy / Kidangoor),264.0,False
+605,9.7733,76.6303,NW,2794.7,32.3,Weathered Laterite,3.1,False,11.18,8.2,0.5,Mixed Agricultural / Homestead,78,8.17,77.7,2,113.0,8.2,False,1.062,True,Lower Meenachil (Mutholy / Kidangoor),248.0,False
+606,9.7733,76.6379,NW,2858.7,34.7,Weathered Laterite,1.1,False,12.1,8.61,0.5,Mixed Agricultural / Homestead,78,6.66,81.7,2,111.0,8.61,False,1.0,True,Lower Meenachil (Mutholy / Kidangoor),264.4,False
+607,9.7733,76.6455,NW,2845.5,34.7,Weathered Laterite,1.1,False,12.54,10.24,0.67,Mixed Agricultural / Homestead,78,5.43,82.4,2,67.0,10.24,False,0.954,True,Lower Meenachil (Mutholy / Kidangoor),329.6,False
+608,9.7733,76.6531,NW,2832.7,24.6,Weathered Laterite,9.5,False,8.34,6.44,0.85,Mixed Agricultural / Homestead,78,4.78,64.9,1,108.0,6.44,False,0.882,True,Lower Meenachil (Mutholy / Kidangoor),177.6,False
+609,9.7733,76.6607,NW,2880.1,32.6,Weathered Laterite,2.8,False,11.68,6.99,1.24,Mixed Agricultural / Homestead,78,3.51,78.8,2,76.0,6.42,False,0.82,False,Mid Meenachil (Pala / Bharananganam),176.8,False
+610,9.7733,76.6683,NW,2920.2,31.4,Weathered Laterite,3.8,False,11.49,5.98,2.16,Mixed Agricultural / Homestead,78,1.96,77.2,2,50.0,4.25,False,0.775,False,Mid Meenachil (Pala / Bharananganam),90.0,False
+611,9.7733,76.6759,NW,2953.7,33.5,Alluvial Loam,2.1,False,12.41,10.31,2.56,Mixed Agricultural / Homestead,78,1.1,80.9,2,34.0,7.94,False,0.748,False,Mid Meenachil (Pala / Bharananganam),237.6,False
+612,9.7733,76.6834,NW,3057.6,29.0,Weathered Laterite,5.8,False,10.52,4.8,2.48,Mixed Agricultural / Homestead,78,0.25,73.1,2,57.0,1.79,True,0.738,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+613,9.7733,76.691,NW,2998.9,34.4,Weathered Laterite,1.3,False,12.67,3.18,2.62,Mixed Agricultural / Homestead,78,0.99,82.3,2,44.0,0.9,True,0.745,False,Mid Meenachil (Pala / Bharananganam),0.0,False
+614,9.7733,76.6986,NW,3009.1,15.2,Weathered Laterite,17.3,False,4.84,8.82,1.87,Mixed Agricultural / Homestead,78,2.76,49.2,1,107.0,7.69,False,0.77,False,Mid Meenachil (Pala / Bharananganam),227.6,False
+615,9.7733,76.7062,NW,2965.5,35.2,Weathered Laterite,0.7,False,12.92,6.77,1.36,Mixed Agricultural / Homestead,78,3.57,83.5,2,47.0,6.25,False,0.813,False,Mid Meenachil (Pala / Bharananganam),170.0,False
+616,9.7733,76.7138,NE,3056.1,34.9,Weathered Laterite,0.9,False,12.77,10.93,1.1,Mixed Agricultural / Homestead,78,4.4,83.0,2,53.0,10.93,False,0.872,True,Mid Meenachil (Pala / Bharananganam),357.2,False
+617,9.7733,76.7214,NE,3067.4,33.7,Weathered Laterite,1.9,False,12.15,10.02,0.72,Mixed Agricultural / Homestead,78,6.06,80.7,2,69.0,10.02,False,0.948,True,Mid Meenachil (Pala / Bharananganam),320.8,False
+618,9.7733,76.729,NE,3142.2,28.4,Weathered Laterite,6.3,False,9.65,9.32,0.5,Mixed Agricultural / Homestead,78,6.48,71.1,2,121.0,9.32,False,0.97,True,Mid Meenachil (Pala / Bharananganam),292.8,False
+619,9.7733,76.7366,NE,3157.4,35.0,Weathered Laterite,0.8,False,11.99,8.77,0.5,Plantation (Rubber/Cardamom),74,7.75,81.9,2,135.0,8.77,False,1.001,True,Mid Meenachil (Pala / Bharananganam),270.8,False
+620,9.7733,76.7441,NE,3184.7,34.0,Weathered Laterite,1.7,False,11.96,6.29,0.5,Plantation (Rubber/Cardamom),74,9.39,80.7,2,97.0,6.29,False,1.048,True,Upper Meenachil (Teekoy / Erattupetta),171.6,False
+621,9.7733,76.7517,NE,3167.1,34.4,Weathered Laterite,1.3,False,12.38,10.65,0.5,Plantation (Rubber/Cardamom),74,10.83,81.8,2,73.0,10.65,False,1.112,True,Upper Meenachil (Teekoy / Erattupetta),346.0,False
+622,9.7733,76.7593,NE,3236.7,33.5,Weathered Laterite,2.1,False,12.06,5.67,0.5,Plantation (Rubber/Cardamom),74,11.37,80.3,2,69.0,5.67,False,1.192,True,Upper Meenachil (Teekoy / Erattupetta),146.8,False
+623,9.7733,76.7669,NE,3296.7,22.1,Weathered Laterite,11.6,False,6.68,10.05,0.5,Shrub / Forest Canopy,68,12.91,59.6,1,180.0,10.05,False,1.249,True,Upper Meenachil (Teekoy / Erattupetta),322.0,False
+624,9.7733,76.7745,NE,3260.3,14.0,Weathered Laterite,18.3,False,4.0,8.78,0.5,Shrub / Forest Canopy,68,14.16,46.6,1,440.0,8.78,False,1.217,True,Upper Meenachil (Teekoy / Erattupetta),271.2,False
+625,9.7733,76.7821,NE,3190.5,3.2,Rocky Charnockite / Skeletal,23.8,True,3.31,8.02,0.5,Shrub / Forest Canopy,68,15.12,18.1,0,579.0,8.02,False,1.203,True,Upper Meenachil (Teekoy / Erattupetta),240.8,True
+626,9.7733,76.7897,NE,3272.3,26.9,Weathered Laterite,7.6,False,6.42,10.09,0.5,Shrub / Forest Canopy,68,16.29,64.5,1,386.0,10.09,False,1.205,True,Upper Meenachil (Teekoy / Erattupetta),323.6,False
+627,9.7733,76.7972,NE,3221.2,24.7,Weathered Laterite,9.4,False,5.51,11.25,0.5,Shrub / Forest Canopy,68,17.37,60.7,1,396.0,11.25,False,1.223,True,Upper Meenachil (Teekoy / Erattupetta),370.0,False
+628,9.7733,76.8048,NE,3344.5,2.0,Rocky Charnockite / Skeletal,39.7,True,2.51,7.9,0.5,Shrub / Forest Canopy,68,18.8,10.1,0,706.0,7.9,False,1.258,True,Upper Meenachil (Teekoy / Erattupetta),236.0,True
+629,9.7733,76.8124,NE,3452.4,27.4,Weathered Laterite,7.2,False,4.0,6.79,0.5,Shrub / Forest Canopy,68,19.16,61.3,1,690.0,6.79,False,1.309,True,Upper Meenachil (Teekoy / Erattupetta),191.6,False
+630,9.7733,76.82,NE,3373.1,2.1,Rocky Charnockite / Skeletal,29.6,True,3.02,7.95,0.5,Shrub / Forest Canopy,68,20.24,15.2,0,846.0,7.95,False,1.376,True,Upper Meenachil (Teekoy / Erattupetta),238.0,True
+631,9.78,76.6,NW,2842.5,35.3,Weathered Laterite,0.6,False,12.67,6.94,0.5,Mixed Agricultural / Homestead,78,13.09,83.2,2,76.0,6.94,False,1.603,True,Lower Meenachil (Mutholy / Kidangoor),197.6,False
+632,9.78,76.6076,NW,2793.3,30.2,Weathered Laterite,4.8,False,10.52,6.79,0.5,Mixed Agricultural / Homestead,78,11.8,74.4,2,102.0,6.79,False,1.48,True,Lower Meenachil (Mutholy / Kidangoor),191.6,False
+633,9.78,76.6152,NW,2820.5,35.4,Weathered Laterite,0.5,False,12.51,11.46,0.5,Mixed Agricultural / Homestead,78,11.3,83.1,2,97.0,11.46,False,1.372,True,Lower Meenachil (Mutholy / Kidangoor),378.4,False
+634,9.78,76.6228,NW,2843.3,33.4,Weathered Laterite,2.2,False,11.64,6.73,0.5,Mixed Agricultural / Homestead,78,10.33,79.6,2,107.0,6.73,False,1.279,True,Lower Meenachil (Mutholy / Kidangoor),189.2,False
+635,9.78,76.6303,NW,2810.8,13.9,Weathered Laterite,18.4,False,4.0,6.53,0.5,Mixed Agricultural / Homestead,78,8.72,46.5,1,176.0,6.53,False,1.203,True,Lower Meenachil (Mutholy / Kidangoor),181.2,False
+636,9.78,76.6379,NW,2945.9,32.3,Weathered Laterite,3.1,False,11.19,8.64,0.5,Mixed Agricultural / Homestead,78,7.24,77.7,2,112.0,8.64,False,1.142,True,Lower Meenachil (Mutholy / Kidangoor),265.6,False
+637,9.78,76.6455,NW,2816.9,28.1,Weathered Laterite,6.6,False,9.66,11.91,0.5,Mixed Agricultural / Homestead,78,6.22,70.7,2,107.0,11.91,False,1.086,True,Lower Meenachil (Mutholy / Kidangoor),396.4,False
+638,9.78,76.6531,NW,2920.2,34.6,Weathered Laterite,1.2,False,12.24,8.67,0.88,Mixed Agricultural / Homestead,78,4.89,81.8,2,92.0,8.67,False,1.009,True,Lower Meenachil (Mutholy / Kidangoor),266.8,False
+639,9.78,76.6607,NW,2882.5,34.4,Weathered Laterite,1.3,False,12.51,6.23,1.5,Mixed Agricultural / Homestead,78,3.94,82.0,2,60.0,5.98,False,0.948,True,Mid Meenachil (Pala / Bharananganam),159.2,False
+640,9.78,76.6683,NW,3019.1,35.3,Weathered Laterite,0.6,False,12.81,9.26,1.5,Mixed Agricultural / Homestead,78,2.62,83.4,2,62.0,8.02,False,0.904,True,Mid Meenachil (Pala / Bharananganam),240.8,False
+641,9.78,76.6759,NW,3022.8,35.3,Weathered Laterite,0.6,False,12.93,9.49,1.99,Mixed Agricultural / Homestead,78,1.97,83.6,2,50.0,7.77,False,0.877,True,Mid Meenachil (Pala / Bharananganam),230.8,False
+642,9.78,76.6834,NW,2952.6,34.9,Weathered Laterite,0.9,False,12.81,12.4,2.11,Mixed Agricultural / Homestead,78,1.18,83.0,2,49.0,10.09,False,0.867,True,Mid Meenachil (Pala / Bharananganam),323.6,False
+643,9.78,76.691,NW,3003.8,35.4,Weathered Laterite,0.5,False,12.93,4.39,2.15,Mixed Agricultural / Homestead,78,0.76,83.8,2,55.0,1.76,True,0.874,True,Mid Meenachil (Pala / Bharananganam),0.0,False
+644,9.78,76.6986,NW,3070.6,35.0,Weathered Laterite,0.8,False,12.62,7.38,2.28,Mixed Agricultural / Homestead,78,1.42,82.9,2,72.0,5.24,False,0.899,True,Mid Meenachil (Pala / Bharananganam),129.6,False
+645,9.78,76.7062,NW,3136.3,35.8,Weathered Laterite,0.2,False,12.99,6.52,1.51,Mixed Agricultural / Homestead,78,2.51,84.3,2,62.0,5.2,False,0.94,True,Mid Meenachil (Pala / Bharananganam),128.0,False
+646,9.78,76.7138,NE,3172.2,33.5,Weathered Laterite,2.1,False,11.97,5.62,1.3,Mixed Agricultural / Homestead,78,3.64,80.2,2,78.0,5.15,False,0.999,True,Mid Meenachil (Pala / Bharananganam),126.0,False
+647,9.78,76.7214,NE,3047.2,29.3,Weathered Laterite,5.6,False,10.1,9.02,0.57,Mixed Agricultural / Homestead,78,5.37,72.7,2,108.0,9.02,False,1.073,True,Mid Meenachil (Pala / Bharananganam),280.8,False
+648,9.78,76.729,NE,3116.1,34.7,Weathered Laterite,1.1,False,12.11,8.15,0.5,Mixed Agricultural / Homestead,78,6.68,81.7,2,110.0,8.15,False,1.117,True,Mid Meenachil (Pala / Bharananganam),246.0,False
+649,9.78,76.7366,NE,3244.5,28.8,Weathered Laterite,6.0,False,9.69,11.25,0.5,Plantation (Rubber/Cardamom),74,7.83,71.5,2,131.0,11.25,False,1.147,True,Mid Meenachil (Pala / Bharananganam),370.0,False
+650,9.78,76.7441,NE,3237.3,33.4,Weathered Laterite,2.2,False,11.87,8.62,0.5,Plantation (Rubber/Cardamom),74,8.12,79.9,2,84.0,8.62,False,1.193,True,Upper Meenachil (Teekoy / Erattupetta),264.8,False
+651,9.78,76.7517,NE,3188.4,33.4,Weathered Laterite,2.2,False,11.88,9.24,0.5,Shrub / Forest Canopy,68,9.32,79.9,2,83.0,9.24,False,1.256,True,Upper Meenachil (Teekoy / Erattupetta),289.6,False
+652,9.78,76.7593,NE,3267.0,33.5,Weathered Laterite,2.1,False,12.0,8.38,0.5,Plantation (Rubber/Cardamom),74,11.11,80.2,2,75.0,8.38,False,1.335,True,Upper Meenachil (Teekoy / Erattupetta),255.2,False
+653,9.78,76.7669,NE,3206.4,21.0,Weathered Laterite,12.5,False,7.21,10.65,0.5,Shrub / Forest Canopy,68,11.86,59.2,1,86.0,10.65,False,1.411,True,Upper Meenachil (Teekoy / Erattupetta),346.0,False
+654,9.78,76.7745,NE,3239.9,14.6,Weathered Laterite,17.8,False,4.0,5.64,0.5,Shrub / Forest Canopy,68,13.1,47.2,1,408.0,5.64,False,1.381,True,Upper Meenachil (Teekoy / Erattupetta),145.6,False
+655,9.78,76.7821,NE,3371.3,2.0,Rocky Charnockite / Skeletal,34.4,True,2.78,7.13,0.5,Shrub / Forest Canopy,68,13.75,12.8,0,673.0,7.13,False,1.366,True,Upper Meenachil (Teekoy / Erattupetta),205.2,True
+656,9.78,76.7897,NE,3273.7,25.8,Weathered Laterite,8.5,False,5.2,8.41,0.5,Shrub / Forest Canopy,68,15.48,61.4,1,468.0,8.41,False,1.368,True,Upper Meenachil (Teekoy / Erattupetta),256.4,False
+657,9.78,76.7972,NE,3187.0,25.6,Weathered Laterite,8.7,False,4.4,8.01,0.5,Shrub / Forest Canopy,68,16.7,59.9,1,539.0,8.01,False,1.386,True,Upper Meenachil (Teekoy / Erattupetta),240.4,False
+658,9.78,76.8048,NE,3442.6,22.0,Weathered Laterite,11.7,False,4.0,9.6,0.5,Shrub / Forest Canopy,68,17.75,55.4,1,560.0,9.6,False,1.421,True,Upper Meenachil (Teekoy / Erattupetta),304.0,False
+659,9.78,76.8124,NE,3366.1,2.0,Rocky Charnockite / Skeletal,42.6,True,2.37,12.17,0.5,Shrub / Forest Canopy,68,18.52,8.7,0,902.0,12.17,False,1.471,True,Upper Meenachil (Teekoy / Erattupetta),406.8,True
+660,9.78,76.82,NE,3354.5,28.3,Weathered Laterite,6.4,False,4.0,10.95,0.5,Shrub / Forest Canopy,68,19.61,62.4,1,812.0,10.95,False,1.537,True,Upper Meenachil (Teekoy / Erattupetta),358.0,False
+661,9.7867,76.6,NW,2742.1,35.5,Weathered Laterite,0.4,False,12.66,9.12,0.5,Mixed Agricultural / Homestead,78,13.72,83.5,2,86.0,9.12,False,1.75,True,Lower Meenachil (Mutholy / Kidangoor),284.8,False
+662,9.7867,76.6076,NW,2719.7,26.8,Weathered Laterite,7.7,False,9.13,10.94,0.5,Mixed Agricultural / Homestead,78,13.0,68.5,2,110.0,10.94,False,1.628,True,Lower Meenachil (Mutholy / Kidangoor),357.6,False
+663,9.7867,76.6152,NW,2766.0,35.5,Weathered Laterite,0.4,False,12.79,8.23,0.5,Mixed Agricultural / Homestead,78,12.16,83.7,2,73.0,8.23,False,1.521,True,Lower Meenachil (Mutholy / Kidangoor),249.2,False
+664,9.7867,76.6228,NW,2769.7,33.8,Weathered Laterite,1.8,False,11.9,5.64,0.5,Mixed Agricultural / Homestead,78,10.33,80.5,2,99.0,5.64,False,1.429,True,Lower Meenachil (Mutholy / Kidangoor),145.6,False
+665,9.7867,76.6303,NW,2866.0,33.6,Weathered Laterite,2.0,False,11.47,11.03,0.5,Mixed Agricultural / Homestead,78,8.97,79.5,2,133.0,11.03,False,1.354,True,Lower Meenachil (Mutholy / Kidangoor),361.2,False
+666,9.7867,76.6379,NW,2842.1,2.0,Rocky Charnockite / Skeletal,32.6,True,2.87,12.13,0.5,Mixed Agricultural / Homestead,78,8.13,13.7,0,218.0,12.13,False,1.294,True,Lower Meenachil (Mutholy / Kidangoor),405.2,True
+667,9.7867,76.6455,NW,2909.0,32.0,Weathered Laterite,3.3,False,11.48,6.91,0.5,Mixed Agricultural / Homestead,78,7.15,77.8,2,74.0,6.91,False,1.222,True,Lower Meenachil (Mutholy / Kidangoor),196.4,False
+668,9.7867,76.6531,NW,2913.2,34.1,Weathered Laterite,1.6,False,12.2,9.53,0.5,Mixed Agricultural / Homestead,78,5.81,81.2,2,78.0,9.53,False,1.146,True,Lower Meenachil (Mutholy / Kidangoor),301.2,False
+669,9.7867,76.6607,NW,2827.7,34.9,Weathered Laterite,0.9,False,12.79,8.99,1.21,Mixed Agricultural / Homestead,78,5.04,83.0,2,51.0,8.99,False,1.086,True,Mid Meenachil (Pala / Bharananganam),279.6,False
+670,9.7867,76.6683,NW,2972.1,35.6,Weathered Laterite,0.3,False,12.96,6.71,1.12,Mixed Agricultural / Homestead,78,3.73,84.1,2,61.0,6.31,False,1.043,True,Mid Meenachil (Pala / Bharananganam),172.4,False
+671,9.7867,76.6759,NW,2983.8,35.2,Weathered Laterite,0.7,False,12.9,7.27,1.78,Mixed Agricultural / Homestead,78,2.23,83.5,2,49.0,5.74,False,1.016,True,Mid Meenachil (Pala / Bharananganam),149.6,False
+672,9.7867,76.6834,NW,3017.3,29.3,Weathered Laterite,5.6,False,10.37,6.43,2.5,Mixed Agricultural / Homestead,78,1.75,73.1,2,81.0,4.54,False,1.007,True,Mid Meenachil (Pala / Bharananganam),101.6,False
+673,9.7867,76.691,NW,3006.2,34.9,Weathered Laterite,0.9,False,12.63,2.77,2.9,Mixed Agricultural / Homestead,78,0.05,82.8,2,66.0,0.9,True,1.014,True,Mid Meenachil (Pala / Bharananganam),0.0,False
+674,9.7867,76.6986,NW,3000.8,35.5,Weathered Laterite,0.4,False,13.04,7.14,2.11,Mixed Agricultural / Homestead,78,1.09,84.0,2,48.0,4.76,False,1.038,True,Mid Meenachil (Pala / Bharananganam),110.4,False
+675,9.7867,76.7062,NW,3115.0,34.4,Weathered Laterite,1.3,False,12.55,6.63,2.11,Mixed Agricultural / Homestead,78,2.23,82.1,2,56.0,5.1,False,1.079,True,Mid Meenachil (Pala / Bharananganam),124.0,False
+676,9.7867,76.7138,NE,3118.5,25.0,Weathered Laterite,9.2,False,8.47,9.25,1.54,Mixed Agricultural / Homestead,78,3.17,65.5,1,109.0,8.43,False,1.136,True,Mid Meenachil (Pala / Bharananganam),257.2,False
+677,9.7867,76.7214,NE,3122.6,33.2,Weathered Laterite,2.3,False,11.62,8.32,1.14,Mixed Agricultural / Homestead,78,4.31,79.4,2,104.0,8.32,False,1.21,True,Mid Meenachil (Pala / Bharananganam),252.8,False
+678,9.7867,76.729,NE,3152.0,33.4,Weathered Laterite,2.2,False,11.49,7.84,0.57,Mixed Agricultural / Homestead,78,5.45,79.3,2,122.0,7.84,False,1.273,True,Mid Meenachil (Pala / Bharananganam),233.6,False
+679,9.7867,76.7366,NE,3177.8,33.6,Weathered Laterite,2.0,False,11.61,9.36,0.5,Plantation (Rubber/Cardamom),74,6.41,79.8,2,119.0,9.36,False,1.303,True,Mid Meenachil (Pala / Bharananganam),294.4,False
+680,9.7867,76.7441,NE,3194.7,21.1,Weathered Laterite,12.4,False,6.4,8.7,0.5,Plantation (Rubber/Cardamom),74,7.7,58.1,1,172.0,8.7,False,1.349,True,Upper Meenachil (Teekoy / Erattupetta),268.0,False
+681,9.7867,76.7517,NE,3236.1,28.7,Weathered Laterite,6.1,False,9.7,6.93,0.5,Shrub / Forest Canopy,68,8.43,71.4,2,125.0,6.93,False,1.411,True,Upper Meenachil (Teekoy / Erattupetta),197.2,False
+682,9.7867,76.7593,NE,3252.1,28.1,Weathered Laterite,6.6,False,9.91,6.39,0.5,Shrub / Forest Canopy,68,10.43,71.1,2,82.0,6.39,False,1.489,True,Upper Meenachil (Teekoy / Erattupetta),175.6,False
+683,9.7867,76.7669,NE,3240.0,17.5,Weathered Laterite,15.4,False,4.61,11.96,0.5,Plantation (Rubber/Cardamom),74,10.78,51.4,1,216.0,11.96,False,1.582,True,Upper Meenachil (Teekoy / Erattupetta),398.4,False
+684,9.7867,76.7745,NE,3329.6,13.7,Weathered Laterite,18.6,False,4.0,10.2,0.5,Shrub / Forest Canopy,68,12.12,46.2,1,510.0,10.2,False,1.554,True,Upper Meenachil (Teekoy / Erattupetta),328.0,False
+685,9.7867,76.7821,NE,3355.5,2.0,Rocky Charnockite / Skeletal,33.2,True,2.84,9.28,0.5,Shrub / Forest Canopy,68,13.3,13.4,0,744.0,9.28,False,1.54,True,Upper Meenachil (Teekoy / Erattupetta),291.2,True
+686,9.7867,76.7897,NE,3266.2,23.3,Weathered Laterite,10.6,False,4.0,11.11,0.5,Shrub / Forest Canopy,68,14.16,56.8,1,551.0,11.11,False,1.542,True,Upper Meenachil (Teekoy / Erattupetta),364.4,False
+687,9.7867,76.7972,NE,3201.5,24.6,Weathered Laterite,9.5,False,4.0,9.88,0.5,Shrub / Forest Canopy,68,16.17,58.3,1,622.0,9.88,False,1.56,True,Upper Meenachil (Teekoy / Erattupetta),315.2,False
+688,9.7867,76.8048,NE,3358.0,25.8,Weathered Laterite,8.5,False,4.0,5.73,0.5,Shrub / Forest Canopy,68,17.02,59.6,1,716.0,5.73,False,1.594,True,Upper Meenachil (Teekoy / Erattupetta),149.2,False
+689,9.7867,76.8124,NE,3343.2,2.0,Rocky Charnockite / Skeletal,32.8,True,2.86,7.28,0.5,Shrub / Forest Canopy,68,18.43,13.6,0,885.0,7.28,False,1.643,True,Upper Meenachil (Teekoy / Erattupetta),211.2,True
+690,9.7867,76.82,NE,3407.5,22.6,Weathered Laterite,11.2,False,4.0,9.19,0.5,Shrub / Forest Canopy,68,19.15,56.0,1,740.0,9.19,False,1.709,True,Upper Meenachil (Teekoy / Erattupetta),287.6,False
+691,9.7933,76.6,NW,2715.9,21.5,Weathered Laterite,12.1,False,6.88,6.45,0.5,Mixed Agricultural / Homestead,78,14.62,59.2,1,138.0,6.45,False,1.905,True,Lower Meenachil (Mutholy / Kidangoor),178.0,False
+692,9.7933,76.6076,NW,2729.8,34.4,Weathered Laterite,1.3,False,12.29,7.2,0.5,Mixed Agricultural / Homestead,78,13.79,81.7,2,82.0,7.2,False,1.784,True,Lower Meenachil (Mutholy / Kidangoor),208.0,False
+693,9.7933,76.6152,NW,2806.2,34.8,Weathered Laterite,1.0,False,12.21,6.13,0.5,Mixed Agricultural / Homestead,78,12.08,82.0,2,104.0,6.13,False,1.679,True,Lower Meenachil (Mutholy / Kidangoor),165.2,False
+694,9.7933,76.6228,NW,2732.8,25.4,Weathered Laterite,8.8,False,8.37,10.91,0.5,Mixed Agricultural / Homestead,78,10.91,65.8,1,137.0,10.91,False,1.588,True,Lower Meenachil (Mutholy / Kidangoor),356.4,False
+695,9.7933,76.6303,NW,2871.9,33.4,Weathered Laterite,2.2,False,11.55,6.83,0.5,Mixed Agricultural / Homestead,78,10.07,79.4,2,116.0,6.83,False,1.514,True,Lower Meenachil (Mutholy / Kidangoor),193.2,False
+696,9.7933,76.6379,NW,2836.2,31.7,Weathered Laterite,3.6,False,11.15,9.55,0.5,Mixed Agricultural / Homestead,78,9.19,76.9,2,93.0,9.55,False,1.455,True,Lower Meenachil (Mutholy / Kidangoor),302.0,False
+697,9.7933,76.6455,NW,2952.0,32.3,Weathered Laterite,3.1,False,11.71,11.57,0.5,Mixed Agricultural / Homestead,78,7.58,78.5,2,59.0,11.57,False,1.367,True,Lower Meenachil (Mutholy / Kidangoor),382.8,False
+698,9.7933,76.6531,NW,2929.3,34.9,Weathered Laterite,0.9,False,12.76,10.54,0.5,Mixed Agricultural / Homestead,78,7.0,83.0,2,54.0,10.54,False,1.292,True,Lower Meenachil (Mutholy / Kidangoor),341.6,False
+699,9.7933,76.6607,NW,2984.1,35.6,Weathered Laterite,0.3,False,13.05,9.84,0.5,Mixed Agricultural / Homestead,78,5.29,84.2,2,51.0,9.84,False,1.233,True,Mid Meenachil (Pala / Bharananganam),313.6,False
+700,9.7933,76.6683,NW,2951.9,34.9,Weathered Laterite,0.9,False,12.82,12.37,1.37,Mixed Agricultural / Homestead,78,4.18,83.0,2,48.0,12.3,False,1.19,True,Mid Meenachil (Pala / Bharananganam),412.0,False
+701,9.7933,76.6759,NW,3038.3,34.0,Weathered Laterite,1.7,False,12.38,9.35,1.9,Mixed Agricultural / Homestead,78,3.12,81.3,2,55.0,8.49,False,1.164,True,Mid Meenachil (Pala / Bharananganam),259.6,False
+702,9.7933,76.6834,NW,2976.4,29.3,Weathered Laterite,5.6,False,10.28,9.44,2.19,Mixed Agricultural / Homestead,78,1.92,73.0,2,90.0,7.68,False,1.155,True,Mid Meenachil (Pala / Bharananganam),227.2,False
+703,9.7933,76.691,NW,3016.4,34.9,Weathered Laterite,0.9,False,12.54,6.5,2.46,Mixed Agricultural / Homestead,78,1.09,82.6,2,76.0,4.12,False,1.162,True,Mid Meenachil (Pala / Bharananganam),84.8,False
+704,9.7933,76.6986,NW,3021.8,35.3,Weathered Laterite,0.6,False,12.82,2.75,2.38,Built-up,88,0.58,83.5,2,61.0,0.9,True,1.185,True,Mid Meenachil (Pala / Bharananganam),0.0,False
+705,9.7933,76.7062,NW,3059.7,33.5,Weathered Laterite,2.1,False,12.25,8.13,2.4,Mixed Agricultural / Homestead,78,1.22,80.6,2,50.0,5.85,False,1.226,True,Mid Meenachil (Pala / Bharananganam),154.0,False
+706,9.7933,76.7138,NE,3039.9,31.3,Weathered Laterite,3.9,False,11.13,12.03,1.69,Mixed Agricultural / Homestead,78,2.29,76.5,2,82.0,10.55,False,1.282,True,Mid Meenachil (Pala / Bharananganam),342.0,False
+707,9.7933,76.7214,NE,3259.4,29.9,Weathered Laterite,5.1,False,9.96,8.02,1.44,Mixed Agricultural / Homestead,78,3.72,73.2,2,144.0,7.61,False,1.355,True,Mid Meenachil (Pala / Bharananganam),224.4,False
+708,9.7933,76.729,NE,3159.4,16.7,Weathered Laterite,16.1,False,4.35,5.76,1.1,Mixed Agricultural / Homestead,78,4.41,50.0,1,210.0,5.76,False,1.438,True,Mid Meenachil (Pala / Bharananganam),150.4,False
+709,9.7933,76.7366,NE,3144.8,31.7,Weathered Laterite,3.6,False,10.85,7.5,0.5,Shrub / Forest Canopy,68,5.61,76.5,2,123.0,7.5,False,1.467,True,Mid Meenachil (Pala / Bharananganam),220.0,False
+710,9.7933,76.7441,NE,3200.3,19.7,Weathered Laterite,13.6,False,5.56,7.42,0.5,Shrub / Forest Canopy,68,7.16,55.2,1,202.0,7.42,False,1.512,True,Upper Meenachil (Teekoy / Erattupetta),216.8,False
+711,9.7933,76.7517,NE,3237.6,31.2,Weathered Laterite,4.0,False,11.04,12.28,0.5,Shrub / Forest Canopy,68,7.67,76.2,2,86.0,12.28,False,1.573,True,Upper Meenachil (Teekoy / Erattupetta),411.2,False
+712,9.7933,76.7593,NE,3240.6,22.6,Weathered Laterite,11.2,False,6.36,7.18,0.5,Shrub / Forest Canopy,68,9.27,59.6,1,230.0,7.18,False,1.65,True,Upper Meenachil (Teekoy / Erattupetta),207.2,False
+713,9.7933,76.7669,NE,3267.7,18.1,Weathered Laterite,14.9,False,4.0,7.87,0.5,Plantation (Rubber/Cardamom),74,10.32,51.1,1,335.0,7.87,False,1.743,True,Upper Meenachil (Teekoy / Erattupetta),234.8,False
+714,9.7933,76.7745,NE,3292.4,17.0,Weathered Laterite,15.8,False,4.0,9.7,0.5,Shrub / Forest Canopy,68,12.02,49.9,1,603.0,9.7,False,1.735,True,Upper Meenachil (Teekoy / Erattupetta),308.0,False
+715,9.7933,76.7821,NE,3244.2,26.5,Weathered Laterite,7.9,False,4.0,9.45,0.5,Shrub / Forest Canopy,68,12.72,60.4,1,771.0,9.45,False,1.721,True,Upper Meenachil (Teekoy / Erattupetta),298.0,False
+716,9.7933,76.7897,NE,3363.9,2.0,Rocky Charnockite / Skeletal,38.1,True,2.59,8.99,0.5,Shrub / Forest Canopy,68,13.82,10.9,0,848.0,8.99,False,1.723,True,Upper Meenachil (Teekoy / Erattupetta),279.6,True
+717,9.7933,76.7972,NE,3316.5,31.4,Weathered Laterite,3.8,False,4.8,7.7,0.5,Shrub / Forest Canopy,68,15.24,67.0,1,719.0,7.7,False,1.74,True,Upper Meenachil (Teekoy / Erattupetta),228.0,False
+718,9.7933,76.8048,NE,3334.0,3.3,Rocky Charnockite / Skeletal,23.5,True,3.33,6.89,0.5,Shrub / Forest Canopy,68,16.64,18.2,0,763.0,6.89,False,1.774,True,Upper Meenachil (Teekoy / Erattupetta),195.6,True
+719,9.7933,76.8124,NE,3342.9,2.1,Rocky Charnockite / Skeletal,29.4,True,3.03,7.34,0.5,Shrub / Forest Canopy,68,17.61,15.3,0,718.0,7.34,False,1.823,True,Upper Meenachil (Teekoy / Erattupetta),213.6,True
+720,9.7933,76.82,NE,3322.2,15.1,Weathered Laterite,17.4,False,4.0,11.67,0.5,Shrub / Forest Canopy,68,18.16,47.8,1,416.0,11.67,False,1.888,True,Upper Meenachil (Teekoy / Erattupetta),386.8,False
+721,9.8,76.6,NW,2663.3,34.4,Weathered Laterite,1.3,False,11.81,5.65,0.5,Mixed Agricultural / Homestead,78,15.59,81.0,2,130.0,5.65,False,2.073,True,Lower Meenachil (Mutholy / Kidangoor),146.0,False
+722,9.8,76.6076,NW,2888.6,29.6,Weathered Laterite,5.3,False,10.17,5.95,0.5,Mixed Agricultural / Homestead,78,13.92,73.2,2,115.0,5.95,False,1.954,True,Lower Meenachil (Mutholy / Kidangoor),158.0,False
+723,9.8,76.6152,NW,2759.5,34.8,Weathered Laterite,1.0,False,12.42,9.81,0.5,Mixed Agricultural / Homestead,78,13.74,82.3,2,83.0,9.81,False,1.849,True,Lower Meenachil (Mutholy / Kidangoor),312.4,False
+724,9.8,76.6228,NW,2761.2,28.0,Weathered Laterite,6.7,False,9.51,11.18,0.5,Mixed Agricultural / Homestead,78,11.94,70.4,2,117.0,11.18,False,1.76,True,Lower Meenachil (Mutholy / Kidangoor),367.2,False
+725,9.8,76.6303,NW,2864.7,33.4,Weathered Laterite,2.2,False,12.03,10.5,0.5,Mixed Agricultural / Homestead,78,10.52,80.1,2,68.0,10.5,False,1.686,True,Lower Meenachil (Mutholy / Kidangoor),340.0,False
+726,9.8,76.6379,NW,2866.1,22.3,Weathered Laterite,11.4,False,7.53,9.86,0.5,Mixed Agricultural / Homestead,78,9.42,61.1,1,104.0,9.86,False,1.614,True,Lower Meenachil (Mutholy / Kidangoor),314.4,False
+727,9.8,76.6455,NW,2855.0,32.3,Weathered Laterite,3.1,False,11.88,8.38,0.5,Mixed Agricultural / Homestead,78,8.53,78.7,2,42.0,8.38,False,1.524,True,Lower Meenachil (Mutholy / Kidangoor),255.2,False
+728,9.8,76.6531,NW,2904.4,34.9,Weathered Laterite,0.9,False,12.84,5.57,0.5,Mixed Agricultural / Homestead,78,7.22,83.1,2,46.0,5.57,False,1.45,True,Lower Meenachil (Mutholy / Kidangoor),142.8,False
+729,9.8,76.6607,NW,2955.3,35.6,Weathered Laterite,0.3,False,12.98,11.09,0.5,Mixed Agricultural / Homestead,78,6.71,84.1,2,58.0,11.09,False,1.392,True,Mid Meenachil (Pala / Bharananganam),363.6,False
+730,9.8,76.6683,NW,2929.5,34.9,Weathered Laterite,0.9,False,12.74,6.98,0.5,Mixed Agricultural / Homestead,78,5.55,82.9,2,56.0,6.98,False,1.35,True,Mid Meenachil (Pala / Bharananganam),199.2,False
+731,9.8,76.6759,NW,2952.9,13.8,Weathered Laterite,18.5,False,4.14,11.39,1.56,Mixed Agricultural / Homestead,78,3.62,46.5,1,123.0,10.9,False,1.325,True,Mid Meenachil (Pala / Bharananganam),356.0,False
+732,9.8,76.6834,NW,2986.0,35.4,Weathered Laterite,0.5,False,12.71,8.72,1.23,Mixed Agricultural / Homestead,78,3.31,83.4,2,77.0,8.0,False,1.315,True,Mid Meenachil (Pala / Bharananganam),240.0,False
+733,9.8,76.691,NW,3018.4,34.9,Weathered Laterite,0.9,False,12.85,6.51,1.59,Mixed Agricultural / Homestead,78,2.07,83.1,2,45.0,4.86,False,1.322,True,Mid Meenachil (Pala / Bharananganam),114.4,False
+734,9.8,76.6986,NW,3042.2,35.3,Weathered Laterite,0.6,False,12.77,3.6,2.35,Mixed Agricultural / Homestead,78,0.63,83.4,2,66.0,0.9,True,1.346,True,Mid Meenachil (Pala / Bharananganam),0.0,False
+735,9.8,76.7062,NW,3014.0,29.0,Weathered Laterite,5.8,False,10.04,3.66,2.87,Mixed Agricultural / Homestead,78,0.61,72.3,2,105.0,0.92,True,1.385,True,Mid Meenachil (Pala / Bharananganam),0.0,False
+736,9.8,76.7138,NE,3063.9,31.3,Weathered Laterite,3.9,False,10.51,8.09,2.52,Mixed Agricultural / Homestead,78,1.19,75.6,2,144.0,5.78,False,1.441,True,Mid Meenachil (Pala / Bharananganam),151.2,False
+737,9.8,76.7214,NE,3068.5,16.0,Weathered Laterite,16.7,False,4.0,5.84,1.08,Mixed Agricultural / Homestead,78,3.07,48.7,1,231.0,4.94,False,1.512,True,Mid Meenachil (Pala / Bharananganam),117.6,False
+738,9.8,76.729,NE,3109.6,25.0,Weathered Laterite,9.2,False,7.13,10.74,0.97,Mixed Agricultural / Homestead,78,4.27,63.4,1,243.0,10.74,False,1.6,True,Mid Meenachil (Pala / Bharananganam),349.6,False
+739,9.8,76.7366,NE,3192.0,31.7,Weathered Laterite,3.6,False,10.07,8.06,0.87,Plantation (Rubber/Cardamom),74,4.88,75.3,2,201.0,8.06,False,1.644,True,Mid Meenachil (Pala / Bharananganam),242.4,False
+740,9.8,76.7441,NE,3121.9,3.7,Rocky Charnockite / Skeletal,21.3,True,3.44,11.59,0.5,Plantation (Rubber/Cardamom),74,5.89,19.4,0,253.0,11.59,False,1.688,True,Upper Meenachil (Teekoy / Erattupetta),383.6,True
+741,9.8,76.7517,NE,3199.8,31.2,Weathered Laterite,4.0,False,10.44,10.58,0.5,Shrub / Forest Canopy,68,7.03,75.3,2,146.0,10.58,False,1.749,True,Upper Meenachil (Teekoy / Erattupetta),343.2,False
+742,9.8,76.7593,NE,3167.0,2.9,Rocky Charnockite / Skeletal,25.5,True,3.23,11.15,0.5,Shrub / Forest Canopy,68,8.48,17.2,0,368.0,11.15,False,1.825,True,Upper Meenachil (Teekoy / Erattupetta),366.0,True
+743,9.8,76.7669,NE,3353.7,18.1,Weathered Laterite,14.9,False,4.0,7.87,0.5,Shrub / Forest Canopy,68,9.63,51.1,1,470.0,7.87,False,1.916,True,Upper Meenachil (Teekoy / Erattupetta),234.8,False
+744,9.8,76.7745,NE,3223.4,17.0,Weathered Laterite,15.8,False,4.0,8.96,0.5,Shrub / Forest Canopy,68,10.96,49.9,1,628.0,8.96,False,1.929,True,Upper Meenachil (Teekoy / Erattupetta),278.4,False
+745,9.8,76.7821,NE,3267.9,2.0,Rocky Charnockite / Skeletal,30.8,True,2.96,6.75,0.5,Shrub / Forest Canopy,68,12.42,14.6,0,836.0,6.75,False,1.915,True,Upper Meenachil (Teekoy / Erattupetta),190.0,True
+746,9.8,76.7897,NE,3253.7,27.4,Weathered Laterite,7.2,False,4.0,9.51,0.5,Shrub / Forest Canopy,68,13.08,61.3,1,787.0,9.51,False,1.917,True,Upper Meenachil (Teekoy / Erattupetta),300.4,False
+747,9.8,76.7972,NE,3299.8,19.7,Weathered Laterite,13.6,False,4.0,6.41,0.5,Shrub / Forest Canopy,68,14.71,52.8,1,741.0,6.41,False,1.934,True,Upper Meenachil (Teekoy / Erattupetta),176.4,False
+748,9.8,76.8048,NE,3391.4,28.7,Weathered Laterite,6.1,False,5.09,10.09,0.5,Shrub / Forest Canopy,68,15.77,64.4,1,586.0,10.09,False,1.967,True,Upper Meenachil (Teekoy / Erattupetta),323.6,False
+749,9.8,76.8124,NE,3408.1,15.1,Weathered Laterite,17.4,False,4.0,6.01,0.5,Shrub / Forest Canopy,68,16.81,47.8,1,402.0,6.01,False,2.015,True,Upper Meenachil (Teekoy / Erattupetta),160.4,False
+750,9.8,76.82,NE,3430.0,15.1,Weathered Laterite,17.4,False,4.0,10.13,0.5,Shrub / Forest Canopy,68,17.48,47.8,1,232.0,10.13,False,2.079,True,Upper Meenachil (Teekoy / Erattupetta),325.2,False
