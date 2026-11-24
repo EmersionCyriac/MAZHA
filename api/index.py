@@ -13,39 +13,41 @@ from app.main import app
 # Normalizing middleware for Vercel Serverless routing
 @app.middleware("http")
 async def normalize_vercel_paths(request: Request, call_next):
-    # Retrieve current path and any Vercel proxy headers
-    current_path = request.scope.get("path", "")
-    matched_path = request.headers.get("x-matched-path", "")
-    forwarded_uri = request.headers.get("x-forwarded-uri", "")
+    scope = request.scope
+    current_path = scope.get("path", "")
+    
+    # 1. Check if rewrite passed the subpath via __path__ query param
+    query_string = scope.get("query_string", b"").decode("utf-8")
+    extracted_path = None
+    if "__path__=" in query_string:
+        for param in query_string.split("&"):
+            if param.startswith("__path__="):
+                sub = param.split("=", 1)[1].split("&")[0]
+                extracted_path = f"/{sub.lstrip('/')}"
+                break
 
-    # Priority candidate for actual requested route
-    target_path = None
-    for candidate in [matched_path, forwarded_uri, current_path]:
-        if candidate and candidate != "/api/index.py" and candidate != "/api/index":
-            target_path = candidate
+    matched_hdr = request.headers.get("x-matched-path", "")
+    forwarded_hdr = request.headers.get("x-forwarded-uri", "")
+
+    # 2. Gather candidates
+    candidates = []
+    if extracted_path:
+        candidates.extend([extracted_path, f"/api{extracted_path}"])
+    for hdr in [matched_hdr, forwarded_hdr]:
+        if hdr and "/api/index" not in hdr:
+            hdr_clean = hdr.split("?")[0]
+            candidates.extend([hdr_clean, f"/api{hdr_clean}"])
+    candidates.extend([current_path, f"/api{current_path}"])
+    if "/api/index" in current_path:
+        stripped = current_path.replace("/api/index.py", "").replace("/api/index", "")
+        if stripped:
+            candidates.extend([stripped, f"/api{stripped}"])
+
+    registered_paths = {r.path for r in app.routes if hasattr(r, "path")}
+    for c in candidates:
+        if c in registered_paths:
+            scope["path"] = c
             break
-
-    if target_path:
-        # Strip query string if present in candidate
-        target_path = target_path.split("?")[0]
-        # Clean up /api/index prefix if present
-        if target_path.startswith("/api/index/"):
-            target_path = target_path.replace("/api/index", "", 1)
-        elif target_path == "/api/index":
-            target_path = "/"
-        
-        # Ensure it matches registered FastAPI routes
-        # Some routes might start with /api/...
-        registered_paths = [r.path for r in app.routes if hasattr(r, "path")]
-        
-        if target_path in registered_paths:
-            request.scope["path"] = target_path
-        elif f"/api{target_path}" in registered_paths:
-            request.scope["path"] = f"/api{target_path}"
-        elif target_path.startswith("/api") and target_path[4:] in registered_paths:
-            request.scope["path"] = target_path[4:]
-        else:
-            request.scope["path"] = target_path
 
     return await call_next(request)
 
@@ -59,4 +61,5 @@ async def vercel_debug(request: Request):
         "headers": dict(request.headers),
         "registered_routes": [r.path for r in app.routes if hasattr(r, "path")]
     }
+
 

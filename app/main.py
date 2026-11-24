@@ -147,18 +147,21 @@ async def serve_dashboard():
 
 
 @app.get("/api/meenachil/grid")
+@app.get("/meenachil/grid")
 async def get_grid_data():
     """Returns spatial grid across Meenachil basin with slope, DTWL, and sub-basin tags."""
     return JSONResponse(content={"count": len(get_spatial_grid()), "grid": get_spatial_grid()})
 
 
 @app.get("/api/meenachil/anchors")
+@app.get("/meenachil/anchors")
 async def get_anchors():
     """Returns pilot monitoring anchor sites in Meenachil."""
     return JSONResponse(content=get_anchor_sites())
 
 
 @app.get("/api/weather/live")
+@app.get("/weather/live")
 async def get_weather():
     """Fetches live meteorological parameters from Open-Meteo for Meenachil."""
     data = await hydro_engine.fetch_live_meenachil_weather()
@@ -166,12 +169,14 @@ async def get_weather():
 
 
 @app.get("/api/ml/metrics")
+@app.get("/ml/metrics")
 async def get_model_metrics():
     """Returns leak-free AI validation metrics and feature importances."""
     return JSONResponse(content=get_ml_metrics())
 
 
 @app.get("/api/iot/network")
+@app.get("/iot/network")
 async def get_iot_telemetry():
     """
     Returns IoT network telemetry specified in PDF:
@@ -229,6 +234,7 @@ async def get_iot_telemetry():
 
 
 @app.get("/api/nrt/basin_volumes")
+@app.get("/nrt/basin_volumes")
 async def get_basin_volumes(rainfall_mm: Optional[float] = None, et0_mm: Optional[float] = 3.6):
     """
     Near-Real-Time recharge and storage volumes per sub-basin with NASA IMERG uncertainty range (+/- 18%).
@@ -243,6 +249,7 @@ async def get_basin_volumes(rainfall_mm: Optional[float] = None, et0_mm: Optiona
 
 
 @app.post("/api/simulate/cutoff_sensitivity")
+@app.post("/simulate/cutoff_sensitivity")
 async def evaluate_cutoff_sensitivity(req: CutoffSensitivityRequest):
     """
     Evaluates PDF Step 8: Sensitivity test of the DTWL cutoff at 2m, 3m, and 5m.
@@ -253,6 +260,7 @@ async def evaluate_cutoff_sensitivity(req: CutoffSensitivityRequest):
 
 
 @app.post("/api/simulate/water_balance")
+@app.post("/simulate/water_balance")
 async def simulate_water_balance(req: WaterBalanceRequest):
     """
     GAP 1 SOLVER:
@@ -268,6 +276,7 @@ async def simulate_water_balance(req: WaterBalanceRequest):
 
 
 @app.post("/api/simulate/optimize_recharge")
+@app.post("/simulate/optimize_recharge")
 async def optimize_recharge(req: OptimizeRechargeRequest):
     """
     GAP 2 SOLVER:
@@ -287,6 +296,7 @@ async def optimize_recharge(req: OptimizeRechargeRequest):
 
 
 @app.post("/api/simulate/harvest")
+@app.post("/simulate/harvest")
 async def simulate_harvest(req: HarvestSimRequest):
     """Calculates rainwater harvesting potential: Vh = P * A * Cr * eta."""
     res = hydro_engine.compute_rainwater_harvesting_potential(
@@ -299,6 +309,7 @@ async def simulate_harvest(req: HarvestSimRequest):
 
 
 @app.post("/api/simulate/vwba")
+@app.post("/simulate/vwba")
 async def simulate_vwba(req: VwbaSimRequest):
     """Calculates VWBA 2.0 metrics, 10-yr cost/kL (< 50 INR target) and water table rise (dh)."""
     res = hydro_engine.compute_vwba_metrics(
@@ -312,6 +323,7 @@ async def simulate_vwba(req: VwbaSimRequest):
 
 
 @app.post("/api/simulate/site_eval")
+@app.post("/simulate/site_eval")
 async def evaluate_site(req: SiteEvalRequest):
     """Evaluates slope > 20 deg exclusion and multi-criteria RSI score."""
     res = hydro_engine.evaluate_site_suitability(
