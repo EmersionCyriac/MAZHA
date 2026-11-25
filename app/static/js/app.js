@@ -105,8 +105,12 @@ function activateRailBtn(btn, target) {
 
   if (target === "map") {
     fitMeenachilBasin();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   } else {
     setSimMode(target);
+    if (window.innerWidth <= 768) {
+      document.querySelector(".bottom-tray-expanded")?.scrollIntoView({ behavior: "smooth" });
+    }
   }
 }
 
@@ -122,18 +126,22 @@ function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-// Location Picker Dropdown (Fix for Img 3)
+// Location Picker Dropdown & Mobile Bottom Sheet
 function toggleLocationDropdown(e) {
   if (e) e.stopPropagation();
   const dd = document.getElementById("locationDropdown");
   if (!dd) return;
   const isHidden = dd.style.display === "none" || !dd.style.display;
   dd.style.display = isHidden ? "flex" : "none";
+  const bd = document.getElementById("locationDropdownBackdrop");
+  if (bd) bd.style.display = isHidden ? "block" : "none";
 }
 
 function closeLocationDropdown() {
   const dd = document.getElementById("locationDropdown");
   if (dd) dd.style.display = "none";
+  const bd = document.getElementById("locationDropdownBackdrop");
+  if (bd) bd.style.display = "none";
 }
 
 document.addEventListener("click", () => {

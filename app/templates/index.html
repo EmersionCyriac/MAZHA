@@ -49,6 +49,9 @@
     <!-- 2. MAIN IMMERSIVE STAGE -->
     <div class="dash-stage">
       
+      <!-- Mobile Backdrop for Bottom Sheet -->
+      <div class="mobile-dropdown-backdrop" id="locationDropdownBackdrop" style="display: none;" onclick="closeLocationDropdown()"></div>
+
       <!-- TOP FLOATING BAR -->
       <header class="top-float-bar">
         
@@ -60,9 +63,12 @@
 
           <!-- Dropdown Menu -->
           <div class="location-dropdown-panel" id="locationDropdown" style="display: none;" onclick="event.stopPropagation()">
-            <div class="dropdown-title">
-              <span class="en-text">Select Monitoring Anchor Facility:</span>
-              <span class="ml-text">നിരീക്ഷണ സ്ഥലം തിരഞ്ഞെടുക്കുക:</span>
+            <div class="dropdown-title" style="display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <span class="en-text">Select Monitoring Anchor Facility:</span>
+                <span class="ml-text">നിരീക്ഷണ സ്ഥലം തിരഞ്ഞെടുക്കുക:</span>
+              </div>
+              <button type="button" class="dropdown-close-btn" onclick="closeLocationDropdown()" style="background:none; border:none; font-size:16px; cursor:pointer; padding:2px 8px; color:#64748b;" aria-label="Close">✕</button>
             </div>
             <div id="locationDropdownList">
               <!-- Rendered via JS -->
