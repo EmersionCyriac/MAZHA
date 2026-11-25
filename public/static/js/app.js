@@ -18,6 +18,23 @@ let currentLanguage = "en";
 let currentTimeline = [];
 let currentChartMode = "weekly";
 
+// Universal resilient API Fetcher (tries clean non-api path first, falls back to /api)
+async function apiFetch(endpoint, options = {}) {
+  const cleanPath = endpoint.startsWith("/api/")
+    ? endpoint.substring(4)
+    : (endpoint.startsWith("/") ? endpoint : `/${endpoint}`);
+  const apiPath = endpoint.startsWith("/api/") ? endpoint : `/api${cleanPath}`;
+
+  try {
+    const res = await fetch(cleanPath, options);
+    if (res.ok) return res;
+  } catch (err) {
+    console.warn(`Clean path ${cleanPath} fetch notice:`, err);
+  }
+
+  return await fetch(apiPath, options);
+}
+
 // Initialization
 document.addEventListener("DOMContentLoaded", () => {
   initMap();
@@ -129,7 +146,7 @@ document.addEventListener("click", () => {
 // Live Weather Telemetry
 async function loadLiveTelemetry() {
   try {
-    const res = await fetch("/api/weather/live");
+    const res = await apiFetch("/weather/live");
     const data = await res.json();
     
     // Floating bubbles
@@ -149,7 +166,7 @@ async function loadLiveTelemetry() {
 // IoT Network Telemetry
 async function loadIotNetworkTelemetry() {
   try {
-    const res = await fetch("/api/iot/network");
+    const res = await apiFetch("/iot/network");
     const data = await res.json();
     latestIotData = data;
 
@@ -289,7 +306,7 @@ function renderIotSensorsOnMap(iotData) {
 // Spatial Grid & Mask Rendering
 async function loadSpatialGrid() {
   try {
-    const res = await fetch("/api/meenachil/grid");
+    const res = await apiFetch("/meenachil/grid");
     if (res.ok) {
       const json = await res.json();
       if (json && Array.isArray(json.grid)) {
@@ -538,7 +555,7 @@ const DEFAULT_ANCHOR_SITES = [
 // Pilot Anchor Sites Loading
 async function loadAnchorSites() {
   try {
-    const res = await fetch("/api/meenachil/anchors");
+    const res = await apiFetch("/meenachil/anchors");
     if (res.ok) {
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -728,7 +745,7 @@ async function testCutoff(cutoffVal) {
   if (activeBtn) activeBtn.classList.add("active");
 
   try {
-    const res = await fetch("/api/simulate/cutoff_sensitivity", {
+    const res = await apiFetch("/simulate/cutoff_sensitivity", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ rainfall_mm: 35.0 })
@@ -771,7 +788,7 @@ async function runWaterBalanceSimulation() {
   if (dispQpFlow) dispQpFlow.innerText = `-${qp.toFixed(1)} MLD`;
 
   try {
-    const res = await fetch("/api/simulate/water_balance", {
+    const res = await apiFetch("/simulate/water_balance", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -858,7 +875,7 @@ async function runOptimizationSolver() {
   updateBudgetSliderDisplay();
 
   try {
-    const res = await fetch("/api/simulate/optimize_recharge", {
+    const res = await apiFetch("/simulate/optimize_recharge", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
