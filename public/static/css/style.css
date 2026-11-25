@@ -1791,9 +1791,10 @@ input[type="range"] {
   }
 
   .audit-capsule {
+    width: 34px !important;
+    min-width: 34px !important;
     height: 34px !important;
-    padding: 2px 8px !important;
-    font-size: 0.68rem !important;
+    padding: 0 !important;
     border-radius: 12px !important;
     background: rgba(255, 255, 255, 0.98) !important;
     backdrop-filter: none !important;
@@ -1804,6 +1805,8 @@ input[type="range"] {
     justify-content: center !important;
   }
 
+  .audit-capsule .en-text,
+  .audit-capsule .ml-text,
   .audit-text-label {
     display: none !important; /* On mobile, only icon 📑 is shown so Row 1 never wraps! */
   }

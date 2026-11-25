@@ -126,9 +126,28 @@ function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+// Teleport dropdown to body on mobile to avoid stacking context / backdrop clipping
+function handleResponsiveDropdown() {
+  const dd = document.getElementById("locationDropdown");
+  const capsule = document.getElementById("locationCapsule");
+  if (!dd || !capsule) return;
+  if (window.innerWidth <= 768) {
+    if (dd.parentElement !== document.body) {
+      document.body.appendChild(dd);
+    }
+  } else {
+    if (dd.parentElement !== capsule) {
+      capsule.appendChild(dd);
+    }
+  }
+}
+window.addEventListener("resize", handleResponsiveDropdown);
+document.addEventListener("DOMContentLoaded", handleResponsiveDropdown);
+
 // Location Picker Dropdown & Mobile Bottom Sheet
 function toggleLocationDropdown(e) {
   if (e) e.stopPropagation();
+  handleResponsiveDropdown();
   const dd = document.getElementById("locationDropdown");
   if (!dd) return;
   const isHidden = dd.style.display === "none" || !dd.style.display;

@@ -49,9 +49,6 @@
     <!-- 2. MAIN IMMERSIVE STAGE -->
     <div class="dash-stage">
       
-      <!-- Mobile Backdrop for Bottom Sheet -->
-      <div class="mobile-dropdown-backdrop" id="locationDropdownBackdrop" style="display: none;" onclick="closeLocationDropdown()"></div>
-
       <!-- TOP FLOATING BAR -->
       <header class="top-float-bar">
         
@@ -401,6 +398,9 @@
     </div>
   </div>
   </div>
+
+  <!-- Mobile Dropdown Backdrop (Direct body child for true viewport coverage) -->
+  <div class="mobile-dropdown-backdrop" id="locationDropdownBackdrop" style="display: none;" onclick="closeLocationDropdown()"></div>
 
   <!-- App Script -->
   <script src="/static/js/app.js"></script>
