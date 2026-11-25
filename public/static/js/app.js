@@ -44,20 +44,17 @@ document.addEventListener("DOMContentLoaded", () => {
   loadAnchorSites();
   updateRunoffSelectLanguage(currentLanguage);
   runLiveSimulation();
-  runOptimizationSolver().then(() => {
-    if (window.location.search.includes("opt=true") || window.location.search.includes("opt=1")) {
-      toggleOptLayer();
-    }
-    if (window.location.search.includes("lang=ml")) {
-      setLanguage("ml");
-    }
-    if (window.location.search.includes("dropdown=1")) {
-      toggleLocationDropdown();
-    }
-    if (window.location.search.includes("audit=1")) {
-      openAuditModal();
-    }
-  });
+  runOptimizationSolver();
+
+  if (window.location.search.includes("lang=ml")) {
+    setLanguage("ml");
+  }
+  if (window.location.search.includes("dropdown=1")) {
+    toggleLocationDropdown();
+  }
+  if (window.location.search.includes("audit=1")) {
+    openAuditModal();
+  }
 
   if (window.location.search.includes("drawer=true") || window.location.hash === "#simulators") {
     openSimDrawer();
@@ -81,7 +78,7 @@ function initMap() {
   slopeExclusionGroup = L.layerGroup().addTo(map);
   dtwlMaskGroup = L.layerGroup().addTo(map);
   iotLayerGroup = L.layerGroup().addTo(map);
-  optSitesGroup = L.layerGroup(); // Available on demand via 'Optimized' layer toggle
+  optSitesGroup = L.layerGroup().addTo(map);
   anchorMarkersGroup = L.layerGroup().addTo(map);
 
   // Meenachil River representation
@@ -362,10 +359,10 @@ function renderSpatialGrid() {
     if (isSlopeExcl) {
       // 1. Slope > 20% Mask: Crimson Red
       const rect = L.rectangle(bounds, {
-        color: "#b91c1c",
-        weight: 0.5,
+        color: "rgba(255, 255, 255, 0.95)",
+        weight: 1.2,
         fillColor: "#ef4444",
-        fillOpacity: 0.55
+        fillOpacity: 0.58
       });
       rect.bindPopup(`
         <div style="font-family: sans-serif; font-size: 12px; color: #0f172a; line-height: 1.5;">
@@ -381,10 +378,10 @@ function renderSpatialGrid() {
     } else if (isDtwlMasked) {
       // 2. DTWL < 2m Mask: Cyan
       const rect = L.rectangle(bounds, {
-        color: "#0891b2",
-        weight: 0.6,
+        color: "rgba(255, 255, 255, 0.95)",
+        weight: 1.2,
         fillColor: "#06b6d4",
-        fillOpacity: 0.50
+        fillOpacity: 0.52
       });
       rect.bindPopup(`
         <div style="font-family: sans-serif; font-size: 12px; color: #0f172a; line-height: 1.5;">
@@ -398,23 +395,20 @@ function renderSpatialGrid() {
       dtwlMaskGroup.addLayer(rect);
     } else {
       // 3. Admissible Cells: High (Green), Moderate (Amber), Low (Slate)
-      let strokeColor = "#059669";
       let fillColor = "#10b981";
-      let opacity = 0.50;
+      let opacity = 0.52;
 
       if (suitClass === 1) {
-        strokeColor = "#d97706";
         fillColor = "#f59e0b";
-        opacity = 0.45;
+        opacity = 0.48;
       } else if (suitClass === 0) {
-        strokeColor = "#64748b";
         fillColor = "#94a3b8";
-        opacity = 0.30;
+        opacity = 0.32;
       }
 
       const rect = L.rectangle(bounds, {
-        color: strokeColor,
-        weight: 0.4,
+        color: "rgba(255, 255, 255, 0.90)",
+        weight: 1.1,
         fillColor: fillColor,
         fillOpacity: opacity
       });
@@ -881,7 +875,7 @@ async function runOptimizationSolver() {
   updateBudgetSliderDisplay();
 
   try {
-    const res = await apiFetch("/simulate/optimize_recharge", {
+    let res = await apiFetch("/simulate/optimize_recharge", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -892,6 +886,9 @@ async function runOptimizationSolver() {
         preferred_structure: strategy
       })
     });
+    if (!res.ok) {
+      res = await fetch("/data/meenachil_optimized_sites.json");
+    }
     const data = await res.json();
 
     const dep = document.getElementById("dispOptDeployed");
@@ -908,9 +905,9 @@ async function runOptimizationSolver() {
     const sum = document.getElementById("dispOptSummary");
     if (sum) sum.innerText = `${deployed} Sites (+${Math.round(vadd).toLocaleString()} kL)`;
 
-    if (data && data.allocated_structures) {
-      renderOptimizationResults(data);
-    }
+    const sites = (data && (data.selected_sites || data.allocated_structures)) || [];
+    renderOptimizationResults(data);
+    renderOptimizationMarkersOnMap(sites);
   } catch (err) {
     console.error("Failed to run optimization solver:", err);
   }
