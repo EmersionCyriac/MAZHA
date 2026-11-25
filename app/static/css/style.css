@@ -1609,9 +1609,264 @@ input[type="range"] {
   color: #fff;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1100px) {
+/* ==========================================================================
+   6. RESPONSIVE DESIGN & MOBILE OPTIMIZATIONS
+   Strictly scoped to media queries so Desktop View (>768px) is 100% UNCHANGED.
+   ========================================================================== */
+
+/* Tablets & Small Laptops (769px - 1100px) */
+@media (max-width: 1100px) and (min-width: 769px) {
   .bottom-tray, .bottom-tray-expanded {
     grid-template-columns: 1fr;
+    max-height: 48vh;
+    overflow-y: auto;
+  }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  /* 1. Body & Viewport: Enable natural fluid vertical scrolling */
+  body {
+    height: auto !important;
+    min-height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    display: block !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .dash-viewport {
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow: visible !important;
+    position: relative !important;
+  }
+
+  /* 2. Left Rail converts to Mobile Bottom App Navigation Bar */
+  .nav-rail {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 58px !important;
+    flex-direction: row !important;
+    padding: 0 16px !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.9) !important;
+    box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.08) !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    z-index: 1200 !important;
+  }
+
+  .rail-brand,
+  .rail-footer {
+    display: none !important;
+  }
+
+  .rail-menu {
+    flex-direction: row !important;
+    width: 100% !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    gap: 0 !important;
+  }
+
+  .rail-btn {
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  /* 3. Stage & Map: Half-screen touch interactive canvas */
+  .dash-stage {
+    position: relative !important;
+    height: auto !important;
+    width: 100% !important;
+    overflow: visible !important;
+    padding-bottom: 72px !important; /* Room above bottom nav bar */
+  }
+
+  .full-map-canvas {
+    position: relative !important;
+    height: 52vh !important;
+    min-height: 360px !important;
+    width: 100% !important;
+  }
+
+  /* 4. Top Floating Bar: Horizontal swipeable capsule track */
+  .top-float-bar {
+    position: absolute !important;
+    top: 10px !important;
+    left: 8px !important;
+    right: 8px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 8px !important;
+    padding-bottom: 4px !important;
+    scrollbar-width: none;
+  }
+  .top-float-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .float-capsule {
+    padding: 5px 10px !important;
+    font-size: 0.72rem !important;
+    flex-shrink: 0 !important;
+    border-radius: 16px !important;
+  }
+
+  .location-capsule {
+    max-width: 200px !important;
+  }
+
+  .location-dropdown-panel {
+    position: fixed !important;
+    top: 56px !important;
+    left: 10px !important;
+    right: 10px !important;
+    width: auto !important;
+    max-width: none !important;
+    max-height: 60vh !important;
+    z-index: 2000 !important;
+  }
+
+  /* 5. Floating Telemetry HUD: Horizontal swipeable cards */
+  .telemetry-hud-strip {
+    position: absolute !important;
+    top: 60px !important;
+    left: 8px !important;
+    right: 8px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 8px !important;
+    padding-bottom: 4px !important;
+    scrollbar-width: none;
+    z-index: 450 !important;
+  }
+  .telemetry-hud-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hud-pill-card {
+    padding: 6px 12px !important;
+    flex-shrink: 0 !important;
+    gap: 8px !important;
+    border-radius: 16px !important;
+  }
+
+  .hud-icon-circle {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .hud-number {
+    font-size: 0.85rem !important;
+  }
+
+  .hud-label {
+    font-size: 0.62rem !important;
+  }
+
+  /* 6. Map Zoom & Re-center Controls */
+  .map-controls-rail {
+    top: 120px !important;
+    right: 10px !important;
+    padding: 2px !important;
+    border-radius: 14px !important;
+  }
+
+  .map-ctl-btn {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 14px !important;
+  }
+
+  /* 7. Bottom Tray: Stacked full-width touch-friendly cards */
+  .bottom-tray, .bottom-tray-expanded {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 14px 10px 0 10px !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    pointer-events: auto !important;
+  }
+
+  .tray-card, .tray-card-expanded {
+    padding: 16px !important;
+    border-radius: 18px !important;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06) !important;
+  }
+
+  .tray-card-title {
+    font-size: 0.90rem !important;
+  }
+
+  .tray-card-sub {
+    font-size: 0.68rem !important;
+  }
+
+  /* Range Sliders: Touch-friendly thumbs on mobile */
+  input[type="range"] {
+    height: 8px !important;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  /* Modals: Mobile bottom sheet / responsive modal */
+  .modal-window {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    max-height: 90vh !important;
+    margin: 10px !important;
+  }
+
+  .modal-body {
+    padding: 16px !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+  }
+
+  .modal-header {
+    padding: 14px 18px !important;
+  }
+
+  .modal-footer {
+    padding: 12px 18px !important;
+  }
+
+  /* Simulation Drawer on mobile */
+  .sim-drawer {
+    width: 100% !important;
+    max-width: 100vw !important;
+  }
+}
+
+/* Extra Small Phones (<= 420px) */
+@media (max-width: 420px) {
+  .full-map-canvas {
+    height: 48vh !important;
+    min-height: 320px !important;
+  }
+
+  .location-capsule {
+    max-width: 150px !important;
+  }
+
+  .tray-card, .tray-card-expanded {
+    padding: 12px 14px !important;
   }
 }
