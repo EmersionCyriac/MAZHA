@@ -311,7 +311,7 @@ html_content = r"""<!DOCTYPE html>
       <div class="meta-item"><span class="meta-label">Study Basin:</span><span class="meta-val">Meenachil River Basin, Kottayam, Kerala</span></div>
       <div class="meta-item"><span class="meta-label">Target Standard:</span><span class="meta-val">WRI / Google VWBA 2.0 (&lt; ₹50/kL)</span></div>
       <div class="meta-item"><span class="meta-label">Satellite EO:</span><span class="meta-val">NASA GPM IMERG, Google Open Buildings V3</span></div>
-      <div class="meta-item"><span class="meta-label">Baseline Sy:</span><span class="meta-val">0.04 (Weathered Lateritic Saprolite)</span></div>
+      <div class="meta-item"><span class="meta-label">Baseline Sy:</span><span class="meta-val">0.02 (Conservative Hard-Rock Norm)</span></div>
       <div class="meta-item"><span class="meta-label">Social Discount:</span><span class="meta-val">6.0% (10-Year Lifecycle Horizon)</span></div>
     </div>
   </div>
@@ -605,14 +605,14 @@ html_content = r"""<!DOCTYPE html>
     <p><strong>Baseline Inputs:</strong></p>
     <ul>
       <li>Net Annual Benefit Credit ($V_r = VWB$): $8,266.3\text{ kL} = 8,266.3\text{ m}^3$</li>
-      <li>Specific Yield ($S_y$): $0.04$ (CGWB/SGWD standard: $4\%$ drainable pore space in weathered laterite)</li>
+      <li>Specific Yield ($S_y$): $0.02$ (CGWB/SGWD conservative standard: $2\%$ drainable pore space in weathered laterite / charnockite saprolite)</li>
       <li>Recharge Influence Footprint ($A_{\text{aquifer}}$): $25,000\text{ m}^2$ ($2.5\text{ hectares}$, or $\sim 90\text{ m}$ influence radius)</li>
     </ul>
     <p><strong>Substitution & Calculation:</strong></p>
-    $$\Delta h = \frac{8,266.3\text{ m}^3}{0.04 \times 25,000\text{ m}^2} = \frac{8,266.3}{1,000} = \mathbf{8.2663\text{ m}}$$
-    $$\Delta h_{\text{cm}} = 8.2663\text{ m} \times 100\text{ cm/m} \approx \mathbf{+826.6\text{ cm}} \rightarrow \mathbf{+827\text{ cm}}$$
+    $$\Delta h = \frac{8,266.3\text{ m}^3}{0.02 \times 25,000\text{ m}^2} = \frac{8,266.3}{500} = \mathbf{16.5326\text{ m}}$$
+    $$\Delta h_{\text{cm}} = 16.5326\text{ m} \times 100\text{ cm/m} \approx \mathbf{+1,653\text{ cm}}$$
     <div class="callout-blue" style="margin: 8px 0 0 0; padding: 8px 12px;">
-      <strong>Dashboard Verified Output:</strong> Displays <code>Water Table Rise (Δh): +827 cm (WTF: Vr / (Sy × A))</code>
+      <strong>Dashboard Verified Output:</strong> Displays <code>Water Table Rise (Δh): +1,653 cm (WTF: Vr / (Sy × A))</code>
     </div>
   </div>
 
@@ -782,7 +782,7 @@ html_content = r"""<!DOCTYPE html>
         <td>$3.2^\circ$</td>
         <td>$11,481\text{ kL}$</td>
         <td>$8,266\text{ kL/yr}$</td>
-        <td>$+827\text{ cm}$</td>
+        <td>$+1,653\text{ cm}$</td>
         <td><strong>₹1.41 / kL</strong></td>
         <td><span class="badge-passed">✓ TARGET PASSED</span></td>
       </tr>
@@ -792,7 +792,7 @@ html_content = r"""<!DOCTYPE html>
         <td>$2.1^\circ$</td>
         <td>$14,252\text{ kL}$</td>
         <td>$10,262\text{ kL/yr}$</td>
-        <td>$+1,026\text{ cm}$</td>
+        <td>$+2,052\text{ cm}$</td>
         <td><strong>₹1.47 / kL</strong></td>
         <td><span class="badge-passed">✓ TARGET PASSED</span></td>
       </tr>
@@ -802,7 +802,7 @@ html_content = r"""<!DOCTYPE html>
         <td>$4.8^\circ$</td>
         <td>$8,116\text{ kL}$</td>
         <td>$5,843\text{ kL/yr}$</td>
-        <td>$+584\text{ cm}$</td>
+        <td>$+1,169\text{ cm}$</td>
         <td><strong>₹1.45 / kL</strong></td>
         <td><span class="badge-passed">✓ TARGET PASSED</span></td>
       </tr>
@@ -812,7 +812,7 @@ html_content = r"""<!DOCTYPE html>
         <td>$4.1^\circ$</td>
         <td>$6,928\text{ kL}$</td>
         <td>$4,988\text{ kL/yr}$</td>
-        <td>$+499\text{ cm}$</td>
+        <td>$+998\text{ cm}$</td>
         <td><strong>₹1.48 / kL</strong></td>
         <td><span class="badge-passed">✓ TARGET PASSED</span></td>
       </tr>
@@ -822,7 +822,7 @@ html_content = r"""<!DOCTYPE html>
         <td>$1.9^\circ$</td>
         <td>$18,607\text{ kL}$</td>
         <td>$13,397\text{ kL/yr}$</td>
-        <td>$+1,340\text{ cm}$</td>
+        <td>$+2,679\text{ cm}$</td>
         <td><strong>₹1.37 / kL</strong></td>
         <td><span class="badge-passed">✓ TARGET PASSED</span></td>
       </tr>

@@ -32,7 +32,8 @@ MEENACHIL_LON = 76.6830
 class MazhaHydroEngine:
     def __init__(self):
         # Hydrogeological parameters for Meenachil Laterite Basin (TGWD / CGWB)
-        self.default_sy = 0.04               # Specific Yield for unconfined weathered laterite
+        # Conservative hard-rock crystalline / laterite specific yield (2.0% CGWB GEC-2015 norm)
+        self.default_sy = 0.02
         self.discount_rate = 0.06            # 6% social discount rate for 10-yr VWBA
         self.max_slope_threshold_deg = 20.0  # Slope > 20 deg is STRICTLY EXCLUDED
         self.min_dtwl_threshold_m = 2.0      # DTWL < 2.0 m bgl is STRICTLY EXCLUDED from recharge
@@ -249,7 +250,7 @@ class MazhaHydroEngine:
         curve_number: int = 80,
         soil_moisture_pct: float = 26.0,
         et0_mm: float = 3.8,
-        specific_yield: float = 0.04
+        specific_yield: float = 0.02
     ) -> Dict[str, Any]:
         """
         CORE RULE from PDF:
@@ -781,7 +782,7 @@ class MazhaHydroEngine:
         capex_inr: float,
         annual_opex_inr: float,
         aquifer_area_sqm: float = 25000.0,
-        specific_yield: float = 0.04,
+        specific_yield: float = 0.02,
         lifecycle_years: int = 10
     ) -> Dict[str, Any]:
         """VWBA 2.0 compliant financial and physical accounting."""

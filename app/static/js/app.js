@@ -719,7 +719,7 @@ function runLiveSimulation() {
   const vwbAnnualKl = isSlopeExcl ? 0.0 : (vhKl - baselineKl);
   document.getElementById("dispVwb").innerText = isMl ? `${Math.round(vwbAnnualKl).toLocaleString()} kL / വർഷം` : `${Math.round(vwbAnnualKl).toLocaleString()} kL / yr`;
 
-  const Sy = 0.04;
+  const Sy = 0.02;
   const aquiferArea = 25000.0;
   const dhMeters = isSlopeExcl ? 0.0 : (vwbAnnualKl / (Sy * aquiferArea));
   const dhCm = Math.round(dhMeters * 100.0);
